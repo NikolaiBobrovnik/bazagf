@@ -55,6 +55,8 @@
             <input type="send">
         </form>
     </div>
+    <?php include "blocks/feedback.php"; ?>
+    <?php include "blocks/services.php"; ?>
 </section>
 
 <footer>

@@ -112,6 +112,8 @@
             <a href="#">Читать далее  ></a>
         </div>
     </div>
+    <?php include "blocks/feedback.php"; ?>
+    <?php include "blocks/services.php"; ?>
 </section>
 
 <footer>

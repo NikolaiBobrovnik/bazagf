@@ -57,6 +57,7 @@
 
 <section class="company">
     <div class="container">
+      <?php include "blocks/filters.php"; ?>
        <p>ДЭНИ</p>
        <form action="send.php">
            <input type="search">
@@ -86,6 +87,8 @@
        </div>
        <?php include "blocks/feedback.php"; ?>
     </div>
+    <?php include "blocks/feedback.php"; ?>
+    <?php include "blocks/services.php"; ?>
 </section>
 
 <footer>
