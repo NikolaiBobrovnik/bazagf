@@ -11,7 +11,7 @@
 
 <body> 
 
-<header>
+<header class="header">
     <div class="container">
         <div class="header-top">
             <div class="date">
@@ -22,44 +22,106 @@
                 <a href="tel:+79255327714">+7 (925) 532 77 14</a>
             </div>
             <div class="email">
-                <a href="mailto:info@bazagf.ru"></a>
+                <a href="mailto:info@bazagf.ru"></a> 
             </div>
             <div class="social">
                 <a href="#" class="social-facebook" title="Facebook"></a>
                 <a href="#" class="social-vk" title="VK"></a>
-                <a href="#" class="social-ok" title="ok"></a>
-                <a href="#" class="social-linkedIn" title="LinkedIn"></a>
+                <a href="#" class="social-ok" title="Ok"></a>
+                <a href="#" class="social-linkedin" title="LinkedIn"></a>
                 <a href="#" class="social-youtube" title="Youtube"></a>
             </div>
         </div>
-        <div class="header-middle">
-            <div class="logo">
+        <div class="header-bottom">
+            <div class="header-logo">
                 <a href="/"><img src="img/logo.xxx" alt="Логотип" title="База ГФ"></a>
             </div>
-            <div class="banner-one">
+            <div class="header-banner-one">
                 <a href="#"><img src="img/banner1" alt="Баннер1" title=""></a>
             </div>
-            <div class="banner-two">
+            <div class="header-banner-two">
                 <a href="#"><img src="img/banner1" alt="Баннер2" title=""></a>
             </div>
         </div>
-        <div class="header-nav">
-            <ul class="header-list">
-                <li><a href="#" class="header-item">о нас</a></li>
-                <li><a href="#" class="header-item">купить</a></li>
-                <li><a href="#" class="header-item">продать</a></li>
-                <li><a href="#" class="header-item">новости</a></li>
-                <li><a href="#" class="header-item">контакты</a></li>
-            </ul>
-        </div>
     </div>
 </header>
+
+<section class="menu">
+    <div class="container">
+        <ul class="menu-list">
+            <li><a href="#" class="menu-item">о нас</a></li>
+            <li><a href="#" class="menu-item">купить</a></li>
+            <li><a href="#" class="menu-item">продать</a></li>
+            <li><a href="#" class="menu-item">новости</a></li>
+            <li><a href="#" class="menu-item">контакты</a></li>
+        </ul>
+    </div>
+</section>
+
+<section class="slider">
+    <ul>
+        <li><img src="img/slider/1.png" alt=""></li>
+        <li><img src="img/slider/2.png" alt=""></li>
+    </ul>
+</section>
+
+<section class="search">
+        <div class="container">
+            <div class="search-panel">
+                <form action="" method="">
+                    <input type="text" name="name" class="search-panel-input" placeholder="Введите поисковой запрос. Например: Дальневосточное Морское Проектирование">
+                    <button type="submit" class="search-panel-button"></button>
+                </form>
+            </div>
+        </div>
+</section>
+
+<section class="filters">
+    <div class="container">
+        <div class="filters-select">
+            <span class="filters-select-title">Год создания</span>
+            <span class="filters-select-button"></span>
+        </div>
+        <div class="filters-select">
+            <span class="filters-select-title">Стоимость компании</span>
+            <span class="filters-select-button"></span>
+        </div>
+        <div class="filters-select">
+            <span class="filters-select-title">Вид деятельности</span>
+            <span class="filters-select-button"></span>
+        </div>
+        <div class="filters-select">
+            <span class="filters-select-title">Организационно-правовая форма</span>
+            <span class="filters-select-button"></span>
+        </div>
+        <div class="filters-select">
+            <span class="filters-select-title">ИФНС</span>
+            <span class="filters-select-button"></span>
+        </div>
+        <div class="filters-select">
+            <span class="filters-select-title">Лицензия</span>
+            <span class="filters-select-button"></span>
+        </div>
+        <div class="filters-select">
+            <span class="filters-select-title">Обороты</span>
+            <span class="filters-select-button"></span>
+        </div>
+        <div class="filters-select">
+            <span class="filters-select-title">Расчетный счет</span>
+            <span class="filters-select-button"></span>
+        </div>
+        <div class="filters-select">
+            <span class="filters-select-title">Система налогооблажения</span>
+            <span class="filters-select-button"></span>
+        </div>
+        <a class="filters-button">Показать</a>
+    </div>
+</section>
 
 <section class="table">
 <!--   Как это будет работать.
        Стандартная таблица для десктопа будет исспользовать свойство css3 columns, благодаря которому будет создано 12коллонок, ширина которых
        будет автоматически определятся браузером
-
        А в адаптивной версии будут использоваться свойство flex-box c параметром justify-content:space-between тогда будет виден присок с описанием в span и значением в виде обычного текста-->
     <div class="container">
         <div id="table-header">
@@ -263,8 +325,112 @@
     </div>
 </section>
 
+<section class="aboutus">
+    <div class="container">
+        <h2 class="aboutus-title"></div>
+        <div class="content">
+            <div class="aboutus-content-preview"><img src="" alt=""></div>
+            <div class="aboutus-content-text">
+                <p>БАЗА ГФ предлагает более 600 компаний ежедневно на протяжение 5 лет. 
+                Мы поможем купить или продать готовый бизнес в максимально короткие сроки и отреагируем на вашу заявку в тот же день.</p><p>У нас вы можете самостоятельно выбрать компанию по любым существующим критериям, указав их либо в общих чертах, либо максимально подробно. Также вы можете позвонить или направить заявку онлайн менеджерам БАЗА ГФ. Мы предоставляем клиентам возможность подбора нескольких компаний на выбор. Нашими клиентами являются юридические фирмы, специалисты по регистрации, владельцы малого и среднего бизнеса. Мы ежедневно обновляем базу компаний и предлагаем к покупке и продаже только реально существующие фирмы. Поскольку все мы - юристы, каждый со своей специализацией и немалым опытом, мы официально сопровождаем ваши сделки от начала и до их завершения, независимо от сложности или бюджета. Мы работаем быстро и на выгодных для клиентов условиях.</p><p>Приходите, у нас все готово для успеха вашего бизнеса!</p>
+            </div>
+        </div>
+        <div class="aboutus-advantages">
+            <div class="aboutus-advantages-block">
+                <img src="" alt="">
+                <div class="advantages-block-title">Компании с оборотами</div>
+            </div>
+            <div class="aboutus-advantages-block">
+                <img src="" alt="">
+                <div class="advantages-block-title">по всем регионам россии</div>
+            </div>
+            <div class="aboutus-advantages-block">
+                <img src="" alt="">
+                <div class="aboutus-advantages-block-title">Компании с лицензиями</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="feedback">
+    <div class="container">
+        <p class="feedback-text">Мы всегда рады услышать вас</p>
+        <a href="#" class="feedback-button"></a>
+    </div>
+</section>
+    
+<section class="services">
+    <h2 class="services-title">предоставляемые услуги</h2>
+    <div class="services-block">
+        <div class="block-title">купить и продать</div>
+        <div class="blok-content">
+            <p>Москва, ул. Гиляровского, дом 57, стр. 1<br>+7 (495) 723 28 32<br>+7 (925) 532 77 14 <br>E-mail: info@bazagf.ru</p><br> 
+            <p>Отдел контроля качества<br>+7 (903) 105 55 77</p>
+            <a href="#" class="callme">Заказать звонок</a>
+        </div>
+    </div>
+    <div class="services-block">
+        <div class="block-title">юридическое сопровождение</div>
+        <div class="blok-content">
+            <p>- Регистрация коммерческих и некоммерческих организаций;<br>
+               - Представительство в суде;<br>
+               - Регистрация товарных знаков;<br>
+               - Сделки с недвижимостью;<br>
+               - Лицензирование;<br>
+               - Налоговые споры;<br>
+               - Ликвидация и банкротство.<br>
+               E-mail: ftgroup7@yandex.ru</p>
+            <a href="#" class="callme">Заказать звонок</a>
+        </div>
+    </div>
+    <div class="services-block">
+        <div class="block-title">купить и продать</div>
+        <p>- Бухгалтерское обслуживание фирм;<br>
+           - Бухгалтерское обслуживание ВЭД;<br>
+           - Восстановление бухгалтерского учета;<br>
+           - Налоговые консультации;<br>
+           - Обязательный и инициативный аудит;<br>
+           - Налоговые риски;<br>
+           - Due diligence.<br>
+           E-mail: ftgroup7@yandex.ru</p>
+        <a href="#" class="callme">Заказать звонок</a>
+    </div>
+</section>
+
+<section class="news">
+    <div class="news-title">последние новости</div>
+    <div class="news-block">
+        <div class="block-preview">
+            <img src="" alt="">
+        </div>
+        <h3 class="block-title">зачем нужна оценка облигаций</h3>
+        <p class="block-text">Для определения объективной рыночной стоимости многих ценных бумаг (например, облигаций) существует стандартная финансовая процедура, называемая оценкой. Оценка позволяет определить цену облигации, учитывая весь массив влияющих на нее факторов ...</p>
+        <a href="#" class="block-readmore">Читать далее > </a>
+    </div>
+    <div class="news-block">
+        <div class="block-preview">
+            <img src="" alt="">
+        </div>
+        <h3 class="block-title">10 шагов к собственному магазину</h3>
+        <p class="block-text">Итак, вы решили стать владельцем магазина! Поздравляем! Теперь важно грамотно оформить все бумаги, чтобы быть уверенным, что у государства не будет к вам никаких претензий ...</p>
+        <a href="#" class="block-readmore">Читать далее > </a>
+    </div>
+    <div class="news-block">
+        <div class="block-preview">
+            <img src="" alt="">
+        </div>
+        <h3 class="block-title">как малому бизнесу справиться  с налогами?</h3>
+        <p class="block-text">Вы открыли собственную компанию. Пока это совсем маленькая компания, в ней и работников-то всего вы, жена-бухгалтер и пара приятелей, но налоги с вас государство спрашивает так же строго, как и с большого автомобильного завода. Что же делать? ...</p>
+        <a href="#" class="block-readmore">Читать далее > </a>
+    </div>
+    <a href="#" class="news-allnews"></a>
+</section>
+
+
+
+
 <footer>
-    <?php include "blocks/footer.php"; ?>
+    <?php include "blocks/footer.php"; ?>             
 </footer>
 
 <?php include "blocks/forms.php"; ?>
