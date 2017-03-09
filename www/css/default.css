@@ -199,6 +199,13 @@ select, input, textarea {
 * {
   box-sizing: border-box; }
 
+.cf:after {
+  content: '';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0; }
+
 .header {
   height: 190px;
   background-color: #fff;
@@ -207,6 +214,43 @@ select, input, textarea {
     height: 50px;
     background-color: #eff0f2;
     border-bottom: 1px solid #dfe0e3; }
+    .header-top-left {
+      float: left;
+      padding: 4px 0;
+      font-size: 14px; }
+      .header-top-left-date {
+        display: inline-block;
+        height: 40px;
+        vertical-align: top; }
+        .header-top-left-date:before {
+          content: "";
+          background: url(../img/calendar.png) 0 0 no-repeat;
+          width: 22px;
+          height: 20px;
+          display: inline-block;
+          vertical-align: top; }
+      .header-top-left-tel {
+        display: inline-block;
+        height: 40px;
+        vertical-align: top; }
+        .header-top-left-tel:before {
+          content: "";
+          background: url(../img/phone.png) 0 0 no-repeat;
+          width: 21px;
+          height: 20px;
+          display: inline-block;
+          vertical-align: top; }
+      .header-top-left-email {
+        display: inline-block;
+        height: 40px;
+        vertical-align: top; }
+        .header-top-left-email:before {
+          content: "";
+          background: url(../img/mail.png) 0 0 no-repeat;
+          width: 21px;
+          height: 16px;
+          display: inline-block;
+          vertical-align: top; }
     .header-top-right {
       padding: 10px 0;
       float: right;
