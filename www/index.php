@@ -9,7 +9,7 @@
     <?php include "blocks/css.php"; ?>
 </head>
 
-<body> 
+<body>
 
 <header class="header">
     <?php include "blocks/header.php"; ?>
@@ -42,17 +42,17 @@
 <section class="feedback">
     <?php include "blocks/feedback.php"; ?>
 </section>
-    
+
 <section class="services">
-    <?php include "blocks/services.php"; ?>
+    <?php include "blocks/services.php"; ?><!-- !!!!! -->
 </section>
 
 <section class="news">
     <?php include "blocks/news.php"; ?>
 </section>
 
-<footer>
-    <?php include "blocks/footer.php"; ?>             
+<footer class="footer">
+    <?php include "blocks/footer.php"; ?>
 </footer>
 
 <?php include "blocks/forms.php"; ?>
