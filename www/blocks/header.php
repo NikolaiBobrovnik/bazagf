@@ -4,8 +4,10 @@
             <div class="header-top-left-date"><a class="date-day">Среда , 8 Февраля 2017</a>
             </div>
             <div class="header-top-left-tel">
-                <a href="tel:+74957232832">+7 (495) 723 28 32</a>&emsp;
-                <a href="tel:+79255327714">+7 (925) 532 77 14</a>
+                <div class="header-top-left-tel-inner">
+                    <a href="tel:+74957232832">+7 (495) 723 28 32</a>&emsp;
+                    <a href="tel:+79255327714">+7 (925) 532 77 14</a>
+                </div>
             </div>
             <div class="header-top-left-email">
                 <a href="mailto:info@bazagf.ru">info@bazagf.ru</a>

@@ -30,11 +30,13 @@ $black: #363636;
 		&-left{
 			float: left;
 			padding: 4px 0;
-			font-size: 14px;
 			&-date{
 				display: inline-block;
 				height: 40px;
 				vertical-align: top;
+				margin-right: 30px;
+				padding: 11px 0;
+				a{font-size: 14px;}
 				&:before{
 					content: "";
 					background: url(../img/calendar.png) 0 0 no-repeat;
@@ -42,25 +44,39 @@ $black: #363636;
 					height: 20px;
 					display: inline-block;
 					vertical-align: top;
+					margin-right: 20px;
 				}
 			}
 			&-tel{
 				display: inline-block;
 				height: 40px;
 				vertical-align: top;
-				&:before{
-					content: "";
-					background: url(../img/phone.png) 0 0 no-repeat;
-					width: 21px;
-					height: 20px;
-					display: inline-block;
-					vertical-align: top;
+				margin-right: 30px;
+				border-left: 1px solid #dfe0e3;
+				&-inner{
+					padding: 11px 0;
+					a{font-size: 14px;}
+					&:before{
+						content: "";
+						background: url(../img/phone.png) 0 0 no-repeat;
+						width: 21px;
+						height: 20px;
+						display: inline-block;
+						vertical-align: top;
+						margin-right: 20px;
+						margin-left: 30px;
+					}
 				}
 			}
 			&-email{
 				display: inline-block;
 				height: 40px;
 				vertical-align: top;
+				margin-right: 30px;
+				padding: 11px 0;
+				a{
+					font-size: 14px;
+				}
 				&:before{
 					content: "";
 					background: url(../img/mail.png) 0 0 no-repeat;
@@ -68,6 +84,7 @@ $black: #363636;
 					height: 16px;
 					display: inline-block;
 					vertical-align: top;
+					margin-right: 20px;
 				}
 			}
 		}
@@ -169,17 +186,38 @@ $black: #363636;
 
 // section.aboutus //
 .aboutus{
-	
+	margin-top: 60px;
+	&-title{
+		text-align: center;
+		font-family: 'OpenSansBold';
+		font-size: 24px;
+		text-transform: uppercase;
+		margin-bottom: 60px;
+		color: $black;
+	}
+	&-content{
+		display: flex;
+		justify-content: space-between;
+		&-preview{
+			width: 570px;
+		}
+		&-text{
+			width: 570px;
+			margin-left: 30px;
+		}
+	}
+
 }
 
 // section.feedback //
 .feedback{
 	height: 100px;
 	background: #5b7ab3 url(../img/feedback.png) center center no-repeat;
+	margin-top: 60px;
 	&-container{
 		padding: 26px 0;
 		display: flex;
-    	justify-content: center;	
+    	justify-content: center;
 	}
 	&-text{
 		display: inline-block;
@@ -209,13 +247,13 @@ $black: #363636;
 
 // section.services //
 .services{
+	margin-top: 60px;
 	&-title{
 		text-align: center;
 		font-family: 'OpenSansBold';
 		font-size: 24px;
 		text-transform: uppercase;
 		margin-bottom: 60px;
-		margin-top: 60px;
 	}
 	&-blocks{
 		margin-bottom: 60px;
