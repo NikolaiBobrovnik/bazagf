@@ -7,9 +7,29 @@
               <p><a href="tel:+74957232832">+7 (495) 723 28 32</a></p>
               <p><a href="tel:+79255327714">+7 (925) 532 77 14</a></p>
             </div>
+<<<<<<< HEAD
             <div class="header__top-item">
               <img src="" alt="">
               <p><a href="mailto:info@bazagf.ru">info@bazagf.ru</a></p>
+=======
+            <div class="header-top-left-tel">
+                <div class="header-top-left-tel-inner">
+                    <a href="tel:+74957232832">+7 (495) 723 28 32</a>&emsp;
+                    <a href="tel:+79255327714">+7 (925) 532 77 14</a>
+                </div>
+            </div>
+            <div class="header-top-left-email">
+                <a href="mailto:info@bazagf.ru">info@bazagf.ru</a>
+            </div>
+        </div>  
+        <div class="header-top-right">
+            <div class="header-top-right-social">
+                <a href="#" class="header-top-right-social-a header-top-right-social-facebook" title="Facebook"></a>
+                <a href="#" class="header-top-right-social-a header-top-right-social-vk" title="VK"></a>
+                <a href="#" class="header-top-right-social-a header-top-right-social-ok" title="Ok"></a>
+                <a href="#" class="header-top-right-social-a header-top-right-social-linkedin" title="LinkedIn"></a>
+                <a href="#" class="header-top-right-social-a header-top-right-social-youtube" title="Youtube"></a>
+>>>>>>> origin/master
             </div>
         </div>
         <div class="header__top-right">
