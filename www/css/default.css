@@ -223,15 +223,15 @@ select, input, textarea {
           .header-top-right-social-a:hover {
             opacity: .7; }
         .header-top-right-social-facebook {
-          background: url(../img/facebook.png) 0 0 no-repeat; }
+          background: url(../img/facebook.png) no-repeat; }
         .header-top-right-social-vk {
-          background: url(../img/vk.png) center center no-repeat; }
+          background: url(../img/vk.png) no-repeat; }
         .header-top-right-social-ok {
-          background: url(../img/ok.png) 0 0 no-repeat; }
+          background: url(../img/ok.png) no-repeat; }
         .header-top-right-social-linkedin {
-          background: url(../img/linkedin.png) 0 0 no-repeat; }
+          background: url(../img/linkedin.png) no-repeat; }
         .header-top-right-social-youtube {
-          background: url(../img/youtube.png) 0 0 no-repeat; }
+          background: url(../img/youtube.png) no-repeat; }
   .header-bottom {
     display: flex;
     flex-direction: row;
