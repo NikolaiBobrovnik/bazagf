@@ -9,16 +9,16 @@
     </div>
     <div class="aboutus-advantages">
         <div class="aboutus-advantages-block">
-            <img src="" alt="">
-            <div class="advantages-block-title">Компании с оборотами</div>
+            <div class="aboutus-advantages-block-substrate"><img src="img/money.png" alt="Компании с оборотами"></div>
+            <div class="aboutus-advantages-block-title">Компании<br> с оборотами</div>
         </div>
         <div class="aboutus-advantages-block">
-            <img src="" alt="">
-            <div class="advantages-block-title">по всем регионам россии</div>
+            <div class="aboutus-advantages-block-substrate"><img src="img/earth-globe.png" alt="По всем регионам россии"></div>
+            <div class="aboutus-advantages-block-title">по всем<br> регионам россии</div>
         </div>
         <div class="aboutus-advantages-block">
-            <img src="" alt="">
-            <div class="aboutus-advantages-block-title">Компании с лицензиями</div>
+            <div class="aboutus-advantages-block-substrate"><img src="img/diploma.png" alt="Компании с лицензиями"></div>
+            <div class="aboutus-advantages-block-title">Компании<br> с лицензиями</div>
         </div>
     </div>
 </div>

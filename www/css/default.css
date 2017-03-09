@@ -336,12 +336,34 @@ select, input, textarea {
     color: #363636; }
   .aboutus-content {
     display: flex;
-    justify-content: space-between; }
+    justify-content: center;
+    margin-bottom: 60px; }
     .aboutus-content-preview {
       width: 570px; }
     .aboutus-content-text {
       width: 570px;
       margin-left: 30px; }
+      .aboutus-content-text p {
+        font-size: 14px; }
+  .aboutus-advantages {
+    display: flex;
+    justify-content: space-around; }
+    .aboutus-advantages-block {
+      text-align: center; }
+      .aboutus-advantages-block-substrate {
+        width: 120px;
+        height: 120px;
+        background-color: #dfe0e3;
+        border-radius: 50%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+      .aboutus-advantages-block-title {
+        margin-top: 30px;
+        font-family: 'OpenSansBold';
+        text-transform: uppercase;
+        font-size: 16px; }
 
 .feedback {
   height: 100px;

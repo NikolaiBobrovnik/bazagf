@@ -197,13 +197,40 @@ $black: #363636;
 	}
 	&-content{
 		display: flex;
-		justify-content: space-between;
+		justify-content: center;
+		margin-bottom: 60px;
 		&-preview{
 			width: 570px;
 		}
 		&-text{
 			width: 570px;
 			margin-left: 30px;
+			p{
+				font-size: 14px;
+			}
+		}
+	}
+	&-advantages{
+		display: flex;
+		justify-content: space-around;
+		&-block{
+			text-align: center;
+			&-substrate{
+				width: 120px;
+				height: 120px;
+				background-color: #dfe0e3;
+				border-radius: 50%;
+				margin: 0 auto;
+				display: flex;
+			    justify-content: center;
+			    align-items: center;
+			}
+			&-title{
+				margin-top: 30px;
+				font-family: 'OpenSansBold';
+				text-transform: uppercase;
+				font-size: 16px;
+			}
 		}
 	}
 
