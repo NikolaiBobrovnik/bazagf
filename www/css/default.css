@@ -192,7 +192,7 @@ select, input, textarea {
   display: inline-block;
   color: white;
   font-size: 15px;
-  background-color: green; }
+  background-color: #fff; }
   .button::hover {
     background-color: blue; }
 
@@ -205,6 +205,23 @@ select, input, textarea {
   text-transform: uppercase;
   margin-bottom: 60px;
   color: #363636; }
+
+.button {
+  font-family: 'OpenSansBold';
+  text-transform: uppercase;
+  font-size: 14px;
+  border: 1px solid #dfe0e3;
+  color: #363636; }
+  .button:hover {
+    color: #fff;
+    background-color: #62a3da;
+    border: 1px solid #62a3da; }
+
+.social-media li {
+  display: inline-block;
+  margin-left: 10px; }
+  .social-media li:first-child {
+    margin-left: 0; }
 
 .aboutus__content {
   margin-bottom: 60px;
