@@ -192,6 +192,6 @@ select, input, textarea {
   display: inline-block;
   color: white;
   font-size: 15px;
-  background-color: green; }
+  background-color: #fff; }
   .button::hover {
     background-color: blue; }
