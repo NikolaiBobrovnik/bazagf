@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,0BAA0B;EACxB,UAAW;;AAKb,yBAAyB;EACvB,UAAW;;AAKb,yBAAyB;EACvB,UAAW",
+"sources": ["adaptive.scss"],
+"names": [],
+"file": "adaptive.css"
+}
