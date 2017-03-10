@@ -1,7 +1,7 @@
-<div id="popup-thank-you">
+<div class="popup__thank-you">
     <h2>Спасибо за обращение</h2>
     <span>Мы ответим на ваше обращение как можно скорее.</span>
-    <div id="popup-social">
+    <div class="social-media">
         <a href="#"><img src="img/facebook-footer.png" alt=""></a>
         <a href="#"><img src="img/vk-footer.png" alt=""></a>
         <a href="#"><img src="img/ok-footer.png" alt=""></a>

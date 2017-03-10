@@ -21,7 +21,7 @@
         <h2>Анкета на размещение компании в базе готовых фирм</h2>
         <p>Уважаемые посетители!<br>Заполняйте анкету согласно примерам и вносите максимально полную информацию о продаваемой компании.</p>
         <form action="send.php">
-            <div id="sell-form__left">
+            <div class="sell-form__left">
                 <input type="text" placeholder="Ваше имя" required><br>
                 <input type="tel" placeholder="Номер телефона" required><br>
                 <input type="email" placeholder="E-mail" required><br>
@@ -35,7 +35,7 @@
                 <input type="text" placeholder="Баланс" required>
                 <input type="text" placeholder="Желаемая сумма продажи" required>
             </div>
-            <div id="sell-form__right">
+            <div class="sell-form__right">
                 <input type="text" placeholder="Полное наименование организации">
                 <input type="text" placeholder="Дата регистрации компании (год создания)">
                 <input type="text" placeholder="Форма собственности" required>

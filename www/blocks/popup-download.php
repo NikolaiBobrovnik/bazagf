@@ -1,7 +1,7 @@
-<div id="popup-download">
+<div class="popup__download">
     <h2>Полная информация о компании</h2>
     <span>Если скачивание не началось, то перейдите по <a href="#">ссылке</a></span>
-    <div id="popup-social">
+    <div class="social-media">
         <a href="#"><img src="../img/facebook-footer.png" alt=""></a>
         <a href="#"><img src="../img/vk-footer.png" alt=""></a>
         <a href="#"><img src="../img/ok-footer.png" alt=""></a>

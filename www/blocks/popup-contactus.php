@@ -1,4 +1,4 @@
-<div id="popup-contactus">
+<div class="popup__contact-us">
     <h2>обратная связь</h2>
     <form action="send.php">
         <input type="text" name="name" placeholder="Ваше имя или название организации">

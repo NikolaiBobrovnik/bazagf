@@ -3,7 +3,7 @@
        будет автоматически определятся браузером
        А в адаптивной версии будут использоваться свойство flex-box c параметром justify-content:space-between тогда будет виден присок с описанием в span и значением в виде обычного текста-->
 <div class="container">
-    <div id="table-header">
+    <div class="table__header">
         <div>Название</div>
         <div>ОПФ</div>
         <div>Год создания</div>
@@ -17,8 +17,8 @@
         <div>Стоймость компании</div>
         <div>Дополнительно</div>
     </div>
-    <div id="table-content">
-        <div id="table-item">
+    <div class="table__content">
+        <div class="table__item">
             <div><span>Название</span><a href="#">Дэни</a></div>
             <div><span>ОПФ</span>ООО</div>
             <div><span>Год создания</span>28.10.2009</div>
@@ -32,7 +32,7 @@
             <div><span>Стоймость компании</span>60 000 р.</div>
             <div><span>Дополнительно</span><a href="#">Бронировать</a><br><a href="#">Скачать инф.</a></div>
         </div>
-        <div id="table-item">
+        <div class="table__item">
             <div><span>Название</span><a href="#">Вечность</a></div>
             <div><span>ОПФ</span>ООО</div>
             <div><span>Год создания</span>17.05.2016</div>
@@ -46,7 +46,7 @@
             <div><span>Стоймость компании</span>110 000 р.</div>
             <div><span>Дополнительно</span><a href="#">Бронировать</a><br><a href="#">Скачать инф.</a></div>
         </div>
-        <div id="table-item">
+        <div class="table__item">
             <div><span>Название</span><a href="#">Континиуум</a></div>
             <div><span>ОПФ</span>ООО</div>
             <div><span>Год создания</span>11.10.2013</div>
@@ -60,7 +60,7 @@
             <div><span>Стоймость компании</span>40 000 р.</div>
             <div><span>Дополнительно</span><a href="#">Бронировать</a><br><a href="#">Скачать инф.</a></div>
         </div>
-        <div id="table-item">
+        <div class="table__item">
             <div><span>Название</span><a href="#">Этлос.ком</a></div>
             <div><span>ОПФ</span>ООО</div>
             <div><span>Год создания</span>02.02.2015</div>
@@ -74,7 +74,7 @@
             <div><span>Стоймость компании</span>100 000 р.</div>
             <div><span>Дополнительно</span><a href="#">Бронировать</a><br><a href="#">Скачать инф.</a></div>
         </div>
-        <div id="table-item">
+        <div class="table__item">
             <div><span>Название</span><a href="#">М фреш</a></div>
             <div><span>ОПФ</span>ООО</div>
             <div><span>Год создания</span>19.02.2013</div>
@@ -88,7 +88,7 @@
             <div><span>Стоймость компании</span>50 000 р.</div>
             <div><span>Дополнительно</span><a href="#">Бронировать</a><br><a href="#">Скачать инф.</a></div>
         </div>
-        <div id="table-item">
+        <div class="table__item">
             <div><span>Название</span><a href="#">Арт</a></div>
             <div><span>ОПФ</span>ООО</div>
             <div><span>Год создания</span>28.11.2014</div>
@@ -102,7 +102,7 @@
             <div><span>Стоймость компании</span>45 000 р.</div>
             <div><span>Дополнительно</span><a href="#">Бронировать</a><br><a href="#">Скачать инф.</a></div>
         </div>
-        <div id="table-item">
+        <div class="table__item">
             <div><span>Название</span><a href="#">Европейский энергетический союз</a></div>
             <div><span>ОПФ</span>ООО</div>
             <div><span>Год создания</span>18.06.2015</div>
@@ -116,7 +116,7 @@
             <div><span>Стоймость компании</span>95 000 р.</div>
             <div><span>Дополнительно</span><a href="#">Бронировать</a><br><a href="#">Скачать инф.</a></div>
         </div>
-        <div id="table-item">
+        <div class="table__item">
             <div><span>Название</span><a href="#">Вечность</a></div>
             <div><span>ОПФ</span>ООО</div>
             <div><span>Год создания</span>17.05.2016</div>
@@ -130,7 +130,7 @@
             <div><span>Стоймость компании</span>110 000 р.</div>
             <div><span>Дополнительно</span><a href="#">Бронировать</a><br><a href="#">Скачать инф.</a></div>
         </div>
-        <div id="table-item">
+        <div class="table__item">
             <div><span>Название</span><a href="#">Континиуум</a></div>
             <div><span>ОПФ</span>ООО</div>
             <div><span>Год создания</span>11.10.2013</div>
@@ -144,7 +144,7 @@
             <div><span>Стоймость компании</span>40 000 р.</div>
             <div><span>Дополнительно</span><a href="#">Бронировать</a><br><a href="#">Скачать инф.</a></div>
         </div>
-        <div id="table-item">
+        <div class="table__item">
             <div><span>Название</span><a href="#">Этлос.ком</a></div>
             <div><span>ОПФ</span>ООО</div>
             <div><span>Год создания</span>02.02.2015</div>
@@ -158,7 +158,7 @@
             <div><span>Стоймость компании</span>100 000 р.</div>
             <div><span>Дополнительно</span><a href="#">Бронировать</a><br><a href="#">Скачать инф.</a></div>
         </div>
-        <div id="table-item">
+        <div class="table__item">
             <div><span>Название</span><a href="#">М фреш</a></div>
             <div><span>ОПФ</span>ООО</div>
             <div><span>Год создания</span>19.02.2013</div>
@@ -172,7 +172,7 @@
             <div><span>Стоймость компании</span>50 000 р.</div>
             <div><span>Дополнительно</span><a href="#">Бронировать</a><br><a href="#">Скачать инф.</a></div>
         </div>
-        <div id="table-item">
+        <div class="table__item">
             <div><span>Название</span><a href="#">Арт</a></div>
             <div><span>ОПФ</span>ООО</div>
             <div><span>Год создания</span>28.11.2014</div>
@@ -186,7 +186,7 @@
             <div><span>Стоймость компании</span>45 000 р.</div>
             <div><span>Дополнительно</span><a href="#">Бронировать</a><br><a href="#">Скачать инф.</a></div>
         </div>
-        <div id="table-item">
+        <div class="table__item">
             <div><span>Название</span><a href="#">Европейский энергетический союз</a></div>
             <div><span>ОПФ</span>ООО</div>
             <div><span>Год создания</span>18.06.2015</div>

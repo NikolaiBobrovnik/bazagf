@@ -62,9 +62,8 @@
        <form action="send.php">
            <input type="search">
        </form>
-       <div id="filters"></div>
-       <div id="company-content">
-           <div id="company-content-title">
+       <div class="company-content">
+           <div class="company-content__title">
                <h2>ООО Дэни</h2>
                Полная информация о компании
            </div>
@@ -79,7 +78,7 @@
            <div><span>Обороты</span>2014 год - 100 000 р.<br>2015 год - 765 000 р.<br>2016 год - 1 750 300 р.</div>
            <div><span>Лицензия</span></div>
            <div><span>Стоимость компании</span>60 000 р.</div>
-           <div id="company-content-footer">
+           <div class="company-content__footer">
                <a href="#">Закзать звонок</a>
                <a href="#">Бронировать</a>
                <a href="#">Скачать pdf</a>
