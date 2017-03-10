@@ -1,4 +1,3 @@
-/* line 40, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/basics.scss */
 button::-moz-focus-inner,
 input[type="reset"]::-moz-focus-inner,
 input[type="button"]::-moz-focus-inner,
@@ -8,115 +7,89 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   /* */
   border: none; }
 
-/* line 48, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/basics.scss */
 *:focus {
   outline: none; }
 
-/* line 51, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/basics.scss */
 ::selection {
   background: blue;
   color: white; }
 
-/* line 52, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/basics.scss */
 ::-moz-selection {
   background: blue;
   color: white; }
 
-/* line 53, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/basics.scss */
 ::-webkit-selection {
   background: blue;
   color: white; }
 
-/* line 56, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/basics.scss */
 ::-webkit-input-placeholder {
   color: #777; }
 
-/* line 57, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/basics.scss */
 ::-moz-placeholder {
   color: #777; }
 
-/* line 58, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/basics.scss */
 :-ms-input-placeholder {
   color: #777; }
 
-/* line 59, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/basics.scss */
 :-moz-placeholder {
   color: #777; }
 
-/* line 62, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/basics.scss */
 .noscroll {
   position: fixed; }
 
-/* line 65, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/basics.scss */
 input:-webkit-autofill {
   -webkit-text-fill-color: black !important; }
 
-/* line 69, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/basics.scss */
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
   transition: background-color 50000000000s ease-in-out 0s !important; }
 
-/* line 87, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/basics.scss */
 .one-col {
   width: 5.95%; }
 
-/* line 88, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/basics.scss */
 .two-col {
   width: 14.5%; }
 
-/* line 89, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/basics.scss */
 .three-col {
   width: 23.05%; }
 
-/* line 90, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/basics.scss */
 .four-col {
   width: 31.6%; }
 
-/* line 91, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/basics.scss */
 .five-col {
   width: 40.15%; }
 
-/* line 92, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/basics.scss */
 .six-col {
   width: 48.7%; }
 
-/* line 93, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/basics.scss */
 .seven-col {
   width: 57.25%; }
 
-/* line 94, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/basics.scss */
 .eight-col {
   width: 65.8%; }
 
-/* line 95, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/basics.scss */
 .nine-col {
   width: 74.35%; }
 
-/* line 96, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/basics.scss */
 .ten-col {
   width: 82.9%; }
 
-/* line 97, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/basics.scss */
 .eleven-col {
   width: 91.45%; }
 
-/* line 98, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/basics.scss */
 .twelve-col {
   width: 100%; }
 
-/* line 101, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/basics.scss */
 .cols {
   text-align: justify;
   text-justify: distribute; }
-  /* line 102, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/basics.scss */
   .cols:after {
     content: "";
     display: inline-block;
     height: 0.0000000000001px;
     width: 100%; }
-  /* line 103, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/basics.scss */
   .cols > * {
     display: inline-block;
     box-sizing: border-box;
@@ -124,86 +97,69 @@ input:-webkit-autofill:active {
     -webkit-box-sizing: border-box;
     vertical-align: top; }
 
-/* line 117, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/basics.scss */
 html {
   width: 100%;
   height: 100%; }
 
-/* line 118, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/basics.scss */
 body {
   width: 100%;
   min-height: 100%;
   font-size: 0;
   font-family: 'OpenSansRegular', Arial, sans-serif; }
 
-/* line 120, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/basics.scss */
 header, section, footer {
   width: 100%;
   float: left; }
 
-/* line 121, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/basics.scss */
 .container {
   width: 1170px;
   margin: 0 auto; }
 
-/* line 133, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/basics.scss */
 h1, h2, h3, h4, h5, h6, p, span, ul, li {
   margin: 0;
   padding: 0; }
 
-/* line 134, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/basics.scss */
 ul {
   list-style: none; }
 
-/* line 135, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/basics.scss */
 span {
   font-style: inherit;
   font-family: inherit;
   font-weight: inherit; }
 
-/* line 140, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/basics.scss */
 h1 {
   font-size: 36px;
   line-height: 1.2em; }
 
-/* line 141, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/basics.scss */
 h2 {
   font-size: 30px;
   line-height: 1.2em; }
 
-/* line 142, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/basics.scss */
 h3 {
   font-size: 24px;
   line-height: 1.2em; }
 
-/* line 143, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/basics.scss */
 h4 {
   font-size: 20px;
   line-height: 1.2em; }
 
-/* line 144, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/basics.scss */
 h5 {
   font-size: 18px;
   line-height: 1.2em; }
 
-/* line 147, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/basics.scss */
 p {
   font-size: 14px;
   line-height: 1.7em; }
 
-/* line 148, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/basics.scss */
 p.small {
   font-size: 12px; }
 
-/* line 149, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/basics.scss */
 p.big {
   font-size: 16px; }
 
-/* line 150, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/basics.scss */
 p.huge {
   font-size: 18px; }
 
-/* line 162, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/basics.scss */
 a, input, button, select, textarea {
   -webkit-transition: all 0.25s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;
@@ -214,14 +170,12 @@ a, input, button, select, textarea {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box; }
 
-/* line 163, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/basics.scss */
 a {
   text-decoration: inherit;
   font-weight: inherit;
   line-height: inherit;
   color: inherit; }
 
-/* line 165, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/basics.scss */
 select, input, textarea {
   padding: 10px;
   text-align: left;
@@ -231,7 +185,6 @@ select, input, textarea {
   font-size: 14px;
   display: inline-block; }
 
-/* line 167, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/basics.scss */
 .button {
   text-align: center;
   border: 0;
@@ -240,394 +193,64 @@ select, input, textarea {
   color: white;
   font-size: 15px;
   background-color: green; }
-  /* line 168, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/basics.scss */
   .button::hover {
     background-color: blue; }
 
-/* line 8, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
 * {
   box-sizing: border-box; }
 
-/* line 12, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-.cf:after {
-  content: '';
-  display: block;
-  clear: both;
-  visibility: hidden;
-  height: 0; }
-
-/* line 22, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-.header {
-  height: 190px;
-  background-color: #fff;
-  border-bottom: 1px solid #dfe0e3; }
-  /* line 26, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-  .header-top {
-    height: 50px;
-    background-color: #eff0f2;
-    border-bottom: 1px solid #dfe0e3; }
-    /* line 30, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-    .header-top-left {
-      float: left;
-      padding: 4px 0; }
-      /* line 33, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-      .header-top-left-date {
-        display: inline-block;
-        height: 40px;
-        vertical-align: top;
-        margin-right: 30px;
-        padding: 11px 0; }
-        /* line 39, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-        .header-top-left-date a {
-          font-size: 14px; }
-        /* line 40, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-        .header-top-left-date:before {
-          content: "";
-          background: url(../img/calendar.png) 0 0 no-repeat;
-          width: 22px;
-          height: 20px;
-          display: inline-block;
-          vertical-align: top;
-          margin-right: 20px; }
-      /* line 50, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-      .header-top-left-tel {
-        display: inline-block;
-        height: 40px;
-        vertical-align: top;
-        margin-right: 30px;
-        border-left: 1px solid #dfe0e3; }
-        /* line 56, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-        .header-top-left-tel-inner {
-          padding: 11px 0; }
-          /* line 58, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-          .header-top-left-tel-inner a {
-            font-size: 14px; }
-          /* line 59, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-          .header-top-left-tel-inner:before {
-            content: "";
-            background: url(../img/phone.png) 0 0 no-repeat;
-            width: 21px;
-            height: 20px;
-            display: inline-block;
-            vertical-align: top;
-            margin-right: 20px;
-            margin-left: 30px; }
-      /* line 71, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-      .header-top-left-email {
-        display: inline-block;
-        height: 40px;
-        vertical-align: top;
-        margin-right: 30px;
-        padding: 11px 0; }
-        /* line 77, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-        .header-top-left-email a {
-          font-size: 14px; }
-        /* line 80, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-        .header-top-left-email:before {
-          content: "";
-          background: url(../img/mail.png) 0 0 no-repeat;
-          width: 21px;
-          height: 16px;
-          display: inline-block;
-          vertical-align: top;
-          margin-right: 20px; }
-    /* line 91, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-    .header-top-right {
-      padding: 10px 0;
-      float: right;
-      font-size: 0; }
-      /* line 95, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-      .header-top-right-social {
-        display: inline-block; }
-        /* line 97, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-        .header-top-right-social-a {
-          display: inline-block;
-          width: 30px;
-          height: 30px;
-          margin-left: 10px; }
-          /* line 102, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-          .header-top-right-social-a:first-child {
-            margin-left: 0; }
-          /* line 105, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-          .header-top-right-social-a:hover {
-            opacity: .7; }
-        /* line 109, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-        .header-top-right-social-facebook {
-          background: url(../img/facebook.png) no-repeat; }
-        /* line 112, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-        .header-top-right-social-vk {
-          background: url(../img/vk.png) no-repeat; }
-        /* line 115, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-        .header-top-right-social-ok {
-          background: url(../img/ok.png) no-repeat; }
-        /* line 118, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-        .header-top-right-social-linkedin {
-          background: url(../img/linkedin.png) no-repeat; }
-        /* line 121, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-        .header-top-right-social-youtube {
-          background: url(../img/youtube.png) no-repeat; }
-  /* line 127, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-  .header-bottom {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    height: 140px; }
-    /* line 132, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-    .header-bottom-banner1 {
-      margin-left: 100px; }
-
-/* line 139, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-.menu {
-  min-height: 100px;
-  padding: 30px 0;
-  background-color: #fff; }
-  /* line 143, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-  .menu-list {
-    display: flex;
-    justify-content: space-between; }
-  /* line 147, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-  .menu-item {
-    font-family: 'OpenSansBold';
-    text-transform: uppercase;
-    color: #363636;
-    text-align: center;
-    padding: 9px 0;
-    display: block;
-    font-size: 14px;
-    font-weight: bold;
-    width: 210px;
-    height: 40px;
-    border: 1px solid #dfe0e3; }
-    /* line 159, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-    .menu-item:hover {
-      background-color: #62a3da;
-      color: #fff;
-      border-color: #62a3da; }
-
-/* line 188, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-.aboutus {
-  margin-top: 60px; }
-  /* line 190, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-  .aboutus-title {
-    text-align: center;
-    font-family: 'OpenSansBold';
-    font-size: 24px;
-    text-transform: uppercase;
-    margin-bottom: 60px;
-    color: #363636; }
-  /* line 198, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-  .aboutus-content {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 60px; }
-    /* line 202, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-    .aboutus-content-preview {
-      width: 570px; }
-    /* line 205, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-    .aboutus-content-text {
-      width: 570px;
-      margin-left: 30px; }
-      /* line 208, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-      .aboutus-content-text p {
-        font-size: 14px; }
-  /* line 213, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-  .aboutus-advantages {
-    display: flex;
-    justify-content: space-around; }
-    /* line 216, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-    .aboutus-advantages-block {
-      text-align: center; }
-      /* line 218, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-      .aboutus-advantages-block-substrate {
-        width: 120px;
-        height: 120px;
-        background-color: #dfe0e3;
-        border-radius: 50%;
-        margin: 0 auto;
-        display: flex;
-        justify-content: center;
-        align-items: center; }
-      /* line 228, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-      .aboutus-advantages-block-title {
-        margin-top: 30px;
-        font-family: 'OpenSansBold';
-        text-transform: uppercase;
-        font-size: 16px; }
-
-/* line 240, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-.feedback {
-  min-height: 100px;
-  background: #5b7ab3 url(../img/feedback.png) center center no-repeat;
-  background-size: cover;
-  margin-top: 60px; }
-  /* line 245, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-  .feedback-container {
-    padding: 26px 0;
-    display: flex;
-    justify-content: center; }
-  /* line 250, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-  .feedback-text {
-    display: inline-block;
-    height: 50px;
-    color: #fff;
-    font-size: 30px;
-    text-transform: uppercase;
-    margin-right: 100px; }
-  /* line 258, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-  .feedback-button {
-    display: inline-block;
-    width: 170px;
-    padding: 13px 22px;
-    border: 2px solid #fff;
-    font-size: 14px;
-    color: #fff;
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: bold; }
-    /* line 268, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-    .feedback-button:hover {
-      background-color: #62a3da;
-      color: #fff;
-      border-color: #62a3da; }
-
-/* line 277, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-.services {
-  margin-top: 60px; }
-  /* line 279, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-  .services-title {
-    text-align: center;
-    font-family: 'OpenSansBold';
-    font-size: 24px;
-    text-transform: uppercase;
-    margin-bottom: 60px; }
-  /* line 286, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-  .services-blocks {
-    margin-bottom: 60px;
-    display: flex;
-    justify-content: space-between; }
-  /* line 291, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-  .services-block {
-    position: relative;
-    width: 370px;
-    height: 390px;
-    border: 1px solid #dfe0e3; }
-    /* line 296, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-    .services-block:hover .services-block-title {
-      background-color: #62a3da;
-      color: #fff;
-      border-color: #62a3da; }
-    /* line 301, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-    .services-block-title {
-      color: #363636;
-      font-family: 'OpenSansBold';
-      font-size: 16px;
-      text-transform: uppercase;
-      padding: 20px 0;
-      border-bottom: 1px solid #dfe0e3;
-      text-align: center; }
-    /* line 310, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-    .services-block-content {
-      padding: 30px 30px 0 30px;
-      font-size: 14px; }
-    /* line 314, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-    .services-block-bottom {
-      position: absolute;
-      bottom: 30px;
-      left: 50%;
-      margin-left: -85px; }
-      /* line 320, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-      .services-block-bottom-callme {
-        font-family: 'OpenSansBold';
-        display: inline-block;
-        width: 170px;
-        padding: 13px 14px;
-        border: 2px solid #dfe0e3;
-        font-size: 14px;
-        text-transform: uppercase;
-        text-align: center;
-        font-weight: bold; }
-        /* line 330, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-        .services-block-bottom-callme:hover {
-          background-color: #62a3da;
-          color: #fff;
-          border-color: #62a3da; }
-
-/* line 342, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-.news-title {
+.section-title {
   text-align: center;
   font-family: 'OpenSansBold';
-  font-size: 24px;
   text-transform: uppercase;
-  margin-bottom: 60px; }
+  margin-bottom: 60px;
+  color: #363636; }
 
-/* line 349, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-.news-blocks {
+.aboutus__content {
   margin-bottom: 60px;
   display: flex;
   justify-content: space-between; }
+  .aboutus__content__image {
+    display: inline-block; }
+  .aboutus__content__text {
+    display: inline-block; }
+    .aboutus__content__text p {
+      font-size: 14px;
+      margin-bottom: 30px; }
 
-/* line 354, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-.news-block {
-  width: 370px; }
-  /* line 356, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-  .news-block-preview {
-    margin-bottom: 30px; }
-  /* line 359, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-  .news-block-title {
-    font-family: 'OpenSansBold';
-    font-size: 16px;
-    text-transform: uppercase;
-    margin-bottom: 30px; }
-  /* line 365, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-  .news-block-text {
-    margin-bottom: 35px; }
-  /* line 368, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-  .news-block-readmore {
-    font-size: 14px;
-    color: #61a3da; }
-    /* line 371, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-    .news-block-readmore:hover {
-      text-decoration: underline; }
+.aboutus__advantages {
+  display: flex;
+  justify-content: space-around; }
+  .aboutus__advantages__block {
+    text-align: center; }
+    .aboutus__advantages__block__substrate {
+      width: 120px;
+      height: 120px;
+      background-color: #dfe0e3;
+      border-radius: 50%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .aboutus__advantages__block__title {
+      margin-top: 30px;
+      font-family: 'OpenSansBold';
+      text-transform: uppercase;
+      font-size: 16px; }
 
-/* line 376, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-.news-bottom {
-  text-align: center; }
-  /* line 378, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-  .news-bottom-allnews {
-    font-family: 'OpenSansBold';
-    display: inline-block;
-    width: 170px;
-    padding: 13px 22px;
-    border: 2px solid #dfe0e3;
-    font-size: 14px;
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: bold; }
-    /* line 388, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
-    .news-bottom-allnews:hover {
-      background-color: #62a3da;
-      color: #fff;
-      border-color: #62a3da; }
-
-/* line 408, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/default.scss */
 .popup {
   display: none;
   width: 350px;
   padding: 20px; }
 
 @media (max-width: 1000px) {
-  /* line 3, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/adaptive.scss */
   .container {
     /*width:600px*/ } }
 
 @media (max-width: 649px) {
-  /* line 9, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/adaptive.scss */
   .container {
     /*width:400px*/ } }
 
 @media (max-width: 479px) {
-  /* line 15, D:/OpenServer/OpenServer/domains/localhost/gf/www/css/adaptive.scss */
   .container {
     /*width:90%*/ } }
-
-/*# sourceMappingURL=default.css.map */
