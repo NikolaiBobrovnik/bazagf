@@ -1,4 +1,6 @@
-<div class="container">
+<div class="container cols">
+
+
     <div class="filters__block">
         <div class="filters__select">
             <span class="filters__select__title">Год создания</span>
@@ -241,6 +243,61 @@
         </div>
     </div>
 
+
+
+    <div class="filters__block">
+        <div class="filters__select">
+            <span class="filters__select__title">Стоимость компании</span>
+            <span class="filters__select__button"></span>
+        </div>
+        <div class="filters__container">
+            <ul class="filters__list">
+                <li><a href="">от 10000 до 100 000</a></li>
+                <li><a href="">от 100 000 до 500 000</a></li>
+                <li><a href="">от 500 000 до 1 500 000</a></li>
+                <li><a href="">от 1 500 000 и выше</a></li>
+            </ul>
+            <div class="filters__container__bottom">
+                <a href="#" class="select_all">Выбрать все</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="filters__block">
+        <div class="filters__select">
+            <span class="filters__select__title">Вид деятельности</span>
+            <span class="filters__select__button"></span>
+        </div>
+        <div class="filters__container">
+            <div class="filters__input">
+                <input type="text" name="name" placeholder="Введите поисковой запрос">
+            </div>
+            <ul class="filters__list">
+                <li><a href="">01 -Растениеводство</a></li>
+                <li><a href="">ВТБ 24</a></li>
+                <li><a href="">ООО 'Экспонат'</a></li>
+                <li><a href="">Райффайзен</a></li>
+                <li><a href="">Межрегиональный почтовый банк</a></li>
+                <li><a href="">Сбербанк</a></li>
+                <li><a href="">Альфа__банк</a></li>
+                <li><a href="">БинБанк</a></li>
+            </ul>
+            <div class="filters__container__bottom">
+                <a href="#" class="select_all">Выбрать все</a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
     <div class="filters__block">
         <div class="filters__select">
             <span class="filters__select__title">Организационно-правовая форма</span>
@@ -284,23 +341,7 @@
         </div>
     </div>
 
-    <div class="filters__block">
-        <div class="filters__select">
-            <span class="filters__select__title">Стоимость компании</span>
-            <span class="filters__select__button"></span>
-        </div>
-        <div class="filters__container">
-            <ul class="filters__list">
-                <li><a href="">от 10000 до 100 000</a></li>
-                <li><a href="">от 100 000 до 500 000</a></li>
-                <li><a href="">от 500 000 до 1 500 000</a></li>
-                <li><a href="">от 1 500 000 и выше</a></li>
-            </ul>
-            <div class="filters__container__bottom">
-                <a href="#" class="select_all">Выбрать все</a>
-            </div>
-        </div>
-    </div>
+    
 
     <div class="filters__block">
         <div class="filters__select">
@@ -351,4 +392,65 @@
             </div>
         </div>
     </div>
+
+
+
+
+
+
+
+    <div class="filters__block">
+        <div class="filters__select">
+            <span class="filters__select__title">Лицензия</span>
+            <span class="filters__select__button"></span>
+        </div>
+        <div class="filters__container">
+            <div class="filters__input">
+                <input type="text" name="name" placeholder="Введите поисковой запрос">
+            </div>
+            <ul class="filters__list">
+                <li><a href="">01 -Растениеводство</a></li>
+                <li><a href="">ВТБ 24</a></li>
+                <li><a href="">ООО 'Экспонат'</a></li>
+                <li><a href="">Райффайзен</a></li>
+                <li><a href="">Межрегиональный почтовый банк</a></li>
+                <li><a href="">Сбербанк</a></li>
+                <li><a href="">Альфа__банк</a></li>
+                <li><a href="">БинБанк</a></li>
+            </ul>
+            <div class="filters__container__bottom">
+                <a href="#" class="select_all">Выбрать все</a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="filters__block">
+        <div class="filters__select">
+            <span class="filters__select__title">Система налогооблажения</span>
+            <span class="filters__select__button"></span>
+        </div>
+        <div class="filters__container">
+            <div class="filters__input">
+                <input type="text" name="name" placeholder="Введите поисковой запрос">
+            </div>
+            <ul class="filters__list">
+                <li><a href="">01 -Растениеводство</a></li>
+                <li><a href="">ВТБ 24</a></li>
+                <li><a href="">ООО 'Экспонат'</a></li>
+                <li><a href="">Райффайзен</a></li>
+                <li><a href="">Межрегиональный почтовый банк</a></li>
+                <li><a href="">Сбербанк</a></li>
+                <li><a href="">Альфа__банк</a></li>
+                <li><a href="">БинБанк</a></li>
+            </ul>
+            <div class="filters__container__bottom">
+                <a href="#" class="select_all">Выбрать все</a>
+            </div>
+        </div>
+    </div>
 </div>
+
+<div class="filters__bottom"><a href="#" class="button">Показать</a></div>

@@ -1,6 +1,6 @@
 <div class="container">
-    <ul class="menu__list">
-        <li><a href="#" class="button">о нас</a></li>
+    <ul class="menu__list cols">
+        <li><a href="#" class="button button_border">о нас</a></li>
         <li><a href="#" class="button button_border">купить</a></li>
         <li><a href="#" class="button button_border">продать</a></li>
         <li><a href="#" class="button button_border">новости</a></li>

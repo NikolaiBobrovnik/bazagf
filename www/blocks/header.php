@@ -1,13 +1,12 @@
 <div class="header__top">
-    <div class="container">
+    <div class="container header__top__container">
         <div class="header__top__left">
-          <div class="header__top__item header__top__item_border"><img src="" alt=""><p>Среда, 8 Февраля 2017</p></div>
-          <div class="header__top__item">
-            <img src="" alt="">
-            <p><a href="tel:+74957232832">+7 (495) 723 28 32</a></p>
-            <p><a href="tel:+79255327714">+7 (925) 532 77 14</a></p>
+          <div class="header__top__left__item header__top__left__item__border"><img src="img/calendar.png" alt=""><p>Среда, 8 Февраля 2017</p></div>
+          <div class="header__top__left__item">
+            <img src="img/phone.png" alt="">
+            <p><a href="tel:+74957232832">+7 (495) 723 28 32</a><a href="tel:+79255327714">+7 (925) 532 77 14</a></p>
           </div>
-          <div class="header__top__item"><img src="" alt=""><p><a href="mailto:info@bazagf.ru">info@bazagf.ru</a></p></div>
+          <div class="header__top__left__item"><img src="img/mail.png" alt=""><p><a href="mailto:info@bazagf.ru">info@bazagf.ru</a></p></div> 
         </div>
         <div class="header__top__right">
           <ul class="social-media header__social">
@@ -22,16 +21,16 @@
 </div>
 <div class="container">
     <div class="header__bottom">
-        <a class="three-col header__bottom__logo" href="/"><img src="img/logo.png" alt="Логотип" title="База ГФ"></a>
-        <div class="eight-col header__banners">
-          <a href="#" class="header__banner">
-            <p class="header__banner__text"></p>
-            <div class="header__banner__image"><img src="img/banner1.png" alt="Баннер1" title="Баннер1"></div>
-          </a>
-          <a href="#" class="header__banner">
-            <p class="header__banner__text"></p>
-            <div class="header__banner__image"><img src="img/banner2.png" alt="Баннер2" title="Баннер2"></div>
-          </a>
-        </div>
+      <a class="header__bottom__logo" href="/"><img src="img/logo.png" alt="Логотип" title="База ГФ"></a>
+      <div class="header__bottom__banners">
+        <a href="#" class="header__banner">
+          <p class="header__banner__text">Рекламный баннер 1</p>
+          <div class="header__banner__image"><img src="img/banner1.png" alt="Баннер1" title="Баннер1"></div>
+        </a>
+        <a href="#" class="header__banner">
+          <p class="header__banner__text">Рекламный баннер 2</p>
+          <div class="header__banner__image"><img src="img/banner2.png" alt="Баннер2" title="Баннер2"></div>
+        </a>
+      </div>
     </div>
 </div>

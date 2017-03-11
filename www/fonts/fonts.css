@@ -17,3 +17,11 @@
          url('OpenSansBold/OpenSansBold.ttf') format('truetype'),
          url('OpenSansBold/OpenSansBold.svg#OpenSansBold') format('svg');
 }
+
+@font-face {
+    font-family: 'MyriadProRegular';
+    src: url('MyriadProRegular/MyriadProRegular.eot');
+    src: url('MyriadProRegular/MyriadProRegular.eot') format('embedded-opentype'),
+         url('MyriadProRegular/MyriadProRegular.woff') format('woff'),
+         url('MyriadProRegular/MyriadProRegular.ttf') format('truetype');
+}
