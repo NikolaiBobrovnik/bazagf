@@ -124,7 +124,24 @@ $blue: #62a3da;
 
 // section.news //
 .news{
-	
+    &__container{
+        flex-flow: row wrap;
+        display: flex;
+        justify-content: space-between;
+    }
+        &__item{
+            width:370px;
+            display: flex;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            margin-top: 60px;
+            & a{
+                display: block;
+                font-size: 14px;
+                color: $blue;
+                margin-top: 35px;
+            }
+        }
 }
 
 // footer //

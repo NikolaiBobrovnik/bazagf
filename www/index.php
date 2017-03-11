@@ -51,10 +51,7 @@
     <?php include "blocks/news.php"; ?>
 </section>
 
-<footer class="footer">
-    <?php include "blocks/footer.php"; ?>
-</footer>
-
+<?php include "blocks/footer.php"; ?>
 <?php include "blocks/forms.php"; ?>
 <?php include "blocks/scripts.php"; ?>
 </body>

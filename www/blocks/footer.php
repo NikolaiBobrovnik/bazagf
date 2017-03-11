@@ -1,4 +1,5 @@
-<div class="footer__top">
+<footer class="footer">
+ <div class="footer__top">
   <div class="container footer__container">
     <div class="footer__topcol">
       <div class="footer__map" id="footer__map">
@@ -45,3 +46,4 @@
     </ul>
   </div>
 </div>
+</footer>
