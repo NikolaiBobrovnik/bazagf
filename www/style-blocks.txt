@@ -1,3 +1,13 @@
 .section-title - заголовок секции
+
 .button - кнопка (используется в 5ти секциях)
+
 .social-media - блок социальных ссылок
+
+.page-title - секция с названием страницы
+Исспользовать её надо вот такой конструкцией
+<section class="page-title">
+    <div class="page-title__left-img"></div>
+    <p>Новости</p>
+    <div class="page-title__right-img"></div>
+</section>

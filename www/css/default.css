@@ -211,6 +211,31 @@ select, input, textarea {
   padding-top: 60px;
   border-top: 1px solid #dfe0e3; }
 
+.page-title {
+  background: linear-gradient(to right, #61a3da 30%, #513372 70%);
+  text-align: center;
+  margin-top: 30px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .page-title p {
+    font-size: 30px;
+    color: #fff;
+    padding: 35px 0px;
+    text-transform: uppercase;
+    position: absolute; }
+  .page-title__left-img {
+    background: url(../img/page-header-left.png) no-repeat;
+    height: 100%;
+    width: 50%;
+    background-position: left center; }
+  .page-title__right-img {
+    background: url(../img/page-header-right.png) no-repeat;
+    height: 100%;
+    width: 50%;
+    background-position: right center; }
+
 .button {
   width: 170px;
   height: 40px;
@@ -351,7 +376,6 @@ select, input, textarea {
     font-size: 14px; }
     .aboutus__content__text p:first-child {
       margin-top: -6px; }
-
 .aboutus__advantages {
   display: flex;
   justify-content: space-around; }
@@ -374,6 +398,7 @@ select, input, textarea {
 
 .feedback {
   margin-top: 60px;
+  margin-bottom: 60px;
   height: 100px;
   background: url(../img/feedback.png) no-repeat;
   background-size: cover; }
@@ -449,6 +474,17 @@ select, input, textarea {
     color: #61a3da; }
     .news__block__readmore:hover {
       text-decoration: underline; }
+  .news__pagination {
+    text-align: center;
+    margin-top: 60px; }
+    .news__pagination a {
+      padding: 10px 15px;
+      margin-left: 10px;
+      font-size: 14px;
+      border: 1px solid #dfe0e3; }
+      .news__pagination a:hover {
+        background: #62a3da;
+        color: #fff; }
   .news__bottom {
     text-align: center; }
 
@@ -456,7 +492,6 @@ select, input, textarea {
   flex-flow: row wrap;
   display: flex;
   justify-content: space-between; }
-
 .news__item {
   width: 370px;
   display: flex;
@@ -529,11 +564,11 @@ select, input, textarea {
 @media (max-width: 1000px) {
   .container {
     /*width:600px*/ } }
-
 @media (max-width: 649px) {
   .container {
     /*width:400px*/ } }
-
 @media (max-width: 479px) {
   .container {
     /*width:90%*/ } }
+
+/*# sourceMappingURL=default.css.map */

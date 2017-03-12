@@ -22,6 +22,37 @@ $blue: #62a3da;
     border-top: 1px solid $grey;
 }
 
+.page-title{
+    background: linear-gradient(to right, #61a3da 30%, #513372 70%);
+    text-align: center;
+    margin-top:30px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & p{
+        font-size: 30px;
+        color: #fff;
+        padding: 35px 0px;
+        text-transform: uppercase;
+        position: absolute;
+    }
+    &__left-img {
+        background: url(../img/page-header-left.png) no-repeat;
+        height: 100%;
+        width: 50%;
+        background-position: left center;
+//        background-size: 50%;
+
+    }
+    &__right-img{
+        background: url(../img/page-header-right.png) no-repeat;
+        height: 100%;
+        width: 50%;
+        background-position: right center;
+    }
+}
+
 .button{
     width: 170px;
     height: 40px;
@@ -243,6 +274,7 @@ $blue: #62a3da;
 // section.feedback //
 .feedback{
     margin-top: 60px;
+    margin-bottom: 60px;
     height: 100px;
     background: url(../img/feedback.png) no-repeat;
     background-size: cover;
@@ -341,6 +373,22 @@ $blue: #62a3da;
             }
         }
     }
+
+    &__pagination{
+        text-align: center;
+        margin-top: 60px;
+        a{
+            padding: 10px 15px;
+            margin-left: 10px;
+            font-size: 14px;
+            border: 1px solid $grey;
+            &:hover{
+                background: $blue;
+                color: #fff;
+            }
+        }
+    }
+
     &__bottom{
         text-align: center;
     }   

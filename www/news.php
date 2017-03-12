@@ -15,6 +15,16 @@
     <?php include "blocks/header.php"; ?>
 </header>
 
+<section class="page-title">
+    <div class="page-title__left-img"></div>
+    <p>Новости</p>
+    <div class="page-title__right-img"></div>
+</section>
+
+<section class="search">
+    <?php include "blocks/search.php"; ?>
+</section>
+
 <section class="news">
     <div class="container news__container">
         <div class="news__item">
@@ -72,7 +82,17 @@
             <a href="#">Читать далее  ></a>
         </div>
     </div>
-    <?php include "blocks/feedback.php"; ?>
+    <section class="news__pagination">
+        <div class="container">
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">></a>
+        </div>
+    </section>
+    <section class="feedback">
+        <?php include "blocks/feedback.php"; ?>
+    </section>
     <?php include "blocks/services.php"; ?>
 </section>
 

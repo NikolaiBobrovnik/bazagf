@@ -52,6 +52,7 @@
 </section>
 
 <?php include "blocks/footer.php"; ?>
+
 <?php include "blocks/forms.php"; ?>
 <?php include "blocks/scripts.php"; ?>
 </body>
