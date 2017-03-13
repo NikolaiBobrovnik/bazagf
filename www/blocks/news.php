@@ -1,6 +1,6 @@
 <div class="container">
     <h2 class="section-title news__title title-border">Последние новости</h2>
-    <div class="news__blocks">
+    <div class="news__blocks cols">
         <div class="news__block four-col">
             <div class="news__block__image"><img src="img/news1.png" alt="Зачем нужна оценка облигаций"></div>
             <h4 class="news__block__title">Зачем нужна оценка облигаций</h4>
@@ -21,6 +21,6 @@
         </div>
     </div>
     <div class="news__bottom">
-        <a href="#" class="button">все новости</a>
+        <a href="news.php" class="button">все новости</a>
     </div>
 </div>
