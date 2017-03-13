@@ -250,11 +250,13 @@ $blue: #62a3da;
 // section.filters //
 
 .filters{
-    margin-bottom: 40px;
+    background: url(../img/background.png) 50% 25% no-repeat;
+    padding-bottom: 40px;
     &__block{
         position: relative;
     }
     &__select{
+        background-color: #fff;
         cursor: pointer;
         margin-bottom: 20px; 
         width: 370px;
@@ -343,6 +345,8 @@ $blue: #62a3da;
 
 // section.aboutus //
 .aboutus{
+    padding-bottom: 60px;
+    background: url(../img/background.png) 45% -83% no-repeat;
     &__content{
         margin-bottom: 60px;
         &__image{
@@ -387,7 +391,6 @@ $blue: #62a3da;
 
 // section.feedback //
 .feedback{
-    margin-top: 60px;
     height: 100px;
     background: url(../img/feedback.png) no-repeat;
     background-size: cover;
@@ -412,7 +415,8 @@ $blue: #62a3da;
 
 // section.services //
 .services{
-    margin-top: 60px;
+    background: url(../img/background.png) 44% 194% no-repeat;
+    padding-top: 60px;
     &__blocks{
         margin-bottom: 60px;
     }
@@ -422,6 +426,7 @@ $blue: #62a3da;
         width: 370px;
         height: 390px;
         border: 1px solid #dfe0e3;
+        background-color: #fff;
         &:hover &__title{
             background-color: $blue;
             color: #fff;
