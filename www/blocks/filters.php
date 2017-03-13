@@ -251,11 +251,11 @@
             <span class="filters__select__button"></span>
         </div>
         <div class="filters__container">
-            <ul class="filters__list">
-                <li><a href="">от 10000 до 100 000</a></li>
-                <li><a href="">от 100 000 до 500 000</a></li>
-                <li><a href="">от 500 000 до 1 500 000</a></li>
-                <li><a href="">от 1 500 000 и выше</a></li>
+            <ul class="filters__container__list">
+                <li><a href="#">от 10000 до 100 000</a></li>
+                <li><a href="#">от 100 000 до 500 000</a></li>
+                <li><a href="#">от 500 000 до 1 500 000</a></li>
+                <li><a href="#">от 1 500 000 и выше</a></li>
             </ul>
             <div class="filters__container__bottom">
                 <a href="#" class="select_all">Выбрать все</a>
@@ -269,19 +269,19 @@
             <span class="filters__select__title">Вид деятельности</span>
             <span class="filters__select__button"></span>
         </div>
-        <div class="filters__container">
-            <div class="filters__input">
+        <div class="filters__container"">                              <!-- style="display: block -->
+            <div class="filters__container__input">
                 <input type="text" name="name" placeholder="Введите поисковой запрос">
             </div>
-            <ul class="filters__list">
+            <ul class="filters__container__list">
                 <li><a href="">01 -Растениеводство</a></li>
-                <li><a href="">ВТБ 24</a></li>
-                <li><a href="">ООО 'Экспонат'</a></li>
-                <li><a href="">Райффайзен</a></li>
-                <li><a href="">Межрегиональный почтовый банк</a></li>
-                <li><a href="">Сбербанк</a></li>
-                <li><a href="">Альфа__банк</a></li>
-                <li><a href="">БинБанк</a></li>
+                <li><a href="">02 - Лесоводство и лесозаготовки</a></li>
+                <li><a href="">03 - Рыболовство и рыбоводство</a></li>
+                <li><a href="">05 - Добыча угля</a></li>
+                <li><a href="">06 - Добыча сырой нефти и прирогдного газа</a></li>
+                <li><a href="">07 - Добыча металлических руд</a></li>
+                <li><a href="">08 - Добыча прочих полезных ископаемых</a></li>
+                <li><a href="">10 - Производство пищевых продуктов</a></li>
             </ul>
             <div class="filters__container__bottom">
                 <a href="#" class="select_all">Выбрать все</a>
@@ -304,7 +304,7 @@
             <span class="filters__select__button"></span>
         </div>
         <div class="filters__container">
-            <ul class="filters__list">
+            <ul class="filters__container__list">
                 <li><p class="list__title">Коммерческие организации</p></li>
                 <li><a href="">ООО</a></li>
                 <li><a href="">ООО МКК</a></li>
@@ -453,4 +453,4 @@
     </div>
 </div>
 
-<div class="filters__bottom"><a href="#" class="button">Показать</a></div>
+<div class="filters__show-button"><a href="#" class="button">Показать</a></div>
