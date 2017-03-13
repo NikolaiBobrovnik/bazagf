@@ -12,16 +12,21 @@
 <body>
 
 <header>
-    <div class="container">
-    </div>
+    <?php include "blocks/header.php"; ?>
 </header>
+
+<section class="page-title">
+    <div class="page-title__left-img"></div>
+    <p>Продать</p>
+    <div class="page-title__right-img"></div>
+</section>
 
 <section class="sell">
     <div class="container">
-        <h2>Анкета на размещение компании в базе готовых фирм</h2>
-        <p>Уважаемые посетители!<br>Заполняйте анкету согласно примерам и вносите максимально полную информацию о продаваемой компании.</p>
-        <form action="send.php">
-            <div class="sell-form__left">
+        <div class="sell__header"><span><h2>Анкета на размещение компании в базе готовых фирм</h2>
+        <p>Уважаемые посетители!<br>Заполняйте анкету согласно примерам и вносите максимально полную информацию о продаваемой компании.</p></span></div>
+        <form action="send.php" class="sell__form">
+            <div class="sell__form__col">
                 <input type="text" placeholder="Ваше имя" required><br>
                 <input type="tel" placeholder="Номер телефона" required><br>
                 <input type="email" placeholder="E-mail" required><br>
@@ -35,7 +40,7 @@
                 <input type="text" placeholder="Баланс" required>
                 <input type="text" placeholder="Желаемая сумма продажи" required>
             </div>
-            <div class="sell-form__right">
+            <div class="sell__form__col">
                 <input type="text" placeholder="Полное наименование организации">
                 <input type="text" placeholder="Дата регистрации компании (год создания)">
                 <input type="text" placeholder="Форма собственности" required>
@@ -52,13 +57,17 @@
                 <input type="text" placeholder="Обороты компании (в месяц, в год)">
                 <input type="text" placeholder="Сдача отчетности (нужно-не нужно)">
             </div>
-            <input type="send">
+            <section class="sell__form__send">
+                <button class="button" type="send">Отправить</button>
+            </section>
         </form>
     </div>
-    <?php include "blocks/feedback.php"; ?>
-    <?php include "blocks/services.php"; ?>
 </section>
 
+<section class="feedback">
+    <?php include "blocks/feedback.php"; ?>
+</section>
+<?php include "blocks/services.php"; ?>
 <footer>
     <?php include "blocks/footer.php"; ?>
 </footer>

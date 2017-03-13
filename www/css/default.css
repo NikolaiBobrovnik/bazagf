@@ -550,11 +550,49 @@ select, input, textarea {
   .footer__agency {
     display: flex;
     align-items: center; }
-  .footer__agency p {
-    margin-left: 10px; }
+    .footer__agency p {
+      margin-left: 10px; }
   .footer__menu li {
     display: inline-block;
     margin-left: 60px; }
+
+.sell__header {
+  padding: 0px 100px;
+  margin-top: 20px; }
+  .sell__header h2 {
+    font-size: 18px;
+    font-family: 'OpenSansBold';
+    color: #363636; }
+  .sell__header span {
+    border-left: 3px solid #eff0f2;
+    display: block;
+    padding: 15px 20px 10px 20px; }
+  .sell__header p {
+    font-size: 12px;
+    color: #989898;
+    margin-top: 10px; }
+.sell__form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 30px; }
+  .sell__form__send {
+    text-align: center; }
+    .sell__form__send button {
+      background: #62a3da;
+      border: none;
+      color: #fff; }
+      .sell__form__send button :hover {
+        border: none; }
+.sell__form__col {
+  display: flex;
+  flex-direction: column;
+  width: calc(50% - 15px); }
+  .sell__form__col input {
+    margin-bottom: 30px;
+    padding: 13px 20px;
+    border: 1px solid #dfe0e3; }
 
 .popup {
   display: none;
