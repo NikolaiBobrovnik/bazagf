@@ -11,58 +11,23 @@
 
 <body>
 
-<header>
-    <div class="container">
-        <div class="header-top">
-            <div class="date">
-                <span class="date-day">Среда , 8 Февраля 2017</span>
-            </div>
-            <div class="tel">
-                <a href="tel:+74957232832">+7 (495) 723 28 32</a>
-                <a href="tel:+79255327714">+7 (925) 532 77 14</a>
-            </div>
-            <div class="email">
-                <a href="mailto:info@bazagf.ru"></a>
-            </div>
-            <div class="social">
-                <a href="#" class="social-facebook" title="Facebook"></a>
-                <a href="#" class="social-vk" title="VK"></a>
-                <a href="#" class="social-ok" title="ok"></a>
-                <a href="#" class="social-linkedIn" title="LinkedIn"></a>
-                <a href="#" class="social-youtube" title="Youtube"></a>
-            </div>
-        </div>
-        <div class="header-middle">
-            <div class="logo">
-                <a href="/"><img src="img/logo.xxx" alt="Логотип" title="База ГФ"></a>
-            </div>
-            <div class="banner-one">
-                <a href="#"><img src="img/banner1" alt="Баннер1" title=""></a>
-            </div>
-            <div class="banner-two">
-                <a href="#"><img src="img/banner1" alt="Баннер2" title=""></a>
-            </div>
-        </div>
-        <div class="header-nav">
-            <ul class="header-list">
-                <li><a href="#" class="header-item">о нас</a></li>
-                <li><a href="#" class="header-item">купить</a></li>
-                <li><a href="#" class="header-item">продать</a></li>
-                <li><a href="#" class="header-item">новости</a></li>
-                <li><a href="#" class="header-item">контакты</a></li>
-            </ul>
-        </div>
-    </div>
+<header class="header">
+    <?php include "blocks/header.php"; ?>
 </header>
 
-<section class="404">
-    <div class="container">
-       <div><h1>404</h1></div>
-       <div><h2>Страница</h2> <h3>не найдена</h3> Простите, но запрашиваемая страница не найдена или не существует. Перейдите на главную, или воспользуйтесь поиском.</div>
-       <form action="send.php">
-           <input type="search" placeholder="Введите поисковый запрос. Например: Дальневосточное Морское Проектирование">
-       </form>
+<section class="page-404">
+    <div class="container page-404__container">
+        <div class="page-404__left"><h1>404</h1></div>
+        <div class="page-404__right"><h2>Страница</h2><br><br><h3>не найдена</h3> <p>Простите, но запрашиваемая страница не найдена или не существует. Перейдите на главную, или воспользуйтесь поиском.</p></div>
     </div>
+</section>
+
+<section class="search search__404">
+    <?php include "blocks/search.php"; ?>
+</section>
+
+<section class="feedback">
+    <?php include "blocks/feedback.php"; ?>
 </section>
 
 <footer>

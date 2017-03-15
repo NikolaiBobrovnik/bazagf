@@ -295,20 +295,17 @@ select, input, textarea {
     font-size: 30px;
     text-transform: uppercase;
     font-weight: normal; }
-
 .post__container {
   margin: 0 auto;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center; }
-
 .post__content__text {
   margin-bottom: 30px;
   font-size: 14px; }
   .post__content__text > * {
     margin-top: 20px; }
-
 .post__bottom {
   border-top: 1px solid #dfe0e3;
   padding-top: 14px;
@@ -577,7 +574,6 @@ select, input, textarea {
   flex-flow: row wrap;
   display: flex;
   justify-content: space-between; }
-
 .news__item {
   width: 370px;
   display: flex;
@@ -680,6 +676,70 @@ select, input, textarea {
     padding: 13px 20px;
     border: 1px solid #dfe0e3; }
 
+.popup-contactus {
+  width: 530px; }
+
+.page-title {
+  background: linear-gradient(to right, #61a3da 30%, #513372 70%);
+  text-align: center;
+  margin-top: 30px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .page-title p {
+    font-size: 30px;
+    color: #fff;
+    padding: 35px 0px;
+    text-transform: uppercase;
+    position: absolute; }
+  .page-title__left-img {
+    background: url(../img/page-header-left.png) no-repeat;
+    height: 100%;
+    width: 50%;
+    background-position: left center; }
+  .page-title__right-img {
+    background: url(../img/page-header-right.png) no-repeat;
+    height: 100%;
+    width: 50%;
+    background-position: right center; }
+
+.pop-up-title {
+  height: 60px; }
+
+.page-404 {
+  margin-top: 130px; }
+  .page-404__container {
+    display: flex;
+    justify-content: center;
+    color: #596da8;
+    flex-wrap: nowrap;
+    align-items: center;
+    font-family: 'OpenSansBold'; }
+  .page-404__left {
+    display: flex;
+    width: calc(50% - 30px); }
+    .page-404__left h1 {
+      font-size: 320px; }
+  .page-404__right {
+    display: flex;
+    width: calc(50% - 30px);
+    margin-left: 45px;
+    flex-direction: row;
+    flex-wrap: wrap; }
+    .page-404__right h2 {
+      font-size: 100px; }
+    .page-404__right h3 {
+      font-size: 72px; }
+    .page-404__right p {
+      margin-top: 20px;
+      font-size: 15px; }
+
+.search__404 {
+  background: #fff;
+  margin-bottom: 150px;
+  margin-top: 0px; }
+
 .popup {
   display: none;
   width: 350px;
@@ -688,11 +748,11 @@ select, input, textarea {
 @media (max-width: 1000px) {
   .container {
     /*width:600px*/ } }
-
 @media (max-width: 649px) {
   .container {
     /*width:400px*/ } }
-
 @media (max-width: 479px) {
   .container {
     /*width:90%*/ } }
+
+/*# sourceMappingURL=default.css.map */

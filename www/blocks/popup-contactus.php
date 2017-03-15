@@ -1,5 +1,9 @@
 <div class="popup__contact-us">
-    <h2>обратная связь</h2>
+    <section class="page-title">
+        <div class="page-title__left-img"></div>
+        <p>Новости</p>
+        <div class="page-title__right-img"></div>
+    </section>
     <form action="send.php">
         <input type="text" name="name" placeholder="Ваше имя или название организации">
         <input type="email" name="email" placeholder="E-mail">
