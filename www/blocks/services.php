@@ -1,7 +1,7 @@
 <div class="container">
   <h2 class="section-title services__title">предоставляемые услуги</h2>
   <div class="services__blocks cols">
-
+  
     <div class="services__block four-col">
       <h4 class="services__block__title">купить и продать</h4>
       <div class="services__block__content">

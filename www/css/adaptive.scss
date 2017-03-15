@@ -44,7 +44,7 @@ $blue: #62a3da;
         .container{width: 750px}
         margin: 0;
         &__button{
-        width: 150px;
+        width: 150px; 
         border: none;
             &:hover{
                 border: none;
@@ -62,10 +62,15 @@ $blue: #62a3da;
     .aboutus__content{
         &__image {width: 100%; height: 340px; overflow: hidden}
         &__text {
-            width: 100%;
+            width: 100%; 
             margin-top: 20px;
         }
         &__text p {text-align: center}
+    }
+    .feedback{
+        height: 230px;
+        &__container{text-align: center; padding: 53px 0}
+        &__text{display: block; margin-bottom: 33px;}
     }
     .services{
         &__block{
@@ -88,7 +93,7 @@ $blue: #62a3da;
 }
 
 
-@media (max-width:766px) {
+@media (max-width:769px) {
     .container {max-width: 450px}
     .header{
         .container{width: 480px}

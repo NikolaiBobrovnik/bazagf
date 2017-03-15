@@ -50,6 +50,10 @@ $blue: #62a3da;
     }
 }
 
+input:focus{
+    border: 1px solid $blue;
+    box-shadow: 0px 0px 4px 0px $blue; 
+}
 
 // section.header //
 .header {
@@ -85,12 +89,12 @@ $blue: #62a3da;
         }
         &__right{
             padding: 9px 0 9px;
+            a:hover{opacity: .7}
         }
     }
     &__bottom{
         position: relative;
         &__logo{padding-top: 30px;}
-        &__banners{}
         &__button-menu{
             display: none;
             position: absolute;
@@ -127,8 +131,6 @@ $blue: #62a3da;
 .menu {
     margin-top: 30px;
     margin-bottom: 30px;
-    &__items{
-    }
     &__button{
         width: 210px;
     }
@@ -138,7 +140,6 @@ $blue: #62a3da;
 .post{
     margin-bottom: 15px;
     &__title{
-        margin-top: 30px;
         margin-bottom: 60px;
         height: 100px;
         background: url(../img/post-title.png) no-repeat;
@@ -230,10 +231,9 @@ $blue: #62a3da;
 .search{
     background-color: #eff0f2;
     height: 100px;
-    margin-bottom: 30px;
     &__form{
         margin-top: 30px;
-        position: relative;
+        position: relative;    
     }
     &__input{
         font-size: 14px;
@@ -242,10 +242,6 @@ $blue: #62a3da;
         border: 1px solid $grey;
         padding-left: 20px;
         padding-right: 40px;
-        &:focus{
-            border: 1px solid $blue;
-            box-shadow: 0px 0px 4px 0px $blue; 
-        }
     }
     &__button{
         border: 0;
@@ -262,10 +258,10 @@ $blue: #62a3da;
 
 .filters{
     background: url(../img/background.png) 50% 25% no-repeat;
-    padding-bottom: 40px;
+    padding:30px 0 40px;
     &__block{
         position: relative;
-        margin-bottom: 20px;
+        margin-bottom: 20px; 
     }
     &__select{
         background-color: #fff;
@@ -274,6 +270,7 @@ $blue: #62a3da;
         height: 40px;
         border: 1px solid $grey;
         padding: 9px 9px 9px 20px;
+        &:hover ~ .filters__container {display: block}          //Временно
         &__title{
             font-size: 14px;
         }
@@ -284,7 +281,7 @@ $blue: #62a3da;
             right: 9px;
             top: 10px;
             background: url(../img/filters-button.png) no-repeat;
-        }
+        } 
     }
     &__container{                   //по умолчанию скрыт
         position: absolute;
@@ -292,12 +289,14 @@ $blue: #62a3da;
         left: 0px;
         display: none;
         width: 370px;     
-        margin-top: -1px;           //скрытие верхней границы спичка
-        border: 1px solid $grey;
+        margin-top: -1px;           //скрытие верхней границы спиcка
+        border: 1px solid #d5daea;
         background-color: #fff;
         z-index: 99;
         font-size: 14px;
         padding-bottom: 40px;
+        box-shadow: 0px 10px 15px 0px $grey;
+        &:hover {display: block}
         &__input{
             padding: 19px;
             border-bottom: 1px solid $grey;
@@ -418,14 +417,14 @@ $blue: #62a3da;
 
 // section.feedback //
 .feedback{
-    height: 100px;
+    min-height: 100px;
     background: url(../img/feedback.png) no-repeat;
     background-size: cover;
     &__container{
         width: 750px;
         margin: 0 auto;
         height: 100%;
-        padding: 30px 0;
+        padding: 29px 0;
     }
     &__text{
         color: #fff;
@@ -449,7 +448,7 @@ $blue: #62a3da;
         &>*{text-align: left} //убрать наследование justify от .cols
         position: relative;
         width: 370px;
-        height: 390px;
+        min-height: 390px;
         border: 1px solid #dfe0e3;
         background-color: #fff;
         &:hover &__title{
@@ -467,7 +466,7 @@ $blue: #62a3da;
             text-align: center;
         }
         &__content{
-            padding: 30px 30px 0 30px;
+            padding: 30px 30px 90px 30px;
             font-size: 14px;
             a{
                 color: $blue;
