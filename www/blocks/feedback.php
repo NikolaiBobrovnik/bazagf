@@ -1,4 +1,4 @@
-<div class="feedback__container"> <!-- justify-content:center -->
-    <p class="feedback__text">Мы всегда рады услышать вас</p>
-    <a href="#" class="button button_border button_white feedback__button">Обратная связь</a>
+<div class="feedback__container cols"> <!-- justify-content:center -->
+    <span class="feedback__text">Мы всегда рады услышать вас</span>
+    <a href="#" class="button feedback__button">Обратная связь</a>
 </div>

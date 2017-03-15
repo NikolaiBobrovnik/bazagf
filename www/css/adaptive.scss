@@ -15,3 +15,89 @@
   .container {/*width:90%*/}
 }
 // Адаптивная верстка //
+
+
+
+
+
+$blue: #62a3da;
+@media (max-width:1230px) {
+    .container {width: 655px}
+    .header {
+        .container{width: 750px}
+        height: 160px;
+        &__social {display: none}
+        &__top{
+            &__left__item__border:after {display: none}
+            &__left__item+&__left__item{margin-left: 30px}
+            .cols {text-align: center}
+        }
+        &__bottom{
+            text-align: center;
+            &__logo {padding-top: 15px}
+            &__banners {display: none}
+            &__button-menu {display: block}
+            &__button-search {display: block}
+        }
+    }
+    .menu{
+        .container{width: 750px}
+        margin: 0;
+        &__button{
+        width: 150px; 
+        border: none;
+            &:hover{
+                border: none;
+                border-bottom: 5px solid $blue;
+                background: #fff;
+                box-shadow: none;
+                color: $blue;
+            }
+        }
+    }
+    .filters{
+        &__block {width: 100%;}
+        &__select {width: 100%;}
+    }
+    .aboutus__content{
+        &__image {width: 100%; height: 340px; overflow: hidden}
+        &__text {
+            width: 100%; 
+            margin-top: 20px;
+        }
+        &__text p {text-align: center}
+    }
+    .services{
+        &__block{
+            &__content {text-align: center;}
+            width: 100%;
+            &+&{margin-top: 30px}
+        }
+    }
+    .news{
+        &__block{
+            width: 100%;
+            &+&{margin-top: 30px}
+            img{height: 250px}
+            &__image{
+                height: 250px;
+                overflow: hidden;
+            }
+        }
+    }
+}
+
+
+@media (max-width:766px) {
+    .container {max-width: 450px}
+    .header{
+        .container{width: 480px}
+        .header__top__left__item:not(:first-child){display: none}
+    }
+    .header{
+        &__top{
+            .container{width: 480px}
+        }
+    }
+    .menu{display: none}
+}

@@ -1,239 +1,239 @@
 <div class="container cols">
 
 
-    <div class="filters__block">
+    <div class="filters__block ">
         <div class="filters__select">
             <span class="filters__select__title">Год создания</span>
             <span class="filters__select__button"></span>
         </div>
         <div class="filters__container">
-            <ul class="filters__list">
+            <ul class="filters__container__list">
                 <li><p class="list__title">Год</p></li>
                 <li>
                     <a href="#" class="list__item">2017</a>
-                    <ul>
+                    <ul class="year">
                         <li><p class="list__title">Месяц</p></li>
-                        <li><a href="#"></a>Январь</li>
-                        <li><a href="#"></a>Февраль</li>
-                        <li><a href="#"></a>Март</li>
-                        <li><a href="#"></a>Апрель</li>
-                        <li><a href="#"></a>Май</li>
-                        <li><a href="#"></a>Июнь</li>
-                        <li><a href="#"></a>Июль</li>
-                        <li><a href="#"></a>Август</li>
-                        <li><a href="#"></a>Сентябрь</li>
-                        <li><a href="#"></a>Октябрь</li>
-                        <li><a href="#"></a>Ноябрь</li>
-                        <li><a href="#"></a>Декабрь</li>
+                        <li><a href="#">Январь</a></li>
+                        <li><a href="#">Февраль</a></li>
+                        <li><a href="#">Март</a></li>
+                        <li><a href="#">Апрель</a></li>
+                        <li><a href="#">Май</a></li>
+                        <li><a href="#">Июнь</a></li>
+                        <li><a href="#">Июль</a></li>
+                        <li><a href="#">Август</a></li>
+                        <li><a href="#">Сентябрь</a></li>
+                        <li><a href="#">Октябрь</a></li>
+                        <li><a href="#">Ноябрь</a></li>
+                        <li><a href="#">Декабрь</a></li>
                     </ul>
                 </li>
 
                 <li>
                     <a href="#" class="list__item">2016</a>
-                    <ul>
+                    <ul class="year">
                         <li><p class="list__title">Месяц</p></li>
-                        <li><a href="#"></a>Январь</li>
-                        <li><a href="#"></a>Февраль</li>
-                        <li><a href="#"></a>Март</li>
-                        <li><a href="#"></a>Апрель</li>
-                        <li><a href="#"></a>Май</li>
-                        <li><a href="#"></a>Июнь</li>
-                        <li><a href="#"></a>Июль</li>
-                        <li><a href="#"></a>Август</li>
-                        <li><a href="#"></a>Сентябрь</li>
-                        <li><a href="#"></a>Октябрь</li>
-                        <li><a href="#"></a>Ноябрь</li>
-                        <li><a href="#"></a>Декабрь</li>
+                        <li><a href="#">Январь</a></li>
+                        <li><a href="#">Февраль</a></li>
+                        <li><a href="#">Март</a></li>
+                        <li><a href="#">Апрель</a></li>
+                        <li><a href="#">Май</a></li>
+                        <li><a href="#">Июнь</a></li>
+                        <li><a href="#">Июль</a></li>
+                        <li><a href="#">Август</a></li>
+                        <li><a href="#">Сентябрь</a></li>
+                        <li><a href="#">Октябрь</a></li>
+                        <li><a href="#">Ноябрь</a></li>
+                        <li><a href="#">Декабрь</a></li>
                     </ul>
                 </li>
 
                 <li>
                     <a href="#" class="list__item">2015</a>
-                    <ul>
+                    <ul class="year">
                         <li><p class="list__title">Месяц</p></li>
-                        <li><a href="#"></a>Январь</li>
-                        <li><a href="#"></a>Февраль</li>
-                        <li><a href="#"></a>Март</li>
-                        <li><a href="#"></a>Апрель</li>
-                        <li><a href="#"></a>Май</li>
-                        <li><a href="#"></a>Июнь</li>
-                        <li><a href="#"></a>Июль</li>
-                        <li><a href="#"></a>Август</li>
-                        <li><a href="#"></a>Сентябрь</li>
-                        <li><a href="#"></a>Октябрь</li>
-                        <li><a href="#"></a>Ноябрь</li>
-                        <li><a href="#"></a>Декабрь</li>
+                        <li><a href="#">Январь</a></li>
+                        <li><a href="#">Февраль</a></li>
+                        <li><a href="#">Март</a></li>
+                        <li><a href="#">Апрель</a></li>
+                        <li><a href="#">Май</a></li>
+                        <li><a href="#">Июнь</a></li>
+                        <li><a href="#">Июль</a></li>
+                        <li><a href="#">Август</a></li>
+                        <li><a href="#">Сентябрь</a></li>
+                        <li><a href="#">Октябрь</a></li>
+                        <li><a href="#">Ноябрь</a></li>
+                        <li><a href="#">Декабрь</a></li>
                     </ul>
                 </li>
 
                 <li>
                     <a href="#" class="list__item">2014</a>
-                    <ul>
+                    <ul class="year">
                         <li><p class="list__title">Месяц</p></li>
-                        <li><a href="#"></a>Январь</li>
-                        <li><a href="#"></a>Февраль</li>
-                        <li><a href="#"></a>Март</li>
-                        <li><a href="#"></a>Апрель</li>
-                        <li><a href="#"></a>Май</li>
-                        <li><a href="#"></a>Июнь</li>
-                        <li><a href="#"></a>Июль</li>
-                        <li><a href="#"></a>Август</li>
-                        <li><a href="#"></a>Сентябрь</li>
-                        <li><a href="#"></a>Октябрь</li>
-                        <li><a href="#"></a>Ноябрь</li>
-                        <li><a href="#"></a>Декабрь</li>
+                        <li><a href="#">Январь</a></li>
+                        <li><a href="#">Февраль</a></li>
+                        <li><a href="#">Март</a></li>
+                        <li><a href="#">Апрель</a></li>
+                        <li><a href="#">Май</a></li>
+                        <li><a href="#">Июнь</a></li>
+                        <li><a href="#">Июль</a></li>
+                        <li><a href="#">Август</a></li>
+                        <li><a href="#">Сентябрь</a></li>
+                        <li><a href="#">Октябрь</a></li>
+                        <li><a href="#">Ноябрь</a></li>
+                        <li><a href="#">Декабрь</a></li>
                     </ul>
                 </li>
 
                 <li>
                     <a href="#" class="list__item">2013</a>
-                    <ul>
+                    <ul class="year">
                         <li><p class="list__title">Месяц</p></li>
-                        <li><a href="#"></a>Январь</li>
-                        <li><a href="#"></a>Февраль</li>
-                        <li><a href="#"></a>Март</li>
-                        <li><a href="#"></a>Апрель</li>
-                        <li><a href="#"></a>Май</li>
-                        <li><a href="#"></a>Июнь</li>
-                        <li><a href="#"></a>Июль</li>
-                        <li><a href="#"></a>Август</li>
-                        <li><a href="#"></a>Сентябрь</li>
-                        <li><a href="#"></a>Октябрь</li>
-                        <li><a href="#"></a>Ноябрь</li>
-                        <li><a href="#"></a>Декабрь</li>
+                        <li><a href="#">Январь</a></li>
+                        <li><a href="#">Февраль</a></li>
+                        <li><a href="#">Март</a></li>
+                        <li><a href="#">Апрель</a></li>
+                        <li><a href="#">Май</a></li>
+                        <li><a href="#">Июнь</a></li>
+                        <li><a href="#">Июль</a></li>
+                        <li><a href="#">Август</a></li>
+                        <li><a href="#">Сентябрь</a></li>
+                        <li><a href="#">Октябрь</a></li>
+                        <li><a href="#">Ноябрь</a></li>
+                        <li><a href="#">Декабрь</a></li>
                     </ul>
                 </li>
 
                 <li>
                     <a href="#" class="list__item">2012</a>
-                    <ul>
+                    <ul class="year">
                         <li><p class="list__title">Месяц</p></li>
-                        <li><a href="#"></a>Январь</li>
-                        <li><a href="#"></a>Февраль</li>
-                        <li><a href="#"></a>Март</li>
-                        <li><a href="#"></a>Апрель</li>
-                        <li><a href="#"></a>Май</li>
-                        <li><a href="#"></a>Июнь</li>
-                        <li><a href="#"></a>Июль</li>
-                        <li><a href="#"></a>Август</li>
-                        <li><a href="#"></a>Сентябрь</li>
-                        <li><a href="#"></a>Октябрь</li>
-                        <li><a href="#"></a>Ноябрь</li>
-                        <li><a href="#"></a>Декабрь</li>
+                        <li><a href="#">Январь</a></li>
+                        <li><a href="#">Февраль</a></li>
+                        <li><a href="#">Март</a></li>
+                        <li><a href="#">Апрель</a></li>
+                        <li><a href="#">Май</a></li>
+                        <li><a href="#">Июнь</a></li>
+                        <li><a href="#">Июль</a></li>
+                        <li><a href="#">Август</a></li>
+                        <li><a href="#">Сентябрь</a></li>
+                        <li><a href="#">Октябрь</a></li>
+                        <li><a href="#">Ноябрь</a></li>
+                        <li><a href="#">Декабрь</a></li>
                     </ul>
                 </li>
 
                 <li>
                     <a href="#" class="list__item">2011</a>
-                    <ul>
+                    <ul class="year">
                         <li><p class="list__title">Месяц</p></li>
-                        <li><a href="#"></a>Январь</li>
-                        <li><a href="#"></a>Февраль</li>
-                        <li><a href="#"></a>Март</li>
-                        <li><a href="#"></a>Апрель</li>
-                        <li><a href="#"></a>Май</li>
-                        <li><a href="#"></a>Июнь</li>
-                        <li><a href="#"></a>Июль</li>
-                        <li><a href="#"></a>Август</li>
-                        <li><a href="#"></a>Сентябрь</li>
-                        <li><a href="#"></a>Октябрь</li>
-                        <li><a href="#"></a>Ноябрь</li>
-                        <li><a href="#"></a>Декабрь</li>
+                        <li><a href="#">Январь</a></li>
+                        <li><a href="#">Февраль</a></li>
+                        <li><a href="#">Март</a></li>
+                        <li><a href="#">Апрель</a></li>
+                        <li><a href="#">Май</a></li>
+                        <li><a href="#">Июнь</a></li>
+                        <li><a href="#">Июль</a></li>
+                        <li><a href="#">Август</a></li>
+                        <li><a href="#">Сентябрь</a></li>
+                        <li><a href="#">Октябрь</a></li>
+                        <li><a href="#">Ноябрь</a></li>
+                        <li><a href="#">Декабрь</a></li>
                     </ul>
                 </li>
 
                 <li>
                     <a href="#" class="list__item">2010</a>
-                    <ul>
+                    <ul class="year">
                         <li><p class="list__title">Месяц</p></li>
-                        <li><a href="#"></a>Январь</li>
-                        <li><a href="#"></a>Февраль</li>
-                        <li><a href="#"></a>Март</li>
-                        <li><a href="#"></a>Апрель</li>
-                        <li><a href="#"></a>Май</li>
-                        <li><a href="#"></a>Июнь</li>
-                        <li><a href="#"></a>Июль</li>
-                        <li><a href="#"></a>Август</li>
-                        <li><a href="#"></a>Сентябрь</li>
-                        <li><a href="#"></a>Октябрь</li>
-                        <li><a href="#"></a>Ноябрь</li>
-                        <li><a href="#"></a>Декабрь</li>
+                        <li><a href="#">Январь</a></li>
+                        <li><a href="#">Февраль</a></li>
+                        <li><a href="#">Март</a></li>
+                        <li><a href="#">Апрель</a></li>
+                        <li><a href="#">Май</a></li>
+                        <li><a href="#">Июнь</a></li>
+                        <li><a href="#">Июль</a></li>
+                        <li><a href="#">Август</a></li>
+                        <li><a href="#">Сентябрь</a></li>
+                        <li><a href="#">Октябрь</a></li>
+                        <li><a href="#">Ноябрь</a></li>
+                        <li><a href="#">Декабрь</a></li>
                     </ul>
                 </li>
 
                 <li>
                     <a href="#" class="list__item">2009</a>
-                    <ul>
+                    <ul class="year">
                         <li><p class="list__title">Месяц</p></li>
-                        <li><a href="#"></a>Январь</li>
-                        <li><a href="#"></a>Февраль</li>
-                        <li><a href="#"></a>Март</li>
-                        <li><a href="#"></a>Апрель</li>
-                        <li><a href="#"></a>Май</li>
-                        <li><a href="#"></a>Июнь</li>
-                        <li><a href="#"></a>Июль</li>
-                        <li><a href="#"></a>Август</li>
-                        <li><a href="#"></a>Сентябрь</li>
-                        <li><a href="#"></a>Октябрь</li>
-                        <li><a href="#"></a>Ноябрь</li>
-                        <li><a href="#"></a>Декабрь</li>
+                        <li><a href="#">Январь</a></li>
+                        <li><a href="#">Февраль</a></li>
+                        <li><a href="#">Март</a></li>
+                        <li><a href="#">Апрель</a></li>
+                        <li><a href="#">Май</a></li>
+                        <li><a href="#">Июнь</a></li>
+                        <li><a href="#">Июль</a></li>
+                        <li><a href="#">Август</a></li>
+                        <li><a href="#">Сентябрь</a></li>
+                        <li><a href="#">Октябрь</a></li>
+                        <li><a href="#">Ноябрь</a></li>
+                        <li><a href="#">Декабрь</a></li>
                     </ul>
                 </li>
 
                 <li>
                     <a href="#" class="list__item">2008</a>
-                    <ul>
+                    <ul class="year">
                         <li><p class="list__title">Месяц</p></li>
-                        <li><a href="#"></a>Январь</li>
-                        <li><a href="#"></a>Февраль</li>
-                        <li><a href="#"></a>Март</li>
-                        <li><a href="#"></a>Апрель</li>
-                        <li><a href="#"></a>Май</li>
-                        <li><a href="#"></a>Июнь</li>
-                        <li><a href="#"></a>Июль</li>
-                        <li><a href="#"></a>Август</li>
-                        <li><a href="#"></a>Сентябрь</li>
-                        <li><a href="#"></a>Октябрь</li>
-                        <li><a href="#"></a>Ноябрь</li>
-                        <li><a href="#"></a>Декабрь</li>
+                        <li><a href="#">Январь</a></li>
+                        <li><a href="#">Февраль</a></li>
+                        <li><a href="#">Март</a></li>
+                        <li><a href="#">Апрель</a></li>
+                        <li><a href="#">Май</a></li>
+                        <li><a href="#">Июнь</a></li>
+                        <li><a href="#">Июль</a></li>
+                        <li><a href="#">Август</a></li>
+                        <li><a href="#">Сентябрь</a></li>
+                        <li><a href="#">Октябрь</a></li>
+                        <li><a href="#">Ноябрь</a></li>
+                        <li><a href="#">Декабрь</a></li>
                     </ul>
                 </li>
 
                 <li>
                     <a href="#" class="list__item">2007</a>
-                    <ul>
+                    <ul class="year">
                         <li><p class="list__title">Месяц</p></li>
-                        <li><a href="#"></a>Январь</li>
-                        <li><a href="#"></a>Февраль</li>
-                        <li><a href="#"></a>Март</li>
-                        <li><a href="#"></a>Апрель</li>
-                        <li><a href="#"></a>Май</li>
-                        <li><a href="#"></a>Июнь</li>
-                        <li><a href="#"></a>Июль</li>
-                        <li><a href="#"></a>Август</li>
-                        <li><a href="#"></a>Сентябрь</li>
-                        <li><a href="#"></a>Октябрь</li>
-                        <li><a href="#"></a>Ноябрь</li>
-                        <li><a href="#"></a>Декабрь</li>
+                        <li><a href="#">Январь</a></li>
+                        <li><a href="#">Февраль</a></li>
+                        <li><a href="#">Март</a></li>
+                        <li><a href="#">Апрель</a></li>
+                        <li><a href="#">Май</a></li>
+                        <li><a href="#">Июнь</a></li>
+                        <li><a href="#">Июль</a></li>
+                        <li><a href="#">Август</a></li>
+                        <li><a href="#">Сентябрь</a></li>
+                        <li><a href="#">Октябрь</a></li>
+                        <li><a href="#">Ноябрь</a></li>
+                        <li><a href="#">Декабрь</a></li>
                     </ul>
                 </li>
 
                 <li>
                     <a href="#" class="list__item">2006</a>
-                    <ul>
+                    <ul class="year">
                         <li><p class="list__title">Месяц</p></li>
-                        <li><a href="#"></a>Январь</li>
-                        <li><a href="#"></a>Февраль</li>
-                        <li><a href="#"></a>Март</li>
-                        <li><a href="#"></a>Апрель</li>
-                        <li><a href="#"></a>Май</li>
-                        <li><a href="#"></a>Июнь</li>
-                        <li><a href="#"></a>Июль</li>
-                        <li><a href="#"></a>Август</li>
-                        <li><a href="#"></a>Сентябрь</li>
-                        <li><a href="#"></a>Октябрь</li>
-                        <li><a href="#"></a>Ноябрь</li>
-                        <li><a href="#"></a>Декабрь</li>
+                        <li><a href="#">Январь</a></li>
+                        <li><a href="#">Февраль</a></li>
+                        <li><a href="#">Март</a></li>
+                        <li><a href="#">Апрель</a></li>
+                        <li><a href="#">Май</a></li>
+                        <li><a href="#">Июнь</a></li>
+                        <li><a href="#">Июль</a></li>
+                        <li><a href="#">Август</a></li>
+                        <li><a href="#">Сентябрь</a></li>
+                        <li><a href="#">Октябрь</a></li>
+                        <li><a href="#">Ноябрь</a></li>
+                        <li><a href="#">Декабрь</a></li>
                     </ul>
                 </li>
             </ul>
@@ -269,7 +269,7 @@
             <span class="filters__select__title">Вид деятельности</span>
             <span class="filters__select__button"></span>
         </div>
-        <div class="filters__container"">                              <!-- style="display: block -->
+        <div class="filters__container">                              <!-- style="display: block" -->
             <div class="filters__container__input">
                 <input type="text" name="name" placeholder="Введите поисковой запрос">
             </div>
@@ -329,7 +329,7 @@
             <span class="filters__select__button"></span>
         </div>
         <div class="filters__container">
-            <ul class="filters__list">
+            <ul class="filters__container__list">
                 <li><a href="">от 0 до 5000 0000</a></li>
                 <li><a href="">от 5 000 000 до 15 000 000</a></li>
                 <li><a href="">от 15 000 000 до 50 000 000</a></li>
@@ -349,10 +349,10 @@
             <span class="filters__select__button"></span>
         </div>
         <div class="filters__container">
-            <div class="filters__input">
+            <div class="filters__container__input">
                 <input type="text" name="name" placeholder="Введите поисковой запрос">
             </div>
-            <ul class="filters__list">
+            <ul class="filters__container__list">
                 <li><a href="">№ 1 по г. Москве __ Центральный АО</a></li>
                 <li><a href="">№ 2 по г. Москве __ Центральный АО</a></li>
                 <li><a href="">№ 3 по г. Москве __ Центральный АО</a></li>
@@ -374,10 +374,10 @@
             <span class="filters__select__button"></span>
         </div>
         <div class="filters__container">
-            <div class="filters__input">
+            <div class="filters__container__input">
                 <input type="text" name="name" placeholder="Введите поисковой запрос">
             </div>
-            <ul class="filters__list">
+            <ul class="filters__container__list">
                 <li><a href="">Абсолют банк</a></li>
                 <li><a href="">ВТБ 24</a></li>
                 <li><a href="">ООО 'Экспонат'</a></li>
@@ -405,10 +405,10 @@
             <span class="filters__select__button"></span>
         </div>
         <div class="filters__container">
-            <div class="filters__input">
+            <div class="filters__container__input">
                 <input type="text" name="name" placeholder="Введите поисковой запрос">
             </div>
-            <ul class="filters__list">
+            <ul class="filters__container__list">
                 <li><a href="">01 -Растениеводство</a></li>
                 <li><a href="">ВТБ 24</a></li>
                 <li><a href="">ООО 'Экспонат'</a></li>
@@ -433,10 +433,10 @@
             <span class="filters__select__button"></span>
         </div>
         <div class="filters__container">
-            <div class="filters__input">
+            <div class="filters__container__input">
                 <input type="text" name="name" placeholder="Введите поисковой запрос">
             </div>
-            <ul class="filters__list">
+            <ul class="filters__container__list">
                 <li><a href="">01 -Растениеводство</a></li>
                 <li><a href="">ВТБ 24</a></li>
                 <li><a href="">ООО 'Экспонат'</a></li>

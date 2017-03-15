@@ -29,7 +29,7 @@ $blue: #62a3da;
     font-family: 'OpenSansBold';
     text-transform: uppercase;
     font-size: 14px;
-    padding: 8px 0 8px;
+    padding: 9px 0 9px;
     border: 2px solid $grey;
     color: $black;
     &:hover{
@@ -64,13 +64,12 @@ $blue: #62a3da;
             padding: 13px 0;
             &__item{
                 &.cols>*{vertical-align: middle;}
-                &+&{margin-left: 30px;}
+                &+&{margin-left: 60px;}
                 a+a{margin-left: 14px;}
                 img{margin-right: 20px;}
                 a:hover{text-decoration: underline}
                 position: relative;
                 &__border{
-                    padding-right: 30px;
                     &:after{
                         content: "";
                         position: absolute;
@@ -79,7 +78,7 @@ $blue: #62a3da;
                         height: 40px;
                         border-right: 1px solid $grey;
                         top: -9px;
-                        right: 0;
+                        right: -30px;
                     }
                 }
             }
@@ -89,11 +88,26 @@ $blue: #62a3da;
         }
     }
     &__bottom{
-
-        &__logo{
-            padding-top: 30px;
+        position: relative;
+        &__logo{padding-top: 30px;}
+        &__banners{}
+        &__button-menu{
+            display: none;
+            position: absolute;
+            left: 48px;
+            top: 42px;
+            width: 30px;
+            height: 28px;
+            background: url(../img/menu-icon.png) no-repeat;
         }
-        &__banners{
+        &__button-search{
+            display: none;
+            position: absolute;
+            right:48px;
+            top: 42px;
+            width: 30px;
+            height: 30px;
+            background: url(../img/search-icon.png) no-repeat;
         }
     }
     &__banner{
@@ -112,6 +126,7 @@ $blue: #62a3da;
 // section.menu //
 .menu {
     margin-top: 30px;
+    margin-bottom: 30px;
     &__items{
     }
     &__button{
@@ -119,13 +134,14 @@ $blue: #62a3da;
     }
 }
 
-
+// section.post //
 .post{
+    margin-bottom: 15px;
     &__title{
         margin-top: 30px;
         margin-bottom: 60px;
         height: 100px;
-        background: url(../img/feedback.png) right no-repeat;
+        background: url(../img/post-title.png) no-repeat;
         background-size: cover;
         h1{
             color: #fff;
@@ -169,10 +185,8 @@ $blue: #62a3da;
 
 // section.slider //
 .slider{
-    margin-top: 30px;
     max-height: 500px; 
 }
-
 .owl-carousel{
     position: relative;
     &__text{
@@ -189,7 +203,6 @@ $blue: #62a3da;
         margin-top: -5px;
     }
 }
-
 .owl-controls{
     position: absolute;
     width: 85px;
@@ -197,7 +210,6 @@ $blue: #62a3da;
     left: 50%;
     margin-left: -42px;            // выравнивание по центру -(width/2)
 }
-
 .owl-dot{
     width: 15px;
     height: 15px;
@@ -221,8 +233,7 @@ $blue: #62a3da;
     margin-bottom: 30px;
     &__form{
         margin-top: 30px;
-        position: relative;
-        width: 100%;    
+        position: relative;    
     }
     &__input{
         font-size: 14px;
@@ -254,11 +265,11 @@ $blue: #62a3da;
     padding-bottom: 40px;
     &__block{
         position: relative;
+        margin-bottom: 20px; 
     }
     &__select{
         background-color: #fff;
         cursor: pointer;
-        margin-bottom: 20px; 
         width: 370px;
         height: 40px;
         border: 1px solid $grey;
@@ -271,7 +282,7 @@ $blue: #62a3da;
             height: 20px;
             position: absolute;
             right: 9px;
-            top: 9px;
+            top: 10px;
             background: url(../img/filters-button.png) no-repeat;
         }
     }
@@ -286,7 +297,7 @@ $blue: #62a3da;
         background-color: #fff;
         z-index: 99;
         font-size: 14px;
-        padding-bottom: 34px;
+        padding-bottom: 40px;
         &__input{
             padding: 19px;
             border-bottom: 1px solid $grey;
@@ -299,21 +310,36 @@ $blue: #62a3da;
             }
         }
         &__list{
-            padding: 5px 0 18px;
-            max-height: 240px;
-            overflow-y: scroll;
+            max-height: 400px;
+            overflow-y: auto;
             p{
                 font-size: 12px;
                 color: #9e9e9e;
                 padding-left: 18px;
                 padding-top: 10px;
             }
+            li{
+                &:first-child > a {margin-top: 5px}
+                &:last-child > a {margin-bottom: 5px}
+                ul.year{
+                    display: none;
+                    position: absolute;
+                    width:200px;
+                    right: 0;
+                    top:0;
+                    background-color: #fff;
+                    border-left: 1px solid $grey;
+                    z-index:9;
+                    &:hover {display: block};
+                }
+            }
             a{
                 display: block;
-                padding: 5px 0 5px 18px;
+                padding: 4px 0 4px 18px;
                 &:hover{
                     background-color: $blue;
                     color: #fff;
+                    & ~ .year, {display: block}
                 }
             }
         }
@@ -356,6 +382,7 @@ $blue: #62a3da;
         }
         &__text{
             p{
+                text-align: left;
                 font-size: 14px;
                 line-height: 1.76;
                 &:first-child{
@@ -395,12 +422,10 @@ $blue: #62a3da;
     background: url(../img/feedback.png) no-repeat;
     background-size: cover;
     &__container{
-        width: 770px;
+        width: 750px;
         margin: 0 auto;
         height: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        padding: 30px 0;
     }
     &__text{
         color: #fff;
