@@ -32,5 +32,7 @@
           <div class="header__banner__image"><img src="img/banner2.png" alt="Баннер2" title="Баннер2"></div>
         </a>
       </div>
+      <a href="#" class="header__bottom__button-menu"></a>
+      <a href="#" class="header__bottom__button-search"></a>
     </div>
 </div>
