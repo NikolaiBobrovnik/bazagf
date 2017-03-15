@@ -231,6 +231,11 @@ select, input, textarea {
   margin-left: 10px; }
   .social-media li:first-child {
     margin-left: 0; }
+  .social-media li a {
+    opacity: 0.7;
+    transition: all .25s ease-in-out; }
+    .social-media li a:hover {
+      opacity: 1; }
 
 .header {
   height: 190px;
@@ -628,6 +633,8 @@ select, input, textarea {
   .footer__topcol {
     width: 45%;
     width: calc(50% - 15px); }
+  .footer__map {
+    height: 240px; }
   .footer__contacts {
     margin-top: 25px; }
     .footer__contacts li {
@@ -643,10 +650,10 @@ select, input, textarea {
     width: 100%;
     padding: 13px 20px; }
   .footer__form textarea {
-    height: 150px; }
+    height: 150px;
+    resize: none; }
   .footer__form button[type="submit"] {
     background: #62a3da;
-    padding: 15px 42px;
     border: none;
     color: #fff; }
   .footer__bottom {
