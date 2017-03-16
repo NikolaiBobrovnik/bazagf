@@ -4,7 +4,7 @@ $black: #363636;
 $grey: #dfe0e3;
 $blue: #62a3da;
 
-@mixin hover{
+@mixin hover {
     opacity: 1;
     transition:all .25s ease-in-out;
     &:hover{
@@ -605,7 +605,12 @@ input:focus{
             background: $blue;
             border: none;
             color: #fff;
+            @include hover
         }
+    }
+
+    a{
+        @include hover;
     }
 
     &__bottom{
@@ -637,6 +642,9 @@ input:focus{
     &__menu li{
         display: inline-block;
         margin-left: 60px;
+        a{
+            font-size: 14px;
+        }
     }
 }
 
@@ -737,6 +745,7 @@ input:focus{
 
 .page-404{
     margin-top: 130px;
+    background: url(../img/background.png) 45% 10% no-repeat;
     &__container{
         display: flex;
         justify-content: center;
@@ -773,9 +782,15 @@ input:focus{
 }
 
 .search__404{
-    background: #fff;
+    background: transparent;
     margin-bottom: 150px;
     margin-top: 0px;
+}
+
+.bg__404{
+    background: url(../img/bg.png)no-repeat;
+    background-size: contain;
+    background-position: bottom;
 }
 
 

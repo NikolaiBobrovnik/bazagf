@@ -34,15 +34,15 @@
     <div class="footer__bottomcol">
       <p class="footer__copyright">BazaGF &copy; 2017</p>
       <div class="footer__agency">
-        <img src="img/bureau-footer.png" alt="@@">
+        <a href="//bureau.agency" target="_blank"><img src="img/bureau-footer.png" alt="@@"></a>
         <p>Сделало это сайт<br>в 2017м году</p>
       </div>
     </div>
     <ul class="footer__menu">
-      <li><p><a href="#">Главная</a></p></li>
-      <li><p><a href="#">О нас</a></p></li>
-      <li><p><a href="#">Купить</a></p></li>
-      <li><p><a href="#">Продать</a></p></li>
+      <li><a href="#">Главная</a></li>
+      <li><a href="#">О нас</a></li>
+      <li><a href="#">Купить</a></li>
+      <li><a href="#">Продать</a></li>
     </ul>
   </div>
 </div>

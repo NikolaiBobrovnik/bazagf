@@ -661,7 +661,16 @@ input:focus {
   .footer__form button[type="submit"] {
     background: #62a3da;
     border: none;
-    color: #fff; }
+    color: #fff;
+    opacity: 1;
+    transition: all .25s ease-in-out; }
+    .footer__form button[type="submit"]:hover {
+      opacity: 0.7; }
+  .footer a {
+    opacity: 1;
+    transition: all .25s ease-in-out; }
+    .footer a:hover {
+      opacity: 0.7; }
   .footer__bottom {
     background: #252526;
     margin-top: 60px;
@@ -682,6 +691,8 @@ input:focus {
   .footer__menu li {
     display: inline-block;
     margin-left: 60px; }
+    .footer__menu li a {
+      font-size: 14px; }
 
 .sell__header {
   padding: 0px 100px;
@@ -753,7 +764,8 @@ input:focus {
   height: 60px; }
 
 .page-404 {
-  margin-top: 130px; }
+  margin-top: 130px;
+  background: url(../img/background.png) 45% 10% no-repeat; }
   .page-404__container {
     display: flex;
     justify-content: center;
@@ -781,9 +793,14 @@ input:focus {
       font-size: 15px; }
 
 .search__404 {
-  background: #fff;
+  background: transparent;
   margin-bottom: 150px;
   margin-top: 0px; }
+
+.bg__404 {
+  background: url(../img/bg.png) no-repeat;
+  background-size: contain;
+  background-position: bottom; }
 
 .popup {
   display: none;
