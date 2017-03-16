@@ -87,7 +87,52 @@
       height: 250px; }
     .news__block__image {
       height: 250px;
-      overflow: hidden; } }
+      overflow: hidden; }
+
+  .page-404 {
+    background: none; }
+    .page-404__container {
+      flex-direction: column;
+      align-items: flex-start;
+      color: #61a2da;
+      text-align: center; }
+    .page-404__left, .page-404__right {
+      justify-content: center;
+      width: 100%; }
+      .page-404__left h1, .page-404__left h2, .page-404__right h1, .page-404__right h2 {
+        text-align: center; }
+      .page-404__left h2, .page-404__right h2 {
+        font-size: 57px;
+        display: inline-block; }
+        .page-404__left h2 span, .page-404__right h2 span {
+          font-size: 57px;
+          display: inline-block; }
+    .page-404__right {
+      margin: 0; }
+
+  .footer__container {
+    justify-content: center;
+    flex-direction: column; }
+  .footer__topcol {
+    width: 100%;
+    justify-content: center; }
+    .footer__topcol__right {
+      margin-top: 35px;
+      text-align: center; }
+  .footer__map {
+    overflow: hidden; }
+    .footer__map img {
+      width: 100%; }
+  .footer__social {
+    text-align: center; }
+  .footer__bottom {
+    padding: 60px 0; }
+  .footer__menu {
+    display: none; }
+  .footer__bottomcol {
+    width: 100%;
+    justify-content: center;
+    flex-direction: column; } }
 @media (max-width: 769px) {
   .container {
     max-width: 450px; }
@@ -101,6 +146,17 @@
     width: 480px; }
 
   .menu {
-    display: none; } }
+    display: none; }
+
+  .page-404__left h1, .page-404__left h2, .page-404__right h1, .page-404__right h2 {
+    text-align: center; }
+  .page-404__left h1, .page-404__right h1 {
+    font-size: 200px; }
+  .page-404__left h2, .page-404__right h2 {
+    font-size: 57px;
+    display: inline-block; }
+    .page-404__left h2 span, .page-404__right h2 span {
+      font-size: 57px;
+      display: inline-block; } }
 
 /*# sourceMappingURL=adaptive.css.map */

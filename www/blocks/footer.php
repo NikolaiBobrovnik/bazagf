@@ -18,7 +18,7 @@
         <li><a href="#"><img src="img/youtube.png" alt="@@"></a></li>
       </ul>
     </div>
-    <div class="footer__topcol">
+    <div class="footer__topcol footer__topcol__right">
       <form action="send.php" method="post" class="footer__form">
           <input type="name" name="name" placeholder="Ваше имя или название организации"><br>
           <input type="email" name="email" placeholder="E-mail"><br>

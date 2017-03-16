@@ -22,8 +22,8 @@
 <div class="bg__404">
     <section class="page-404">
         <div class="container page-404__container">
-            <div class="page-404__left"><h1>404</h1></div>
-            <div class="page-404__right"><h2>Страница</h2><br><br><h3>не найдена</h3> <p>Простите, но запрашиваемая страница не найдена или не существует. Перейдите на главную, или воспользуйтесь поиском.</p></div>
+            <div class="page-404__left six-col"><h1>404</h1></div>
+            <div class="page-404__right six-col"><div class="page-404__right__adaptive"><h2>Страница <span>не найдена</span></h2></div> <p>Простите, но запрашиваемая страница не найдена или не существует. Перейдите на <a href="index.php">главную</a>, или воспользуйтесь поиском.</p></div>
         </div>
         <section class="search search__404">
             <?php include "blocks/search.php"; ?>

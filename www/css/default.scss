@@ -744,8 +744,9 @@ input:focus{
 // section.page-404 //
 
 .page-404{
-    margin-top: 130px;
+    margin-top: 70px;
     background: url(../img/background.png) 45% 10% no-repeat;
+    line-height:1.2em;
     &__container{
         display: flex;
         justify-content: center;
@@ -756,27 +757,32 @@ input:focus{
     }
     &__left{
         display: flex;
-        width: calc(50% - 30px);
         h1{
             font-size: 320px;
         }
     }
     &__right{
         display: flex;
-        width: calc(50% - 30px);
         margin-left: 45px;
         flex-direction: row;
         flex-wrap: wrap;
 
         h2{
             font-size: 100px;
-        }
-        h3{
-            font-size: 72px;
+            margin-left: -10px;
+            span{
+                font-size: 72px;
+                margin: -10px 0 0 5px;
+                display: block;
+            }
         }
         p{
             margin-top: 20px;
-            font-size: 15px;
+            font-size: 16px;
+            line-height:24.47px;
+            a{
+                text-decoration: underline;
+            }
         }
     }
 }
