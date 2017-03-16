@@ -170,6 +170,9 @@ $blue: #62a3da;
     }
     .menu{display: none}
     .page-404{
+        &__services{
+            display: block;
+        }
          &__left, &__right{
             h1, h2{
                 text-align: center;
@@ -185,6 +188,9 @@ $blue: #62a3da;
                     display: inline-block;
                 }
             }
+        }
+        .search__404{
+            margin: 60px 0;
         }
     }
 }

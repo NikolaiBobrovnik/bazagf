@@ -35,6 +35,10 @@
     <?php include "blocks/feedback.php"; ?>
 </section>
 
+<section class="services page-404__services">
+    <?php include "blocks/services.php"; ?>
+</section>
+
 <footer>
     <?php include "blocks/footer.php"; ?>
 </footer>

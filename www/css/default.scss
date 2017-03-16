@@ -744,6 +744,9 @@ input:focus{
 // section.page-404 //
 
 .page-404{
+    &__services{
+        display: none;
+    }
     margin-top: 70px;
     background: url(../img/background.png) 45% 10% no-repeat;
     line-height:1.2em;
