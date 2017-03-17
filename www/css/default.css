@@ -105,7 +105,7 @@ body {
   width: 100%;
   min-height: 100%;
   font-size: 0;
-  font-family: 'OpenSansRegular', Arial, sans-serif; }
+  font-family: 'Open Sans', Arial, sans-serif; }
 
 header, section, footer {
   width: 100%;
@@ -527,6 +527,8 @@ input:focus {
 .aboutus {
   padding-bottom: 55px;
   background: url(../img/background.png) 45% -83% no-repeat; }
+  .aboutus__title {
+    width: 100%; }
   .aboutus__content {
     display: flex;
     justify-content: space-between;
@@ -996,15 +998,19 @@ input:focus {
       color: #fff; }
   .aboutus {
     background: #fff; }
+    .aboutus__title {
+      order: 2; }
     .aboutus__content {
       margin-bottom: 30px; }
       .aboutus__content__image {
         width: 100%;
         height: 340px;
-        overflow: hidden; }
+        overflow: hidden;
+        order: 1; }
       .aboutus__content__text {
         width: 100%;
-        margin-top: 20px; }
+        margin-top: 20px;
+        order: 3; }
       .aboutus__content__text p {
         text-align: center;
         font-size: 16px; }
