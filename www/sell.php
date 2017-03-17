@@ -11,7 +11,7 @@
 
 <body>
 
-<header>
+<header class="header">
     <?php include "blocks/header.php"; ?>
 </header>
 
