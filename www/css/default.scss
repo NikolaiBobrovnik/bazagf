@@ -20,9 +20,10 @@ $blue: #62a3da;
 .section-title{
     font-size: 24px;
     text-align: center;
-    font-family: 'OpenSansBold';
+    font-family: 'Open Sans';
+    font-weight: 700;
     text-transform: uppercase;
-    margin-bottom: 60px;
+    margin-bottom: 47px;
     color: $black;
 }
 
@@ -32,14 +33,16 @@ $blue: #62a3da;
 }
 
 .button{
-    width: 170px;
-    height: 40px;
-    font-family: 'OpenSansBold';
+    min-width: 170px;
+    min-height: 40px;
+    font-family: 'Open Sans';
+    font-weight: 700;
     text-transform: uppercase;
     font-size: 14px;
-    padding: 9px 0 9px;
+    padding: 8px 11px;
     border: 2px solid $grey;
     color: $black;
+    white-space: nowrap;
     &:hover{
         color: #fff;
         background-color: $blue;
@@ -47,6 +50,9 @@ $blue: #62a3da;
         box-shadow: 0px 2px 5px -2px $blue;
     }
 }
+
+.button-blue{background-color: $blue; border-color: $blue; color: #fff}
+
 
 .social-media{
     li{
@@ -80,8 +86,9 @@ input:focus{
             &__item{
                 &.cols>*{vertical-align: middle;}
                 &+&{margin-left: 60px;}
-                a+a{margin-left: 14px;}
-                img{margin-right: 20px;}
+                &:last-child{margin-left: 28px}
+                a+a{margin-left: 11px;}
+                img{margin-right: 21px;}
                 a:hover{text-decoration: underline}
                 position: relative;
                 &__border{
@@ -127,13 +134,16 @@ input:focus{
     }
     &__banner{
         position: relative;
+        &:hover &__text{text-decoration: underline}
         &__text{
             font-family: 'MyriadProRegular';
             position: absolute;
-            bottom: 30px;
+            bottom: 29px;
             left: 30px;
             color: #fff;
             font-size: 20px;
+            line-height: 1.2em;
+            padding-right: 30px;
         }
     }
 }
@@ -143,17 +153,17 @@ input:focus{
     margin-top: 30px;
     margin-bottom: 30px;
     &__button{
-        width: 210px;
+        min-width: 210px;
+        height: 40px;  // защита от сдвига из-за :hover
     }
 }
 
 // section.post //
 .post{
-    margin-bottom: 15px;
     &__title{
         margin-bottom: 60px;
         height: 100px;
-        background: url(../img/post-title.png) no-repeat;
+        background: url(../img/post-title.png) right  no-repeat, linear-gradient(to right, #61a3da, #513473);
         background-size: cover;
         h1{
             color: #fff;
@@ -171,16 +181,21 @@ input:focus{
     }
     &__content{
         &__text{
-            margin-bottom: 30px;
+            padding-bottom: 30px;
             font-size: 14px;
             &>*{
                 margin-top: 20px;
+            }
+            ul{
+                list-style: disc;
+                margin-left: 20px;
             }
         }
     }
     &__bottom{
         border-top: 1px solid $grey;
         padding-top: 14px;
+        padding-bottom: 15px;
         text-align: right;
         p{
             display: inline-block;
@@ -213,6 +228,7 @@ input:focus{
         color: #fff;
         line-height: 1.2;
         margin-top: -5px;
+        padding-right: 30px;
     }
 }
 .owl-controls{
@@ -223,6 +239,7 @@ input:focus{
     margin-left: -42px;            // выравнивание по центру -(width/2)
 }
 .owl-dot{
+    transition: all .25s ease-in-out;
     width: 15px;
     height: 15px;
     background: transparent;
@@ -273,6 +290,7 @@ input:focus{
     &__block{
         position: relative;
         margin-bottom: 20px; 
+        &:last-child{margin-bottom:0}
     }
     &__select{
         background-color: #fff;
@@ -349,7 +367,7 @@ input:focus{
                 &:hover{
                     background-color: $blue;
                     color: #fff;
-                    & ~ .year, {display: block}
+                    & ~ .year {display: block}
                 }
             }
         }
@@ -371,6 +389,7 @@ input:focus{
     }
     &__show-button{
         text-align: center;
+        margin-top: 10px;
     }
 }
 
@@ -381,13 +400,18 @@ input:focus{
 
 // section.aboutus //
 .aboutus{
-    padding-bottom: 60px;
+    padding-bottom: 55px;
     background: url(../img/background.png) 45% -83% no-repeat;
     &__content{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
         margin-bottom: 60px;
         &__image{
+            position: relative;
+            overflow: hidden;
             img{
-                width: 100%;
+                position: absolute; left:0; top:0; right:0; bottom:0; margin:auto; width:0; min-width:100%; min-height:100%; object-fit:cover;
             }
         }
         &__text{
@@ -399,11 +423,12 @@ input:focus{
                     margin-top: -6px;
                 }
             }
+            p+p {margin-top: 25px}
         }
     }
     &__advantages{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         &__block{
             text-align: center;
             &__substrate{
@@ -417,10 +442,11 @@ input:focus{
                 align-items: center;
             }
             &__title{
-                margin-top: 30px;
-                font-family: 'OpenSansBold';
+                margin-top: 27px;
+                font-weight: 700;
                 text-transform: uppercase;
                 font-size: 16px;
+                line-height: 1.2em;
             }
         }
     }
@@ -429,29 +455,31 @@ input:focus{
 // section.feedback //
 .feedback{
     min-height: 100px;
-    background: url(../img/feedback.png) no-repeat;
+    background: url(../img/feedback.png) no-repeat, linear-gradient(to right, #61a3da, #513473);
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     &__container{
-        width: 750px;
-        margin: 0 auto;
-        height: 100%;
-        padding: 29px 0;
+        display: flex;
     }
     &__text{
         color: #fff;
         font-size: 30px; 
         text-transform: uppercase;
+        text-align: center;
     }
     &__button{
         color: #fff;
         background: transparent;
+        margin-left: 100px;
     }
 }
 
 // section.services //
 .services{
     background: url(../img/background.png) 44% 194% no-repeat;
-    padding-top: 60px;
+    padding-top: 54px;
     &__blocks{
         margin-bottom: 60px;
     }
@@ -469,12 +497,13 @@ input:focus{
         }
         &__title{
             color: $black;
-            font-family: 'OpenSansBold';
+            font-weight: 700;
             font-size: 16px;
             text-transform: uppercase;
             padding: 20px 0;
             border-bottom: 1px solid #dfe0e3;
             text-align: center;
+            transition:all .25s ease-in-out;
         }
         &__content{
             padding: 30px 30px 90px 30px;
@@ -489,7 +518,7 @@ input:focus{
         &__bottom{
             width: 100%;
             position: absolute;
-            bottom: 30px;
+            bottom: 25px;
             left: 0;
             text-align: center;
         }
@@ -500,22 +529,26 @@ input:focus{
 .news{
     margin-bottom: 60px;
     &__blocks{
-        margin-bottom: 60px;
+        margin-bottom: 65px;
     }
     &__block{
         &>*{text-align: left}               //убрать наследование justify от .cols
         &__image{
-            margin-bottom: 30px;
-            img{width: 100%}
+            overflow: hidden;
+            height: 200px;
+            margin-bottom: 27px;
+            img{width:0; min-width:100%; min-height:100%; object-fit:cover;}  ///
         }
         &__title{
-            font-family: 'OpenSansBold';
+            font-weight: 700;
             font-size: 16px;
             text-transform: uppercase;
-            margin-bottom: 30px;
+            margin-bottom: 22px;
+            letter-spacing: .2px;
         }
         &__text{
-            margin-bottom: 35px;
+            margin-bottom: 25px;
+            line-height: 1.75em;
         }
         &__readmore{
             font-size: 14px;

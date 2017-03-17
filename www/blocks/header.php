@@ -1,7 +1,7 @@
 <div class="header__top">
     <div class="container cols">
         <div class="header__top__left cols">
-          <div class="header__top__left__item header__top__left__item__border cols"><img src="img/calendar.png" alt=""><p>Среда, 8 Февраля 2017</p></div>
+          <div class="header__top__left__item header__top__left__item__border cols"><img src="img/calendar.png" alt=""><p>Среда , 8 Февраля 2017</p></div>
           <div class="header__top__left__item cols">
             <img src="img/phone.png" alt="">
             <p><a href="tel:+74957232832">+7 (495) 723 28 32</a><a href="tel:+79255327714">+7 (925) 532 77 14</a></p>

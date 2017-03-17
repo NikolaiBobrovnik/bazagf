@@ -44,14 +44,14 @@
 </section>
 
 <section class="services">
-    <?php include "blocks/services.php"; ?><!-- !!!!! -->
+    <?php include "blocks/services.php"; ?>
 </section>
 
 <section class="news">
     <?php include "blocks/news.php"; ?>
 </section>
 
-<section class="popup-contactus">
+<!-- <section class="popup-contactus">
     <div class="popup__contact-us">
         <section class="page-title popup-title">
             <div class="page-title__left-img"></div>
@@ -66,7 +66,7 @@
             <input type="submit">
         </form>
     </div>
-</section>
+</section> -->
 
 <?php include "blocks/footer.php"; ?>
 

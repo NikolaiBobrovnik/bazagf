@@ -1,22 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+
+
 @font-face {
-    font-family: 'OpenSansRegular';
-    src: url('OpenSansRegular/OpenSansRegular.eot');
-    src: url('OpenSansRegular/OpenSansRegular.eot') format('embedded-opentype'),
-         url('OpenSansRegular/OpenSansRegular.woff2') format('woff2'),
-         url('OpenSansRegular/OpenSansRegular.woff') format('woff'),
-         url('OpenSansRegular/OpenSansRegular.ttf') format('truetype'),
-         url('OpenSansRegular/OpenSansRegular.svg#OpenSansRegular') format('svg');
+    font-family: 'Open Sans';
+    font-weight: 400;
 }
 
 @font-face {
-    font-family: 'OpenSansBold';
-    src: url('OpenSansBold/OpenSansBold.eot');
-    src: url('OpenSansBold/OpenSansBold.eot') format('embedded-opentype'),
-         url('OpenSansBold/OpenSansBold.woff2') format('woff2'),
-         url('OpenSansBold/OpenSansBold.woff') format('woff'),
-         url('OpenSansBold/OpenSansBold.ttf') format('truetype'),
-         url('OpenSansBold/OpenSansBold.svg#OpenSansBold') format('svg');
+    font-family: 'Open Sans';
+    font-weight: 700;
 }
+
 
 @font-face {
     font-family: 'MyriadProRegular';
