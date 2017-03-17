@@ -402,6 +402,7 @@ input:focus{
 .aboutus{
     padding-bottom: 55px;
     background: url(../img/background.png) 45% -83% no-repeat;
+    &__title{width: 100%}
     &__content{
         display: flex;
         justify-content: space-between;
