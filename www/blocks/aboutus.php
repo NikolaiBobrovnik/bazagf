@@ -6,19 +6,19 @@
     </main>
 </div>    
 
-    <div class="container">
-        <div class="aboutus__advantages">
-            <div class="aboutus__advantages__block four-col">
-                <div class="aboutus__advantages__block__substrate"><img src="img/money.png" alt="Компании с оборотами"></div>
-                <p class="aboutus__advantages__block__title">Компании<br> с оборотами</p>
-            </div>
-            <div class="aboutus__advantages__block four-col">
-                <div class="aboutus__advantages__block__substrate"><img src="img/earth-globe.png" alt="По всем регионам россии"></div>
-                <p class="aboutus__advantages__block__title">По всем<br> регионам россии</p>
-            </div>
-            <div class="aboutus__advantages__block four-col">
-                <div class="aboutus__advantages__block__substrate"><img src="img/diploma.png" alt="Компании с лицензиями"></div>
-                <p class="aboutus__advantages__block__title">Компании<br> с лицензиями</p>
-            </div>
+<div class="container">
+    <div class="aboutus__advantages">
+        <div class="aboutus__advantages__block four-col">
+            <div class="aboutus__advantages__block__substrate"><img src="img/money.png" alt="Компании с оборотами"></div>
+            <p class="aboutus__advantages__block__title">Компании<br> с оборотами</p>
+        </div>
+        <div class="aboutus__advantages__block four-col">
+            <div class="aboutus__advantages__block__substrate"><img src="img/earth-globe.png" alt="По всем регионам россии"></div>
+            <p class="aboutus__advantages__block__title">По всем<br> регионам россии</p>
+        </div>
+        <div class="aboutus__advantages__block four-col">
+            <div class="aboutus__advantages__block__substrate"><img src="img/diploma.png" alt="Компании с лицензиями"></div>
+            <p class="aboutus__advantages__block__title">Компании<br> с лицензиями</p>
         </div>
     </div>
+</div>

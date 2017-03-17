@@ -668,22 +668,29 @@ input:focus {
   .news__bottom {
     text-align: center; }
 
-.news__container {
+.news-page__container {
   flex-flow: row wrap;
   display: flex;
   justify-content: space-between; }
 
-.news__item {
-  width: 370px;
-  display: flex;
-  align-items: flex-start;
-  flex-wrap: wrap;
+.news-page .news__block {
   margin-top: 60px; }
-  .news__item a {
-    display: block;
+
+.news-page__feedback {
+  margin-bottom: 60px;
+  margin-top: 75px; }
+
+.news-page__pagination {
+  text-align: center;
+  margin-top: 60px; }
+  .news-page__pagination a {
+    padding: 10px 15px;
+    margin-left: 10px;
     font-size: 14px;
-    color: #62a3da;
-    margin-top: 35px; }
+    border: 1px solid #dfe0e3; }
+    .news-page__pagination a:hover {
+      background: #62a3da;
+      color: #fff; }
 
 .footer {
   background: #323335;
@@ -758,13 +765,17 @@ input:focus {
     font-family: 'OpenSansBold';
     color: #363636; }
   .sell__header span {
-    border-left: 3px solid #eff0f2;
+    border-left: 5px solid #eff0f2;
     display: block;
     padding: 15px 20px 10px 20px; }
   .sell__header p {
     font-size: 12px;
     color: #989898;
-    margin-top: 10px; }
+    margin-top: 10px;
+    line-height: 1.2em; }
+
+.sell .container {
+  margin-bottom: 60px; }
 
 .sell__form {
   display: flex;
@@ -789,6 +800,9 @@ input:focus {
     margin-bottom: 30px;
     padding: 13px 20px;
     border: 1px solid #dfe0e3; }
+
+.sell__feedback {
+  margin-bottom: 60px; }
 
 .popup-contactus {
   width: 530px; }
@@ -1126,7 +1140,36 @@ input:focus {
   .footer__bottomcol {
     width: 100%;
     justify-content: center;
-    flex-direction: column; } }
+    flex-direction: column; }
+  .sell .container {
+    overflow: auto; }
+  .sell__header {
+    width: 100%;
+    padding: 0; }
+  .sell__form button {
+    font-size: 14px;
+    cursor: pointer; }
+  .sell__form__col {
+    width: 100%; }
+    .sell__form__col__no-required {
+      display: none; }
+  .sell__form__tab-nav {
+    display: flex;
+    width: 150%;
+    justify-content: center;
+    border-bottom: 1px solid #e0e1e4;
+    margin-bottom: 40px; }
+    .sell__form__tab-nav button {
+      padding: 18px 60px;
+      display: inline-block;
+      border-top: 1px solid #e0e1e4;
+      border-right: 1px solid #e0e1e4;
+      border-left: 1px solid #e0e1e4;
+      border-radius: 2px;
+      margin-left: 2px; }
+    .sell__form__tab-nav button.no-active {
+      background: #eee;
+      border: none; } }
 
 @media (max-width: 769px) {
   .container {

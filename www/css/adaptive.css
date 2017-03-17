@@ -252,7 +252,36 @@
   .footer__bottomcol {
     width: 100%;
     justify-content: center;
-    flex-direction: column; } }
+    flex-direction: column; }
+  .sell .container {
+    overflow: auto; }
+  .sell__header {
+    width: 100%;
+    padding: 0; }
+  .sell__form button {
+    font-size: 14px;
+    cursor: pointer; }
+  .sell__form__col {
+    width: 100%; }
+    .sell__form__col__no-required {
+      display: none; }
+  .sell__form__tab-nav {
+    display: flex;
+    width: 150%;
+    justify-content: center;
+    border-bottom: 1px solid #e0e1e4;
+    margin-bottom: 40px; }
+    .sell__form__tab-nav button {
+      padding: 18px 60px;
+      display: inline-block;
+      border-top: 1px solid #e0e1e4;
+      border-right: 1px solid #e0e1e4;
+      border-left: 1px solid #e0e1e4;
+      border-radius: 2px;
+      margin-left: 2px; }
+    .sell__form__tab-nav button.no-active {
+      background: #eee;
+      border: none; } }
 
 @media (max-width: 769px) {
   .container {

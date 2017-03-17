@@ -422,7 +422,7 @@ input:focus{
                 line-height: 1.76;
                 &:first-child{
                     margin-top: -6px;
-                }  
+                }
             }
             p+p {margin-top: 25px}
         }
@@ -473,7 +473,7 @@ input:focus{
     &__button{
         color: #fff;
         background: transparent;
-        margin-left: 100px; 
+        margin-left: 100px;
     }
 }
 
@@ -566,25 +566,33 @@ input:focus{
 }
 
 // section.news //
-.news{
+.news-page{
     &__container{
         flex-flow: row wrap;
         display: flex;
         justify-content: space-between;
     }
-        &__item{
-            width:370px;
-            display: flex;
-            align-items: flex-start;
-            flex-wrap: wrap;
-            margin-top: 60px;
-            & a{
-                display: block;
-                font-size: 14px;
-                color: $blue;
-                margin-top: 35px;
+    .news__block{
+        margin-top: 60px;
+    }
+    &__feedback{
+        margin-bottom: 60px;
+        margin-top: 75px;
+    }
+    &__pagination{
+        text-align: center;
+        margin-top: 60px;
+        a{
+            padding: 10px 15px;
+            margin-left: 10px;
+            font-size: 14px;
+            border: 1px solid $grey;
+            &:hover{
+                background: $blue;
+                color: #fff;
             }
         }
+    }
 }
 
 // footer //
@@ -694,7 +702,7 @@ input:focus{
             color: #363636;
         }
         span{
-            border-left: 3px solid #eff0f2;
+            border-left: 5px solid #eff0f2;
             display: block;
             padding: 15px 20px 10px 20px;
         }
@@ -702,7 +710,11 @@ input:focus{
             font-size: 12px;
             color: #989898;
             margin-top: 10px;
+            line-height:1.2em;
         }
+    }
+    .container{
+        margin-bottom: 60px;
     }
     &__form{
         display: flex;
@@ -731,6 +743,9 @@ input:focus{
             padding: 13px 20px;
             border: 1px solid $grey;
         }
+    }
+    &__feedback{
+        margin-bottom: 60px;
     }
 }
 
@@ -835,9 +850,6 @@ input:focus{
     background-size: contain;
     background-position: bottom;
 }
-
-
-
 
 
 // Всплывающие окна и другие элементы сайта //
