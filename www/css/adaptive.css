@@ -73,6 +73,8 @@
     text-align: center; }
     .post__bottom__text {
       display: none !important; }
+  .post__social img {
+    width: 50px; }
   .post__container {
     text-align: center; }
   .post__title {

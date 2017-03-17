@@ -479,7 +479,7 @@ input:focus{
 // section.services //
 .services{
     background: url(../img/background.png) 44% 194% no-repeat;
-    padding-top: 60px;
+    padding-top: 54px;
     &__blocks{
         margin-bottom: 60px;
     }
@@ -536,7 +536,7 @@ input:focus{
         &__image{
             overflow: hidden;
             height: 200px;
-            margin-bottom: 36px;
+            margin-bottom: 27px;
             img{width:0; min-width:100%; min-height:100%; object-fit:cover;}  ///
         }
         &__title{
@@ -544,9 +544,11 @@ input:focus{
             font-size: 16px;
             text-transform: uppercase;
             margin-bottom: 22px;
+            letter-spacing: .2px;
         }
         &__text{
-            margin-bottom: 30px;
+            margin-bottom: 25px;
+            line-height: 1.75em;
         }
         &__readmore{
             font-size: 14px;
