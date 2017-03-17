@@ -453,4 +453,4 @@
     </div>
 </div>
 
-<div class="filters__show-button"><a href="#" class="button">Показать</a></div>
+<div class="filters__show-button"><a href="#" class="button button-blue">Показать</a></div>

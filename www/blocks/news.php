@@ -21,6 +21,6 @@
         </div>
     </div>
     <div class="news__bottom">
-        <a href="news.php" class="button">все новости</a>
+        <a href="news.php" class="button button-blue">все новости</a>
     </div>
 </div>

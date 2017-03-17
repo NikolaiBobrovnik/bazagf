@@ -61,6 +61,22 @@
         color: #62a3da; }
   .slider {
     max-height: 500px; }
+  .post__container {
+    text-align: center; }
+  .post__title {
+    height: 120px; }
+  .post__content__text {
+    padding-bottom: 60px; }
+  .post__bottom {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center; }
+    .post__bottom__text {
+      display: none !important; }
+  .post__container {
+    text-align: center; }
+  .post__title {
+    height: 120px; }
   .search {
     height: 120px; }
     .search__form {
