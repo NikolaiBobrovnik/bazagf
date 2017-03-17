@@ -15,6 +15,10 @@
     <?php include "blocks/header.php"; ?>
 </header>
 
+<section class="menu">
+    <?php include "blocks/menu.php"; ?>
+</section>
+
 <section class="page-title">
     <div class="page-title__left-img"></div>
     <p>Продать</p>
@@ -26,7 +30,11 @@
         <div class="sell__header"><span><h2>Анкета на размещение компании в базе готовых фирм</h2>
         <p>Уважаемые посетители!<br>Заполняйте анкету согласно примерам и вносите максимально полную информацию о продаваемой компании.</p></span></div>
         <form action="send.php" class="sell__form">
-            <div class="sell__form__col">
+            <div class="sell__form__tab-nav">
+                <button class="open-required-col">Главная информация</button>
+                <button class="open-no-required-col no-active">Второстепернная информация</button>
+            </div>
+            <div class="sell__form__col sell__form__col__required">
                 <input type="text" placeholder="Ваше имя" required><br>
                 <input type="tel" placeholder="Номер телефона" required><br>
                 <input type="email" placeholder="E-mail" required><br>
@@ -40,7 +48,7 @@
                 <input type="text" placeholder="Баланс" required>
                 <input type="text" placeholder="Желаемая сумма продажи" required>
             </div>
-            <div class="sell__form__col">
+            <div class="sell__form__col sell__form__col__no-required">
                 <input type="text" placeholder="Полное наименование организации">
                 <input type="text" placeholder="Дата регистрации компании (год создания)">
                 <input type="text" placeholder="Форма собственности" required>
@@ -58,13 +66,13 @@
                 <input type="text" placeholder="Сдача отчетности (нужно-не нужно)">
             </div>
             <section class="sell__form__send">
-                <button class="button" type="send">Отправить</button>
+                <button class="button" type="send">Добавить заявку</button>
             </section>
         </form>
     </div>
 </section>
 
-<section class="feedback">
+<section class="feedback sell__feedback">
     <?php include "blocks/feedback.php"; ?>
 </section>
 <?php include "blocks/services.php"; ?>
@@ -74,5 +82,19 @@
 
 <?php include "blocks/forms.php"; ?>
 <?php include "blocks/scripts.php"; ?>
+<script>
+    $(document).ready(function(){
+        $(".open-required-col").on("click", function(){
+            $(".sell__form__col__no-required").css("display","none");
+            $(".sell__form__col__required").css("display","block");
+            $(".open-no-required-col").addClass( "no-active" );
+        });
+        $(".open-no-required-col").on("click", function(){
+            $(".sell__form__col__required").css("display","none");
+            $(".sell__form__col__no-required").css("display","block");
+            $(".open-no-required-col").addClass( "no-active" );
+        });
+    });
+</script>
 </body>
 </html>
