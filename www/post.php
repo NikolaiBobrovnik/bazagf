@@ -1,34 +1,42 @@
-<div class="post__title">
-  <div class="container post__container">
-    <h1>Зачем нужна оценка облигаций</h1>
-  </div>
-</div>
-<div class="post__content">
-  <div class="container">
-    <div class="post__content__text">
-        <p>Для определения объективной рыночной стоимости многих ценных бумаг (например, облигаций) существует стандартная финансовая процедура, называемая оценкой.</p>
-        <p><b>Оценка позволяет определить цену облигации, учитывая весь массив влияющих на нее факторов:</b></p>
-        <ul>
-          <li>Величину процентной ставки.</li>
-          <li>Налоговый статус бумаги.</li>
-          <li>Спрос и предложение на рынке.</li>
-          <li>Срок погашения.</li>
-          <li>Кредитные показатели.</li>
-        </ul>
-        <p>Практический смысл процесса оценки облигаций — дать возможность держателям бумаг на протяжении всего периода её действия реализовать актив по цене, не уступающей стоимости его приобретения. Как правило, для оценочной процедуры чаще всего применяют сравнительный метод, где в качестве базы сравнения используют показатели доходности схожих финансовых обязательств.</p>
-        <p>Оценка стоимости облигаций решает следующие практические задачи финансового характера: расчёт величины залога при получении кредита, проведение операций покупки-продажи, и оценку размера взноса в уставные фонды предприятий;</p>
-        <p>Процесс оценки ценных бумаг проводится по определенной схеме : финансовые потоки, созданные купонным доходом проходящего экспертизу финансового инструмента, дисконтируют и интегрируют. А итоговый результат прибавляют к нарицательной цене облигации после дисконтирования.</p>
-        <p>Особо пристально производится расчёт размера дисконта. Поэтому максимально объективно оценивают платежные возможности источника эмиссии, проводится серьёзный анализ его реального финансового положения.</p>
-    </div>
-    <div class="post__bottom">
-      <p class="post__bottom__text">Поделиться:</p>
-      <ul class="social-media post__social">
-        <li><a href="#"><img src="img/facebook.png" alt="@@"></a></li>
-        <li><a href="#"><img src="img/vk.png" alt="@@"></a></li>
-        <li><a href="#"><img src="img/ok.png" alt="@@"></a></li>
-        <li><a href="#"><img src="img/linkedin.png" alt="@@"></a></li>
-        <li><a href="#"><img src="img/youtube.png" alt="@@"></a></li>
-      </ul>
-    </div>
-  </div>
-</div>
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <?php include "blocks/head.php"; ?>
+    <meta name="robots" content="all">
+    <?php include "blocks/meta.php"; ?>
+    <title></title>
+    <?php include "blocks/css.php"; ?>
+</head>
+
+<body> 
+
+<header class="header">
+    <?php include "blocks/header.php"; ?>
+</header>
+
+<section class="menu">
+    <?php include "blocks/menu.php"; ?>
+</section>
+
+<section class="post">
+	<?php include "blocks/post.php"; ?>
+</section>
+
+<section class="feedback">
+    <?php include "blocks/feedback.php"; ?>
+</section>
+
+<section class="news">
+    <?php include "blocks/news.php"; ?>
+</section>
+
+<footer>
+    <?php include "blocks/footer.php"; ?>             
+</footer>
+
+<?php include "blocks/forms.php"; ?>
+<?php include "blocks/scripts.php"; ?>
+</body>
+</html>
+	

@@ -73,7 +73,7 @@ $blue: #62a3da;
     .filters{
         background: #fff;
         &__block {width: 100%; margin-bottom: 30px;}
-        &__select {width: 100%; height: 60px; padding: 16px 9px 16px 30px; &__title{font-size: 18px;}}
+        &__select {width: 100%; height: 60px; padding: 16px 50px 16px 30px; &__title{font-size: 18px;}}
         &__select__button{background: url("../img/filters-button-big.png");  top: 15px; right: 13px; width: 30px; height:30px}
         &__container{top: 60px}
         &__show-button{margin-top: 60px}
