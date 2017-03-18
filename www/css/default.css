@@ -337,14 +337,12 @@ input:focus {
     font-size: 30px;
     text-transform: uppercase;
     font-weight: normal; }
-
 .post__container {
   margin: 0 auto;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center; }
-
 .post__content__text {
   padding-bottom: 30px;
   font-size: 14px; }
@@ -353,7 +351,6 @@ input:focus {
   .post__content__text ul {
     list-style: disc;
     margin-left: 20px; }
-
 .post__bottom {
   border-top: 1px solid #dfe0e3;
   padding-top: 14px;
@@ -672,14 +669,11 @@ input:focus {
   flex-flow: row wrap;
   display: flex;
   justify-content: space-between; }
-
 .news-page .news__block {
   margin-top: 60px; }
-
 .news-page__feedback {
   margin-bottom: 60px;
   margin-top: 75px; }
-
 .news-page__pagination {
   text-align: center;
   margin-top: 60px; }
@@ -762,7 +756,7 @@ input:focus {
   margin-top: 20px; }
   .sell__header h2 {
     font-size: 18px;
-    font-family: 'OpenSansBold';
+    font-weight: bold;
     color: #363636; }
   .sell__header span {
     border-left: 5px solid #eff0f2;
@@ -773,10 +767,8 @@ input:focus {
     color: #989898;
     margin-top: 10px;
     line-height: 1.2em; }
-
 .sell .container {
   margin-bottom: 60px; }
-
 .sell__form {
   display: flex;
   flex-wrap: wrap;
@@ -791,7 +783,8 @@ input:focus {
       color: #fff; }
       .sell__form__send button :hover {
         border: none; }
-
+  .sell__form__tab-nav {
+    display: none; }
 .sell__form__col {
   display: flex;
   flex-direction: column;
@@ -800,7 +793,6 @@ input:focus {
     margin-bottom: 30px;
     padding: 13px 20px;
     border: 1px solid #dfe0e3; }
-
 .sell__feedback {
   margin-bottom: 60px; }
 
@@ -810,7 +802,6 @@ input:focus {
 .page-title {
   background: linear-gradient(to right, #61a3da 30%, #513372 70%);
   text-align: center;
-  margin-top: 30px;
   height: 100px;
   display: flex;
   justify-content: center;
@@ -881,6 +872,45 @@ input:focus {
   background-size: contain;
   background-position: bottom; }
 
+.company__filters {
+  margin-top: 30px; }
+.company__content__footer {
+  margin-top: 40px; }
+  .company__content__footer a {
+    margin-left: 30px;
+    margin-bottom: 40px; }
+.company__header {
+  padding: 0px 100px;
+  margin-top: 20px; }
+  .company__header h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #363636; }
+  .company__header span {
+    border-left: 5px solid #eff0f2;
+    display: block;
+    padding: 15px 20px 10px 20px; }
+  .company__header p {
+    font-size: 12px;
+    color: #989898;
+    margin-top: 10px;
+    line-height: 1.2em; }
+.company__table {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  color: #363636; }
+  .company__table div {
+    display: flex;
+    padding: 10px 30px;
+    font-size: 14px; }
+    .company__table div:nth-child(2n+1) {
+      background: #eff0f2; }
+    .company__table div span {
+      line-height: 1.7em;
+      font-weight: bold;
+      width: 350px; }
+
 .popup {
   display: none;
   width: 350px;
@@ -889,18 +919,16 @@ input:focus {
 @media (max-width: 1000px) {
   .container {
     /*width:600px*/ } }
-
 @media (max-width: 649px) {
   .container {
     /*width:400px*/ } }
-
 @media (max-width: 479px) {
   .container {
     /*width:90%*/ } }
-
 @media (max-width: 1230px) {
   .container {
     width: 655px; }
+
   .header {
     height: 160px; }
     .header .container {
@@ -931,6 +959,7 @@ input:focus {
         display: block; }
       .header__bottom__button-search {
         display: block; }
+
   .menu {
     margin: 0; }
     .menu .container {
@@ -947,8 +976,10 @@ input:focus {
         background: #fff;
         box-shadow: none;
         color: #62a3da; }
+
   .slider {
     max-height: 500px; }
+
   .post__container {
     text-align: center; }
   .post__title {
@@ -963,10 +994,13 @@ input:focus {
       display: none !important; }
   .post__social img {
     width: 50px; }
+
   .post__container {
     text-align: center; }
+
   .post__title {
     height: 120px; }
+
   .search {
     height: 120px; }
     .search__form {
@@ -981,6 +1015,7 @@ input:focus {
       right: 13px;
       width: 30px;
       height: 30px; }
+
   .filters {
     background: #fff; }
     .filters__block {
@@ -1010,6 +1045,7 @@ input:focus {
       background-color: #62a3da;
       border-color: #62a3da;
       color: #fff; }
+
   .aboutus {
     background: #fff; }
     .aboutus__title {
@@ -1030,6 +1066,7 @@ input:focus {
         font-size: 16px; }
     .aboutus .aboutus__advantages__block.four-col {
       width: 27.6%; }
+
   .feedback {
     height: 230px; }
     .feedback__container {
@@ -1046,6 +1083,7 @@ input:focus {
       padding: 12px 11px;
       border-color: #fff;
       color: #fff; }
+
   .services {
     background: #fff; }
     .services__block {
@@ -1072,6 +1110,7 @@ input:focus {
         background-color: #62a3da;
         border-color: #62a3da;
         color: #fff; }
+
   .news__block {
     width: 100%; }
     .news__block__title {
@@ -1098,6 +1137,7 @@ input:focus {
     background-color: #62a3da;
     border-color: #62a3da;
     color: #fff; }
+
   .page-404 {
     background: none; }
     .page-404__container {
@@ -1118,6 +1158,7 @@ input:focus {
           display: inline-block; }
     .page-404__right {
       margin: 0; }
+
   .footer__container {
     justify-content: center;
     flex-direction: column; }
@@ -1141,6 +1182,7 @@ input:focus {
     width: 100%;
     justify-content: center;
     flex-direction: column; }
+
   .sell .container {
     overflow: auto; }
   .sell__header {
@@ -1169,17 +1211,33 @@ input:focus {
       margin-left: 2px; }
     .sell__form__tab-nav button.no-active {
       background: #eee;
-      border: none; } }
+      border: none; }
 
+  .company__content__footer {
+    display: flex;
+    justify-content: space-between; }
+    .company__content__footer a {
+      margin: 0;
+      margin-bottom: 40px; }
+  .company__header {
+    padding: 0 30px; }
+  .company__table div {
+    justify-content: space-between; }
+    .company__table div span {
+      width: 45%; }
+    .company__table div p {
+      width: 45%; } }
 @media (max-width: 769px) {
   .container {
     width: 450px; }
+
   .header {
     height: 154px; }
     .header .container {
       width: 480px; }
     .header .header__top__left__item:not(:first-child) {
       display: none; }
+
   .header__top .container {
     width: 480px; }
   .header__top .container.cols {
@@ -1195,12 +1253,16 @@ input:focus {
   .header__bottom__button-search {
     right: 15px;
     top: 40px; }
+
   .menu {
     display: none; }
+
   .filters__select {
     padding: 15px 9px 16px 19px; }
+
   .filters__container {
     width: 450px; }
+
   .aboutus__content__image {
     height: 200px; }
   .aboutus__advantages {
@@ -1218,14 +1280,18 @@ input:focus {
         margin: 0; }
       .aboutus__advantages__block:nth-child(even) {
         flex-direction: row-reverse; }
+
   .feedback .button {
     min-width: 290px; }
+
   .services .button {
     min-width: 290px; }
+
   .news__block__image {
     height: 200px; }
     .news__block__image .button {
       min-width: 290px; }
+
   .page-404__services {
     display: block; }
   .page-404__left h1, .page-404__left h2, .page-404__right h1, .page-404__right h2 {
@@ -1239,4 +1305,26 @@ input:focus {
       font-size: 57px;
       display: inline-block; }
   .page-404 .search__404 {
-    margin: 60px 0; } }
+    margin: 60px 0; }
+
+  .company__content__footer {
+    align-items: center; }
+    .company__content__footer a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 130px;
+      width: 130px;
+      min-height: 60px;
+      white-space: normal; }
+  .company__header {
+    padding: 0; }
+  .company__table div {
+    justify-content: space-between; }
+    .company__table div span {
+      width: 45%; }
+    .company__table div p {
+      width: 45%;
+      text-align: right; } }
+
+/*# sourceMappingURL=default.css.map */

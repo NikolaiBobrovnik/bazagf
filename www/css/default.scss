@@ -698,7 +698,7 @@ input:focus{
         margin-top: 20px;
         h2{
             font-size: 18px;
-            font-family: 'OpenSansBold';
+            font-weight: bold;
             color: #363636;
         }
         span{
@@ -733,6 +733,9 @@ input:focus{
                 }
             }
         }
+        &__tab-nav{
+            display: none;
+        }
     }
     &__form__col{
         display: flex;
@@ -758,7 +761,6 @@ input:focus{
 .page-title{
      background: linear-gradient(to right, #61a3da 30%, #513372 70%);
      text-align: center;
-     margin-top:30px;
      height: 100px;
      display: flex;
      justify-content: center;
@@ -852,7 +854,59 @@ input:focus{
 }
 
 // section.company //
-
+.company{
+    &__filters{
+        margin-top: 30px;
+    }
+    &__content{
+        &__footer{
+            margin-top: 40px;
+            a{
+                margin-left: 30px;
+                margin-bottom: 40px;
+            }
+        }
+    }
+    &__header{
+        padding: 0px 100px;
+        margin-top: 20px;
+        h2{
+            font-size: 18px;
+            font-weight: bold;
+            color: #363636;
+        }
+        span{
+            border-left: 5px solid #eff0f2;
+            display: block;
+            padding: 15px 20px 10px 20px;
+        }
+        p{
+            font-size: 12px;
+            color: #989898;
+            margin-top: 10px;
+            line-height:1.2em;
+        }
+    }
+    &__table{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        color: #363636;
+        div{
+            &:nth-child(2n+1){
+                background: #eff0f2;
+            }
+            span{
+                line-height: 1.7em;
+                font-weight: bold;
+                width: 350px;
+            }
+            display: flex;
+            padding: 10px 30px;
+            font-size: 14px;
+        }
+    }
+}
 
 // Всплывающие окна и другие элементы сайта //
 .popup {display:none; width: 350px; padding: 20px;}
