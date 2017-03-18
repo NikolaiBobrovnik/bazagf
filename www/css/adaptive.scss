@@ -1,26 +1,6 @@
 // Адаптивная верстка //
-@media (max-width:1000px) {
-  .container {/*width:600px*/}
-}
-
-
-
-@media (max-width:649px) {
-  .container {/*width:400px*/}
-}
-
-
-
-@media (max-width:479px) {
-  .container {/*width:90%*/}
-}
-// Адаптивная верстка //
-
-
-
-
-
 $blue: #62a3da;
+$grey: #dfe0e3;
 @media (max-width:1230px) {
     .container {width: 655px}
     .header {
@@ -29,8 +9,9 @@ $blue: #62a3da;
         &__social {display: none}
         &__top{
             &__left__item{
-                margin-left: 30px;
+                &+& {margin-left: 66px;}
                 &:first-child {margin-left: 15px}
+                &:last-child {margin-left: 45px}
                 p {font-size: 13px}
                 img{margin-right: 15px;}
             }
@@ -76,7 +57,7 @@ $blue: #62a3da;
             text-align: center;
             &__text{display: none!important}
         }
-        &__social{img{width:50px}}
+        &__social li {a{width:50px; height: 50px}}
     }
     .post__container{text-align: center}
     .post__title{height: 120px}
@@ -84,29 +65,30 @@ $blue: #62a3da;
         height: 120px;
         &__form{margin-top: 30px}
         &__input{font-size: 16px; height: 60px; padding: 0 55px 0 29px;;}
-        &__button{background: url("../img/search-button.png");  top: 15px; right: 13px; width: 30px; height:30px}
+        &__button{background: url("../img/search-button.png");  top: 15px; right: 16px; width: 30px; height:30px}
     }
     .filters{
         background: #fff;
         &__block {width: 100%; margin-bottom: 30px;}
         &__select {width: 100%; height: 60px; padding: 16px 50px 16px 30px; &__title{font-size: 18px;}}
-        &__select__button{background: url("../img/filters-button-big.png");  top: 15px; right: 13px; width: 30px; height:30px}
+        &__select__button{background: url("../img/filters-button-big.png");  top: 15px; right: 15px; width: 30px; height:30px}
         &__container{top: 60px}
         &__show-button{margin-top: 60px}
         .button{min-width: 280px; font-size: 16px; height: 50px; padding: 12px 11px; background-color: $blue; border-color: $blue; color: #fff}
     }
     .aboutus{
         background: #fff;
-        &__title{order: 2}
+        &__title{order: 2;margin-top: 24px; margin-bottom: 23px;}
         &__content{
-            margin-bottom: 30px;
-            &__image {width: 100%; height: 340px; overflow: hidden; order: 1}
-            &__text {width: 100%; margin-top: 20px; order: 3}
-            &__text p {text-align: center; font-size: 16px}
+            margin-bottom: 64px;
+            &__image {width: 100%; height: 340px; overflow: hidden; order: 1; .img-1{display: none} .img-2{display: block}}
+            &__text {width: 100%; margin-top: 20px; order: 3;  margin-top: 0}
+            &__text p {text-align: center; font-size: 16px;line-height: 1.6;}
         }
         .aboutus__advantages__block.four-col {
             width: 27.6%;
         }
+        .aboutus__advantages__block__title {margin-top: 27px;}
     }
     .feedback{
         height: 230px;
@@ -116,20 +98,21 @@ $blue: #62a3da;
     }
     .services{
         background: #fff;
+        &__title{margin-bottom: 60px;}
         &__block{
             width: 100%;
             min-height: 360px;
             &__title{font-size: 18px;padding: 18px 0;}
-            &__content p{text-align: center; font-size: 16px; line-height: 1.6;}
+            &__content p{text-align: center; font-size: 16px; line-height: 1.5;}
             &__content {padding: 25px 30px 90px 30px;}
-            &__bottom{bottom: 30px;}
+            &__bottom{bottom: 29px;}
             &+&{margin-top: 30px}
             .button{min-width: 280px; font-size: 16px; height: 50px; padding: 12px 11px; background-color: $blue; border-color: $blue; color: #fff}
         }
     }
     .news{
         &__block{
-            &__title{font-size: 24px}
+            &__title{font-size: 24px;padding-top: 0px;margin-bottom: 24px;}
             width: 100%;
             &+&{margin-top: 63px}
             img{height: 250px}
@@ -311,13 +294,20 @@ $blue: #62a3da;
                 align-items: center;
                 justify-content: flex-start;
                 width: 100%!important;
-                &__title{margin:0; padding-left: 20px; padding-right: 20px}
+                text-align: left;
+                padding: 0 51px;
+                margin-bottom: 20px;
+                &__title{margin-top:0!important; padding-left: 20px; padding-right: 20px}
                 &__substrate{margin:0}
-                &:nth-child(even){flex-direction: row-reverse;}
+                &:nth-child(even){flex-direction: row-reverse; text-align: right}
             }
         }
     }
-    .feedback{.button{min-width: 290px;}}
+    .feedback{
+        height: 220px;
+        .button{min-width: 290px;}
+        &__text{font-size: 25px}
+    }
     .services{.button{min-width: 290px;}}
     .news__block__image{height: 200px;.button{min-width: 290px;}}
     .page-404{

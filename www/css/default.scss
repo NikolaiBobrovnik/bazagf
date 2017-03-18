@@ -27,10 +27,7 @@ $blue: #62a3da;
     color: $black;
 }
 
-.title-border{
-    padding-top: 60px;
-    border-top: 1px solid $grey;
-}
+.title-border{border-top: 1px solid $grey}
 
 .button{
     min-width: 170px;
@@ -53,23 +50,28 @@ $blue: #62a3da;
 
 .button-blue{background-color: $blue; border-color: $blue; color: #fff}
 
-
 .social-media{
     li{
         display: inline-block;
-        margin-left:10px;
-        &:first-child{
-            margin-left: 0;
-        }
+        &+li{margin-left:10px}
         a{
             @include hover;
+            display: block;
+            width: 30px;
+            height: 30px;
+            background-size: cover;
         }
     }
+    &__facebook {background: url(../img/facebook.svg) no-repeat}
+    &__vk {background: url(../img/vk.png) no-repeat}
+    &__ok {background: url(../img/ok.png) no-repeat}
+    &__linkedin {background: url(../img/linkedin.png) no-repeat}
+    &__youtube {background: url(../img/youtube.png) no-repeat}
 }
 
 input:focus{
     border: 1px solid $blue;
-    box-shadow: 0px 0px 4px 0px $blue; 
+    box-shadow: 0px 0px 4px 0px $blue;
 }
 
 // section.header //
@@ -107,7 +109,6 @@ input:focus{
         }
         &__right{
             padding: 9px 0 9px;
-            a:hover{opacity: .7}
         }
     }
     &__bottom{
@@ -120,16 +121,16 @@ input:focus{
             top: 42px;
             width: 30px;
             height: 28px;
-            background: url(../img/menu-icon.png) no-repeat;
+            background: url(../img/burger.svg) no-repeat;
         }
         &__button-search{
             display: none;
             position: absolute;
             right:48px;
-            top: 42px;
+            top: 40px;
             width: 30px;
             height: 30px;
-            background: url(../img/search-icon.png) no-repeat;
+            background: url(../img/search.svg) no-repeat;
         }
     }
     &__banner{
@@ -151,7 +152,6 @@ input:focus{
 // section.menu //
 .menu {
     margin-top: 30px;
-    margin-bottom: 30px;
     &__button{
         min-width: 210px;
         height: 40px;  // защита от сдвига из-за :hover
@@ -286,7 +286,7 @@ input:focus{
 
 .filters{
     background: url(../img/background.png) 50% 25% no-repeat;
-    padding:30px 0 40px;
+    padding:30px 0 60px;
     &__block{
         position: relative;
         margin-bottom: 20px; 
@@ -402,6 +402,8 @@ input:focus{
 .aboutus{
     padding-bottom: 55px;
     background: url(../img/background.png) 45% -83% no-repeat;
+    padding-top: 60px;
+    border-top: 1px solid $grey;
     &__title{width: 100%}
     &__content{
         display: flex;
@@ -414,6 +416,7 @@ input:focus{
             img{
                 position: absolute; left:0; top:0; right:0; bottom:0; margin:auto; width:0; min-width:100%; min-height:100%; object-fit:cover;
             }
+            .img-2{display: none}
         }
         &__text{
             p{
@@ -443,7 +446,7 @@ input:focus{
                 align-items: center;
             }
             &__title{
-                margin-top: 27px;
+                margin-top: 23px;
                 font-weight: 700;
                 text-transform: uppercase;
                 font-size: 16px;
@@ -469,11 +472,12 @@ input:focus{
         font-size: 30px; 
         text-transform: uppercase;
         text-align: center;
+        padding: 0 10px;
     }
     &__button{
         color: #fff;
         background: transparent;
-        margin-left: 100px;
+        margin-left: 90px;
     }
 }
 
@@ -481,6 +485,7 @@ input:focus{
 .services{
     background: url(../img/background.png) 44% 194% no-repeat;
     padding-top: 54px;
+    &__title{margin-bottom: 58px;}
     &__blocks{
         margin-bottom: 60px;
     }
@@ -507,8 +512,9 @@ input:focus{
             transition:all .25s ease-in-out;
         }
         &__content{
-            padding: 30px 30px 90px 30px;
+            padding: 22px 30px 90px 30px;
             font-size: 14px;
+            line-height:1.9em;
             a{
                 color: $blue;
                 &:hover{
@@ -519,7 +525,7 @@ input:focus{
         &__bottom{
             width: 100%;
             position: absolute;
-            bottom: 25px;
+            bottom: 29px;
             left: 0;
             text-align: center;
         }
@@ -529,6 +535,7 @@ input:focus{
 // section.news //
 .news{
     margin-bottom: 60px;
+    &__title{padding-top: 54px;margin-bottom: 57px;}
     &__blocks{
         margin-bottom: 65px;
     }
