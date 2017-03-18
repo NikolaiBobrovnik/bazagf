@@ -1,42 +1,28 @@
 <!DOCTYPE html>
 <html lang="ru">
+    <head>
+        <?php include "blocks/head.php"; ?>
+        <meta name="robots" content="all">
+        <?php include "blocks/meta.php"; ?>
+        <title></title>
+        <?php include "blocks/css.php"; ?>
+    </head>
+    <body>
+        <?php include "blocks/header.php"; ?>
 
-<head>
-    <?php include "blocks/head.php"; ?>
-    <meta name="robots" content="all">
-    <?php include "blocks/meta.php"; ?>
-    <title></title>
-    <?php include "blocks/css.php"; ?>
-</head>
+        <?php include "blocks/menu.php"; ?>
 
-<body> 
+        <?php include "blocks/post.php"; ?>
 
-<header class="header">
-    <?php include "blocks/header.php"; ?>
-</header>
+        <?php include "blocks/feedback.php"; ?>
 
-<section class="menu">
-    <?php include "blocks/menu.php"; ?>
-</section>
+        <?php include "blocks/news.php"; ?>
 
-<section class="post">
-	<?php include "blocks/post.php"; ?>
-</section>
+        <?php include "blocks/footer.php"; ?>             
 
-<section class="feedback">
-    <?php include "blocks/feedback.php"; ?>
-</section>
+        <?php include "blocks/forms.php"; ?>
 
-<section class="news">
-    <?php include "blocks/news.php"; ?>
-</section>
-
-<footer>
-    <?php include "blocks/footer.php"; ?>             
-</footer>
-
-<?php include "blocks/forms.php"; ?>
-<?php include "blocks/scripts.php"; ?>
-</body>
+        <?php include "blocks/scripts.php"; ?>
+    </body>
 </html>
 	
