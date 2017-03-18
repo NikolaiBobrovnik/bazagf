@@ -27,11 +27,6 @@ $blue: #62a3da;
     color: $black;
 }
 
-.title-border{
-    padding-top: 60px;
-    border-top: 1px solid $grey;
-}
-
 .button{
     min-width: 170px;
     min-height: 40px;
@@ -286,7 +281,7 @@ input:focus{
 
 .filters{
     background: url(../img/background.png) 50% 25% no-repeat;
-    padding:30px 0 40px;
+    padding:30px 0 60px;
     &__block{
         position: relative;
         margin-bottom: 20px; 
@@ -402,6 +397,8 @@ input:focus{
 .aboutus{
     padding-bottom: 55px;
     background: url(../img/background.png) 45% -83% no-repeat;
+    padding-top: 60px;
+    border-top: 1px solid $grey;
     &__title{width: 100%}
     &__content{
         display: flex;
@@ -414,6 +411,7 @@ input:focus{
             img{
                 position: absolute; left:0; top:0; right:0; bottom:0; margin:auto; width:0; min-width:100%; min-height:100%; object-fit:cover;
             }
+            .img-2{display: none}
         }
         &__text{
             p{

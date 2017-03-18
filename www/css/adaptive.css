@@ -125,7 +125,9 @@
   .aboutus {
     background: #fff; }
     .aboutus__title {
-      order: 2; }
+      order: 2;
+      margin-top: 30px;
+      margin-bottom: 30px; }
     .aboutus__content {
       margin-bottom: 30px; }
       .aboutus__content__image {
@@ -133,10 +135,15 @@
         height: 340px;
         overflow: hidden;
         order: 1; }
+        .aboutus__content__image .img-1 {
+          display: none; }
+        .aboutus__content__image .img-2 {
+          display: block; }
       .aboutus__content__text {
         width: 100%;
         margin-top: 20px;
-        order: 3; }
+        order: 3;
+        margin-top: 0; }
       .aboutus__content__text p {
         text-align: center;
         font-size: 16px; }

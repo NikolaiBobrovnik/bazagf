@@ -35,7 +35,7 @@
     <?php include "blocks/table.php"; ?>
 </section>
 
-<section class="aboutus">
+<section class="aboutus" id="aboutus">
     <?php include "blocks/aboutus.php"; ?>
 </section>
 
