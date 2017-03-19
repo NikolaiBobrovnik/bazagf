@@ -336,7 +336,8 @@ input:focus {
       padding-right: 30px; }
 
 .menu {
-  margin-top: 30px; }
+  margin-top: 30px;
+  margin-bottom: 30px; }
   .menu__button {
     min-width: 210px;
     height: 40px; }
@@ -743,6 +744,8 @@ input:focus {
     margin-bottom: 30px;
     width: 100%;
     padding: 13px 20px; }
+    .footer__form input:focus, .footer__form textarea:focus {
+      border: none; }
   .footer__form textarea {
     height: 150px;
     resize: none; }

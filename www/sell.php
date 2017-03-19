@@ -11,13 +11,10 @@
 
 <body>
 
-<header class="header">
     <?php include "blocks/header.php"; ?>
-</header>
 
-<section class="menu">
     <?php include "blocks/menu.php"; ?>
-</section>
+
 
 <section class="page-title">
     <div class="page-title__left-img"></div>

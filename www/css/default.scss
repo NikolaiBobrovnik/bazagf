@@ -152,6 +152,7 @@ input:focus{
 // section.menu //
 .menu {
     margin-top: 30px;
+    margin-bottom: 30px;
     &__button{
         min-width: 210px;
         height: 40px;  // защита от сдвига из-за :hover
@@ -643,6 +644,7 @@ input:focus{
             margin-bottom: 30px;
             width: 100%;
             padding: 13px 20px;
+            &:focus{border: none}
         }
 
         & textarea{

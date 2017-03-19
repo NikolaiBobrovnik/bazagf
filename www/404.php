@@ -11,13 +11,11 @@
 
 <body>
 
-<header class="header">
     <?php include "blocks/header.php"; ?>
-</header>
 
-<section class="menu">
+
     <?php include "blocks/menu.php"; ?>
-</section>
+
 
 <div class="bg__404">
     <section class="page-404">
@@ -31,9 +29,9 @@
     </section>
 </div>
 
-<section class="feedback">
+
     <?php include "blocks/feedback.php"; ?>
-</section>
+
 
 <section class="services page-404__services">
     <?php include "blocks/services.php"; ?>
