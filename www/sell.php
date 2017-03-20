@@ -15,7 +15,7 @@
     <?php include "blocks/header.php"; ?>
 </header>
 
-<section class="menu">
+<section class="menu menu__sell">
     <?php include "blocks/menu.php"; ?>
 </section>
 
@@ -72,7 +72,7 @@
     </div>
 </section>
 
-<section class="feedback sell__feedback">
+<section class="feedback">
     <?php include "blocks/feedback.php"; ?>
 </section>
 <?php include "blocks/services.php"; ?>

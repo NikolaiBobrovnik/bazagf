@@ -15,7 +15,7 @@
     <?php include "blocks/header.php"; ?>
 </header>
 
-<section class="menu">
+<section class="menu menu__company">
     <?php include "blocks/menu.php"; ?>
 </section>
 
@@ -30,15 +30,15 @@
 </section>
 
 <section class="company">
-    <div class="container">
-       <div class="company__filters">
+    <div class="container twelve-cols">
+       <section class="company__filters">
            <?php include "blocks/filters.php"; ?>
-       </div>
+       </section>
        <form action="send.php">
            <input type="search">
        </form>
        <div class="company__content">
-            <div class="company__header"><span><h2>ООО Дени</h2>
+            <div class="company__header"><span><h2>ООО Дэни</h2>
             <p>Полная правовая информация</p></span></div>
            <div class="company__table">
                <div><span>Организационно-правовая форма</span><p>ООО</p></div>
@@ -62,11 +62,11 @@
     </div>
 </section>
 
-<section class="feedback">
+<section class="feedback ">
     <?php include "blocks/feedback.php"; ?>
 </section>
 
-<section class="services">
+<section class="services services__company">
     <?php include "blocks/services.php"; ?>
 </section>
 
