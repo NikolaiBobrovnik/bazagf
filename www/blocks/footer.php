@@ -11,11 +11,11 @@
         <li><p><img src="img/phone-footer.png" alt="@@">+7 (495) 723 28 32<br>+7 (925) 532 77 14</p></li>
       </ul>
       <ul class="social-media footer__social">
-        <li><a href="#"><img src="img/facebook.png" alt="@@"></a></li>
-        <li><a href="#"><img src="img/vk.png" alt="@@"></a></li>
-        <li><a href="#"><img src="img/ok.png" alt="@@"></a></li>
-        <li><a href="#"><img src="img/linkedin.png" alt="@@"></a></li>
-        <li><a href="#"><img src="img/youtube.png" alt="@@"></a></li>
+        <li><a href="#" class="social-media__facebook"></a></li>
+        <li><a href="#" class="social-media__vk"></a></li>
+        <li><a href="#" class="social-media__ok"></a></li>
+        <li><a href="#" class="social-media__linkedin"></a></li>
+        <li><a href="#" class="social-media__youtube"></a></li>
       </ul>
     </div>
     <div class="footer__topcol footer__topcol__right">

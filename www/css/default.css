@@ -185,17 +185,6 @@ select, input, textarea {
   font-size: 14px;
   display: inline-block; }
 
-.button {
-  text-align: center;
-  border: 0;
-  padding: 10px;
-  display: inline-block;
-  color: white;
-  font-size: 15px;
-  background-color: #fff; }
-  .button::hover {
-    background-color: blue; }
-
 * {
   box-sizing: border-box; }
 
@@ -212,6 +201,9 @@ select, input, textarea {
   border-top: 1px solid #dfe0e3; }
 
 .button {
+  text-align: center;
+  display: inline-block;
+  background-color: #fff;
   min-width: 170px;
   min-height: 40px;
   font-family: 'Open Sans';
@@ -331,7 +323,8 @@ input:focus {
       padding-right: 30px; }
 
 .menu {
-  margin-top: 30px; }
+  margin-top: 30px;
+  margin-bottom: 30px; }
   .menu__button {
     min-width: 210px;
     height: 40px; }
@@ -685,26 +678,28 @@ input:focus {
   .news__bottom {
     text-align: center; }
 
-.news-page__container {
-  flex-flow: row wrap;
-  display: flex;
-  justify-content: space-between; }
-.news-page .news__block {
-  margin-top: 60px; }
-.news-page__feedback {
-  margin-bottom: 60px;
-  margin-top: 75px; }
-.news-page__pagination {
-  text-align: center;
-  margin-top: 60px; }
-  .news-page__pagination a {
-    padding: 10px 15px;
-    margin-left: 10px;
-    font-size: 14px;
-    border: 1px solid #dfe0e3; }
-    .news-page__pagination a:hover {
-      background: #62a3da;
-      color: #fff; }
+.news-page {
+  margin-bottom: 60px; }
+  .news-page__container {
+    flex-flow: row wrap;
+    display: flex;
+    justify-content: space-between; }
+  .news-page .news__block {
+    margin-top: 60px; }
+  .news-page__feedback {
+    margin-bottom: 60px;
+    margin-top: 75px; }
+  .news-page__pagination {
+    text-align: center;
+    margin-top: 60px; }
+    .news-page__pagination a {
+      padding: 10px 15px;
+      margin-left: 10px;
+      font-size: 14px;
+      border: 1px solid #dfe0e3; }
+      .news-page__pagination a:hover {
+        background: #62a3da;
+        color: #fff; }
 
 .footer {
   background: #323335;
@@ -735,7 +730,9 @@ input:focus {
   .footer__form input, .footer__form textarea {
     margin-bottom: 30px;
     width: 100%;
-    padding: 11px 20px; }
+    padding: 13px 20px; }
+    .footer__form input:focus, .footer__form textarea:focus {
+      border: none; }
   .footer__form textarea {
     height: 150px;
     resize: none; }
@@ -939,17 +936,6 @@ input:focus {
       line-height: 1.7em;
       font-weight: bold;
       width: 380px; }
-
-.menu__company {
-  margin-bottom: 30px;
-  margin-top: 0; }
-
-.menu__sell {
-  margin-bottom: 30px;
-  margin-top: 0; }
-
-.services__company .services {
-  padding-top: 0px; }
 
 .popup {
   display: none;

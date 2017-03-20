@@ -11,13 +11,10 @@
 
 <body>
 
-<header class="header">
     <?php include "blocks/header.php"; ?>
-</header>
 
-<section class="menu">
     <?php include "blocks/menu.php"; ?>
-</section>
+
 
 <section class="page-title">
     <div class="page-title__left-img"></div>
@@ -25,9 +22,8 @@
     <div class="page-title__right-img"></div>
 </section>
 
-<section class="search">
     <?php include "blocks/search.php"; ?>
-</section>
+
 
 <section class="news-page">
     <div class="container news-page__container">
@@ -96,15 +92,14 @@
             <a href="#">></a>
         </div>
     </section>
-    <section class="feedback news-page__feedback">
-        <?php include "blocks/feedback.php"; ?>
-    </section>
-    <?php include "blocks/services.php"; ?>
 </section>
 
-<footer>
+    <?php include "blocks/feedback.php"; ?>
+
+    <?php include "blocks/services.php"; ?>
+
     <?php include "blocks/footer.php"; ?>
-</footer>
+
 
 <?php include "blocks/forms.php"; ?>
 <?php include "blocks/scripts.php"; ?>

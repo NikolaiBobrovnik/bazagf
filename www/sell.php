@@ -11,13 +11,9 @@
 
 <body>
 
-<header class="header">
     <?php include "blocks/header.php"; ?>
-</header>
-
-<section class="menu menu__sell">
     <?php include "blocks/menu.php"; ?>
-</section>
+
 
 <section class="page-title">
     <div class="page-title__left-img"></div>
@@ -71,17 +67,12 @@
         </form>
     </div>
 </section>
-
-<section class="feedback">
-    <?php include "blocks/feedback.php"; ?>
-</section>
+<?php include "blocks/feedback.php"; ?>
 <?php include "blocks/services.php"; ?>
-<footer>
-    <?php include "blocks/footer.php"; ?>
-</footer>
-
+<?php include "blocks/footer.php"; ?>
 <?php include "blocks/forms.php"; ?>
 <?php include "blocks/scripts.php"; ?>
+<!--
 <script>
     $(document).ready(function(){
         $(".open-required-col").on("click", function(){
@@ -96,5 +87,6 @@
         });
     });
 </script>
+-->
 </body>
 </html>

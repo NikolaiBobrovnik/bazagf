@@ -30,6 +30,9 @@ $blue: #62a3da;
 .title-border{border-top: 1px solid $grey}
 
 .button{
+    text-align:center;
+    display:inline-block;
+    background-color: #fff;
     min-width: 170px;
     min-height: 40px;
     font-family: 'Open Sans';
@@ -152,6 +155,7 @@ input:focus{
 // section.menu //
 .menu {
     margin-top: 30px;
+    margin-bottom: 30px;
     &__button{
         min-width: 210px;
         height: 40px;  // защита от сдвига из-за :hover
@@ -574,6 +578,7 @@ input:focus{
 
 // section.news //
 .news-page{
+    margin-bottom: 60px;
     &__container{
         flex-flow: row wrap;
         display: flex;
@@ -649,7 +654,8 @@ input:focus{
         & input, textarea{
             margin-bottom: 30px;
             width: 100%;
-            padding: 11px 20px;
+            padding: 13px 20px;
+            &:focus{border: none};
         }
 
         & textarea{
@@ -925,22 +931,6 @@ input:focus{
             padding: 6px 30px;
             font-size: 14px;
         }
-    }
-}
-
-.menu__company {
-    margin-bottom:30px;
-    margin-top: 0;
-}
-
-.menu__sell {
-    margin-bottom:30px;
-    margin-top: 0;
-}
-
-.services__company{
-    .services{
-        padding-top: 0px;
     }
 }
 

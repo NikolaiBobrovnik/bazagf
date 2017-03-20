@@ -1,7 +1,6 @@
 @media (max-width: 1230px) {
   .container {
     width: 655px; }
-
   .header {
     height: 160px; }
     .header .container {
@@ -34,7 +33,6 @@
         display: block; }
       .header__bottom__button-search {
         display: block; }
-
   .menu {
     margin: 0; }
     .menu .container {
@@ -51,10 +49,8 @@
         background: #fff;
         box-shadow: none;
         color: #62a3da; }
-
   .slider {
     max-height: 500px; }
-
   .post__container {
     text-align: center; }
   .post__title {
@@ -70,13 +66,14 @@
   .post__social li a {
     width: 50px;
     height: 50px; }
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
   .post__container {
     text-align: center; }
-
   .post__title {
     height: 120px; }
-
   .search {
     height: 120px; }
     .search__form {
@@ -91,7 +88,6 @@
       right: 16px;
       width: 30px;
       height: 30px; }
-
   .filters {
     background: #fff; }
     .filters__block {
@@ -121,7 +117,6 @@
       background-color: #62a3da;
       border-color: #62a3da;
       color: #fff; }
-
   .aboutus {
     background: #fff; }
     .aboutus__title {
@@ -152,7 +147,10 @@
       width: 27.6%; }
     .aboutus .aboutus__advantages__block__title {
       margin-top: 27px; }
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
   .feedback {
     height: 230px; }
     .feedback__container {
@@ -169,7 +167,6 @@
       padding: 12px 11px;
       border-color: #fff;
       color: #fff; }
-
   .services {
     background: #fff; }
     .services__title {
@@ -198,7 +195,6 @@
         background-color: #62a3da;
         border-color: #62a3da;
         color: #fff; }
-
   .news__block {
     width: 100%; }
     .news__block__title {
@@ -227,7 +223,6 @@
     background-color: #62a3da;
     border-color: #62a3da;
     color: #fff; }
-
   .page-404 {
     background: none; }
     .page-404__container {
@@ -248,7 +243,6 @@
           display: inline-block; }
     .page-404__right {
       margin: 0; }
-
   .footer__container {
     justify-content: center;
     flex-direction: column; }
@@ -272,7 +266,6 @@
     width: 100%;
     justify-content: center;
     flex-direction: column; }
-
   .sell .container {
     overflow: auto; }
   .sell__header {
@@ -302,7 +295,6 @@
     .sell__form__tab-nav button.no-active {
       background: #eee;
       border: none; }
-
   .company__content__footer {
     display: flex;
     justify-content: space-between; }
@@ -317,17 +309,16 @@
       width: 45%; }
     .company__table div p {
       width: 45%; } }
+
 @media (max-width: 769px) {
   .container {
     width: 450px; }
-
   .header {
     height: 154px; }
     .header .container {
       width: 480px; }
     .header .header__top__left__item:not(:first-child) {
       display: none; }
-
   .header__top .container {
     width: 480px; }
   .header__top .container.cols {
@@ -343,16 +334,12 @@
   .header__bottom__button-search {
     right: 15px;
     top: 40px; }
-
   .menu {
     display: none; }
-
   .filters__select {
     padding: 15px 9px 16px 19px; }
-
   .filters__container {
     width: 450px; }
-
   .aboutus__content__image {
     height: 200px; }
   .aboutus__advantages {
@@ -374,22 +361,26 @@
       .aboutus__advantages__block:nth-child(even) {
         flex-direction: row-reverse;
         text-align: right; }
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
   .feedback {
     height: 220px; }
     .feedback .button {
       min-width: 290px; }
     .feedback__text {
       font-size: 25px; }
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
   .services .button {
     min-width: 290px; }
-
   .news__block__image {
     height: 200px; }
     .news__block__image .button {
       min-width: 290px; }
-
   .page-404__services {
     display: block; }
   .page-404__left h1, .page-404__left h2, .page-404__right h1, .page-404__right h2 {
@@ -404,7 +395,6 @@
       display: inline-block; }
   .page-404 .search__404 {
     margin: 60px 0; }
-
   .company__content__footer {
     align-items: center; }
     .company__content__footer a {
@@ -424,5 +414,3 @@
     .company__table div p {
       width: 45%;
       text-align: right; } }
-
-/*# sourceMappingURL=adaptive.css.map */

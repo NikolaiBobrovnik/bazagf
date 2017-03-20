@@ -11,13 +11,9 @@
 
 <body>
 
-<header class="header">
     <?php include "blocks/header.php"; ?>
-</header>
-
-<section class="menu menu__company">
     <?php include "blocks/menu.php"; ?>
-</section>
+
 
 <section class="page-title">
     <div class="page-title__left-img"></div>
@@ -25,9 +21,8 @@
     <div class="page-title__right-img"></div>
 </section>
 
-<section class="search">
-    <?php include "blocks/search.php"; ?>
-</section>
+<?php include "blocks/search.php"; ?>
+
 
 <section class="company">
     <div class="container twelve-cols">
@@ -61,19 +56,9 @@
        </div>
     </div>
 </section>
-
-<section class="feedback ">
-    <?php include "blocks/feedback.php"; ?>
-</section>
-
-<section class="services services__company">
-    <?php include "blocks/services.php"; ?>
-</section>
-
-<footer>
-    <?php include "blocks/footer.php"; ?>
-</footer>
-
+<?php include "blocks/feedback.php"; ?>
+<?php include "blocks/services.php"; ?>
+<?php include "blocks/footer.php"; ?>
 <?php include "blocks/forms.php"; ?>
 <?php include "blocks/scripts.php"; ?>
 </body>
