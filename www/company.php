@@ -66,9 +66,9 @@
     <?php include "blocks/services.php"; ?>
 
 
-<footer>
+
     <?php include "blocks/footer.php"; ?>
-</footer>
+
 
 <?php include "blocks/forms.php"; ?>
 <?php include "blocks/scripts.php"; ?>

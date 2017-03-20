@@ -30,6 +30,9 @@ $blue: #62a3da;
 .title-border{border-top: 1px solid $grey}
 
 .button{
+    text-align:center; 
+    display:inline-block; 
+    background-color: #fff;
     min-width: 170px;
     min-height: 40px;
     font-family: 'Open Sans';
@@ -575,6 +578,7 @@ input:focus{
 
 // section.news //
 .news-page{
+    margin-bottom: 60px;
     &__container{
         flex-flow: row wrap;
         display: flex;

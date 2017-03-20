@@ -69,16 +69,17 @@
     </div>
 </section>
 
-<section class="feedback sell__feedback">
-    <?php include "blocks/feedback.php"; ?>
-</section>
+
+<?php include "blocks/feedback.php"; ?>
+
 <?php include "blocks/services.php"; ?>
-<footer>
-    <?php include "blocks/footer.php"; ?>
-</footer>
+
+<?php include "blocks/footer.php"; ?>
+
 
 <?php include "blocks/forms.php"; ?>
 <?php include "blocks/scripts.php"; ?>
+
 <script>
     $(document).ready(function(){
         $(".open-required-col").on("click", function(){

@@ -184,14 +184,3 @@ select, input, textarea {
   border: 0;
   font-size: 14px;
   display: inline-block; }
-
-.button {
-  text-align: center;
-  border: 0;
-  padding: 10px;
-  display: inline-block;
-  color: white;
-  font-size: 15px;
-  background-color: #fff; }
-  .button::hover {
-    background-color: blue; }
