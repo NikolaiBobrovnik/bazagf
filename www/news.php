@@ -93,14 +93,9 @@
         </div>
     </section>
 </section>
-
-    <?php include "blocks/feedback.php"; ?>
-
-    <?php include "blocks/services.php"; ?>
-
-    <?php include "blocks/footer.php"; ?>
-
-
+<?php include "blocks/feedback.php"; ?>
+<?php include "blocks/services.php"; ?>
+<?php include "blocks/footer.php"; ?>
 <?php include "blocks/forms.php"; ?>
 <?php include "blocks/scripts.php"; ?>
 </body>

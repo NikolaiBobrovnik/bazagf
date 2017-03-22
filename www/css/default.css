@@ -231,7 +231,7 @@ select, input, textarea {
     margin-left: 10px; }
   .social-media li a {
     opacity: 1;
-    transition: all .25s ease-in-out;
+    transition: all .3s ease-in-out;
     display: block;
     width: 30px;
     height: 30px;
@@ -309,9 +309,11 @@ input:focus {
       height: 30px;
       background: url(../img/search.svg) no-repeat; }
   .header__banner {
-    position: relative; }
-    .header__banner:hover .header__banner__text {
-      text-decoration: underline; }
+    position: relative;
+    opacity: 1;
+    transition: all .3s ease-in-out; }
+    .header__banner:hover {
+      opacity: 0.7; }
     .header__banner__text {
       font-family: 'MyriadProRegular';
       position: absolute;
@@ -464,7 +466,7 @@ input:focus {
     z-index: 99;
     font-size: 14px;
     padding-bottom: 40px;
-    box-shadow: 0px 10px 15px 0px #dfe0e3; }
+    box-shadow: 0px 10px 15px 0px #424242; }
     .filters__container:hover {
       display: block; }
     .filters__container__input {
@@ -741,12 +743,12 @@ input:focus {
     border: none;
     color: #fff;
     opacity: 1;
-    transition: all .25s ease-in-out; }
+    transition: all .3s ease-in-out; }
     .footer__form button[type="submit"]:hover {
       opacity: 0.7; }
   .footer a {
     opacity: 1;
-    transition: all .25s ease-in-out; }
+    transition: all .3s ease-in-out; }
     .footer a:hover {
       opacity: 0.7; }
   .footer__bottom {
@@ -814,11 +816,27 @@ input:focus {
   flex-direction: column;
   width: calc(50% - 15px); }
   .sell__form__col input {
-    margin-bottom: 30px;
+    width: 100%;
     padding: 10px 20px;
     border: 1px solid #dfe0e3; }
+  .sell__form__col__no-required input {
+    margin-bottom: 30px; }
 .sell__feedback {
   margin-bottom: 30px; }
+
+.sell__form__col__required div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px; }
+  .sell__form__col__required div span {
+    background: url(../img/alert.svg) no-repeat;
+    display: block;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    transition: all .25s ease-in-out; }
+    .sell__form__col__required div span:hover {
+      background: url(../img/alert-fill.svg) no-repeat; }
 
 .popup-contactus {
   width: 530px; }
@@ -862,7 +880,7 @@ input:focus {
     color: #596da8;
     flex-wrap: nowrap;
     align-items: center;
-    font-family: 'OpenSansBold'; }
+    font-weight: bold; }
   .page-404__left {
     display: flex; }
     .page-404__left h1 {
@@ -887,9 +905,11 @@ input:focus {
         text-decoration: underline; }
 
 .search__404 {
-  background: transparent;
   margin-bottom: 150px;
-  margin-top: 0px; }
+  margin-top: 0px;
+  background: transparent; }
+  .search__404 .search {
+    background: transparent; }
 
 .bg__404 {
   background: url(../img/bg.png) no-repeat;

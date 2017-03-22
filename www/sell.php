@@ -31,18 +31,18 @@
                 <button class="open-no-required-col no-active">Второстепернная информация</button>
             </div>
             <div class="sell__form__col sell__form__col__required">
-                <input type="text" placeholder="Ваше имя" required><br>
-                <input type="tel" placeholder="Номер телефона" required><br>
-                <input type="email" placeholder="E-mail" required><br>
-                <input type="text" placeholder="Сокращенное наименование организации" required>
-                <input type="text" placeholder="Вид деятельности основной (ОКВЭД)" required>
-                <input type="text" placeholder="ИФНС" required>
-                <input type="text" placeholder="В каком банке открыт счет" required>
-                <input type="text" placeholder="Наличие лицензий, разрешений, кассового аппарата и др." required>
-                <input type="text" placeholder="Система налогообложения" required>
-                <input type="text" placeholder="Действующая ли компания по сей день" required>
-                <input type="text" placeholder="Баланс" required>
-                <input type="text" placeholder="Желаемая сумма продажи" required>
+                <div><span title="Обязательное поле для заполнения"></span><input type="text" placeholder="Ваше имя" required><br></div>
+                <div><span title="Обязательное поле для заполнения"></span><input type="tel" placeholder="Номер телефона" required><br></div>
+                <div><span title="Обязательное поле для заполнения"></span><input type="email" placeholder="E-mail" required><br></div>
+                <div><span title="Обязательное поле для заполнения"></span><input type="text" placeholder="Сокращенное наименование организации" required></div>
+                <div><span title="Обязательное поле для заполнения"></span><input type="text" placeholder="Вид деятельности основной (ОКВЭД)" required></div>
+                <div><span title="Обязательное поле для заполнения"></span><input type="text" placeholder="ИФНС" required></div>
+                <div><span></span><input type="text" placeholder="В каком банке открыт счет" required></div>
+                <div><span title="Обязательное поле для заполнения"></span><input type="text" placeholder="Наличие лицензий, разрешений, кассового аппарата и др." required></div>
+                <div><span title="Обязательное поле для заполнения"></span><input type="text" placeholder="Система налогообложения" required></div>
+                <div><span title="Обязательное поле для заполнения"></span><input type="text" placeholder="Действующая ли компания по сей день" required></div>
+                <div><span title="Обязательное поле для заполнения"></span><input type="text" placeholder="Баланс" required></div>
+                <div><span title="Обязательное поле для заполнения"></span><input type="text" placeholder="Желаемая сумма продажи" required></div>
             </div>
             <div class="sell__form__col sell__form__col__no-required">
                 <input type="text" placeholder="Полное наименование организации">

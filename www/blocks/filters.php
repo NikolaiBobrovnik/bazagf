@@ -423,6 +423,30 @@
                     <li><a href="">Сбербанк</a></li>
                     <li><a href="">Альфа__банк</a></li>
                     <li><a href="">БинБанк</a></li>
+                    <li><a href="">01 -Растениеводство</a></li>
+                    <li><a href="">ВТБ 24</a></li>
+                    <li><a href="">ООО 'Экспонат'</a></li>
+                    <li><a href="">Райффайзен</a></li>
+                    <li><a href="">Межрегиональный почтовый банк</a></li>
+                    <li><a href="">Сбербанк</a></li>
+                    <li><a href="">Альфа__банк</a></li>
+                    <li><a href="">БинБанк</a></li>
+                    <li><a href="">01 -Растениеводство</a></li>
+                    <li><a href="">ВТБ 24</a></li>
+                    <li><a href="">ООО 'Экспонат'</a></li>
+                    <li><a href="">Райффайзен</a></li>
+                    <li><a href="">Межрегиональный почтовый банк</a></li>
+                    <li><a href="">Сбербанк</a></li>
+                    <li><a href="">Альфа__банк</a></li>
+                    <li><a href="">БинБанк</a></li>
+                    <li><a href="">01 -Растениеводство</a></li>
+                    <li><a href="">ВТБ 24</a></li>
+                    <li><a href="">ООО 'Экспонат'</a></li>
+                    <li><a href="">Райффайзен</a></li>
+                    <li><a href="">Межрегиональный почтовый банк</a></li>
+                    <li><a href="">Сбербанк</a></li>
+                    <li><a href="">Альфа__банк</a></li>
+                    <li><a href="">БинБанк</a></li>
                 </ul>
                 <div class="filters__container__bottom">
                     <a href="#" class="select_all">Выбрать все</a>
