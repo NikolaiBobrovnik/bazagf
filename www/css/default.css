@@ -838,8 +838,68 @@ input:focus {
     .sell__form__col__required div span:hover {
       background: url(../img/alert-fill.svg) no-repeat; }
 
-.popup-contactus {
-  width: 530px; }
+.popup__contact-us {
+  width: 530px;
+  box-shadow: 0px 10px 15px 0px #424242;
+  margin-bottom: 60px; }
+  .popup__contact-us__form {
+    padding: 60px 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap; }
+    .popup__contact-us__form input, .popup__contact-us__form textarea {
+      margin-bottom: 30px;
+      width: 100%;
+      padding: 13px 20px;
+      border: 1px solid #dfe0e3; }
+    .popup__contact-us__form textarea {
+      height: 150px;
+      resize: none; }
+    .popup__contact-us__form button {
+      max-width: 170px;
+      opacity: 1;
+      transition: all .3s ease-in-out; }
+      .popup__contact-us__form button:hover {
+        opacity: 0.7; }
+  .popup__contact-us__title {
+    background: url(../img/popup-header-contact-us.png) no-repeat;
+    background-size: cover;
+    padding: 20px; }
+    .popup__contact-us__title p {
+      font-size: 30px;
+      color: #fff;
+      text-align: center;
+      font-weight: bold;
+      line-height: 1.2em; }
+
+.popup__small {
+  text-align: center;
+  width: 700px; }
+  .popup__small__header {
+    background: url(../img/popup-thank-you-header.png) no-repeat;
+    background-size: 100%;
+    background-position: right;
+    padding: 60px 30px 50px 30px;
+    color: #fff; }
+    .popup__small__header h2 {
+      font-size: 30px;
+      text-transform: uppercase; }
+    .popup__small__header p {
+      margin-top: 40px;
+      line-height: 1.2em;
+      font-size: 20px; }
+      .popup__small__header p a {
+        text-decoration: underline; }
+    .popup__small__header__gradient {
+      background-image: linear-gradient(to top right, #61a3da, #3a3a91); }
+      .popup__small__header__gradient__download {
+        background-image: linear-gradient(to right, #61a3da, #3a3a91); }
+        .popup__small__header__gradient__download .popup__small__header {
+          background-size: 180%;
+          background-position: top; }
+  .popup__small__footer {
+    background: #323335;
+    padding: 30px; }
 
 .page-title {
   background: linear-gradient(to right, #61a3da 30%, #513372 70%);
@@ -864,9 +924,6 @@ input:focus {
     height: 100%;
     width: 50%;
     background-position: right center; }
-
-.pop-up-title {
-  height: 60px; }
 
 .page-404 {
   margin-top: 70px;

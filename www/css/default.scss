@@ -802,8 +802,81 @@ input:focus{
 }
 
 // section.sell //
-.popup-contactus{
+.popup__contact-us{
     width: 530px;
+    box-shadow: 0px 10px 15px 0px
+    #424242;
+    margin-bottom: 60px;
+    &__form{
+        padding: 60px 30px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        & input, textarea{
+            margin-bottom: 30px;
+            width: 100%;
+            padding: 13px 20px;
+            border: 1px solid $grey;
+        }
+        & textarea{
+            height: 150px;
+            resize:none;
+        }
+        & button{
+            max-width: 170px;
+            @include hover;
+        }
+    }
+    &__title{
+        background: url(../img/popup-header-contact-us.png)no-repeat;
+        background-size: cover;
+        padding: 20px;
+        p{
+            font-size: 30px;
+            color: #fff;
+            text-align: center;
+            font-weight: bold;
+            line-height: 1.2em;
+        }
+    }
+}
+
+.popup__small{
+    text-align: center;
+    width: 700px;
+    &__header{
+        background: url(../img/popup-thank-you-header.png) no-repeat;
+        background-size: 100%;
+        background-position: right;
+        padding: 60px 30px 50px 30px;
+        color: #fff;
+        h2{
+            font-size: 30px;
+            text-transform: uppercase;
+        }
+        p{
+            margin-top: 40px;
+            line-height: 1.2em;
+            font-size: 20px;
+            a{
+                text-decoration: underline;
+            }
+        }
+        &__gradient{
+            background-image:linear-gradient(to top right, #61a3da, #3a3a91);
+            &__download{
+                background-image:linear-gradient(to right, #61a3da, #3a3a91);
+                .popup__small__header{
+                    background-size: 180%;
+                    background-position: top;
+                }
+            }
+        }
+    }
+    &__footer{
+        background: #323335;
+        padding: 30px;
+    }
 }
 
 //Заголовки на страницах
@@ -836,10 +909,6 @@ input:focus{
          background-position: right center;
      }
  }
-
-.pop-up-title{
-    height: 60px;
-}
 
 // section.page-404 //
 
