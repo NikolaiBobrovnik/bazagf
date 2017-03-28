@@ -66,10 +66,6 @@
   .post__social li a {
     width: 50px;
     height: 50px; }
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/master
   .post__container {
     text-align: center; }
   .post__title {
@@ -147,10 +143,6 @@
       width: 27.6%; }
     .aboutus .aboutus__advantages__block__title {
       margin-top: 27px; }
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/master
   .feedback {
     height: 230px; }
     .feedback__container {
@@ -361,20 +353,12 @@
       .aboutus__advantages__block:nth-child(even) {
         flex-direction: row-reverse;
         text-align: right; }
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/master
   .feedback {
     height: 220px; }
     .feedback .button {
       min-width: 290px; }
     .feedback__text {
       font-size: 25px; }
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/master
   .services .button {
     min-width: 290px; }
   .news__block__image {
