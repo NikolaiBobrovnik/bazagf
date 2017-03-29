@@ -15,7 +15,7 @@
 
         <?php include "blocks/menu.php"; ?>
 
-       <!--  <?php include "blocks/slider.php"; ?> -->
+        <?php include "blocks/slider.php"; ?>
 
         <?php include "blocks/search.php"; ?>
 
