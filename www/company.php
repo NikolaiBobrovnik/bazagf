@@ -49,9 +49,9 @@
                <div><span>Стоимость компании</span><p>60 000 р.</p></div>
            </div>
            <div class="company__content__footer">
-               <a class="button" href="#">Заказать звонок</a>
+               <a class="button fancybox" href="#contact">Заказать звонок</a>
                <a class="button" href="#">Бронировать</a>
-               <a class="button" href="#">Скачать pdf</a>
+               <a class="button fancybox" href="#fullinfo">Скачать pdf</a>
            </div>
        </div>
     </div>

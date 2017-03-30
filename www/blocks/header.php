@@ -22,7 +22,7 @@
   </div>
   <div class="container">
       <div class="header__bottom cols">
-        <a class="header__bottom__logo" href="/"><img src="img/logo.png" alt="Логотип" title="База ГФ"></a>
+        <a class="header__bottom__logo" href="index.php"><img src="img/logo.png" alt="Логотип" title="База ГФ"></a>
         <div class="header__bottom__banners cols">
           <a href="#" class="header__banner">
             <p class="header__banner__text">Рекламный баннер 1</p>

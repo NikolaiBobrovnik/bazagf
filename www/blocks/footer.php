@@ -39,10 +39,10 @@
       </div>
     </div>
     <ul class="footer__menu">
-      <li><a href="#">Главная</a></li>
-      <li><a href="#">О нас</a></li>
-      <li><a href="#">Купить</a></li>
-      <li><a href="#">Продать</a></li>
+      <li><a href="index.php">Главная</a></li>
+      <li><a href="#aboutus" class="nav">О нас</a></li>
+      <li><a href="#filters" class="nav">Купить</a></li>
+      <li><a href="sell.php">Продать</a></li>
     </ul>
   </div>
 </div>

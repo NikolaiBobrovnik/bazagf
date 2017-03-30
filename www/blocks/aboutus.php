@@ -1,4 +1,4 @@
-<section class="aboutus">
+<section class="aboutus" id="aboutus">
     <div class="container aboutus__content">
         <h2 class="section-title aboutus__title">О компании</h2>
         <div class="six-col aboutus__content__image">

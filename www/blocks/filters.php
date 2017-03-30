@@ -1,4 +1,5 @@
-<section class="filters">
+<section class="filters" id="filters">
+   	<img src="img/background.png" alt="@@" class="filters__bg">
     <div class="container cols">
 
 

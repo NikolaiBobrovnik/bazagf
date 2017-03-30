@@ -49,8 +49,6 @@
         background: #fff;
         box-shadow: none;
         color: #62a3da; }
-  .slider {
-    max-height: 500px; }
   .post__container {
     text-align: center; }
   .post__title {
@@ -85,7 +83,10 @@
       width: 30px;
       height: 30px; }
   .filters {
+    padding: 30px 0 60px;
     background: #fff; }
+    .filters__bg {
+      display: none; }
     .filters__block {
       width: 100%;
       margin-bottom: 30px; }
@@ -397,4 +398,12 @@
       width: 45%; }
     .company__table div p {
       width: 45%;
-      text-align: right; } }
+      text-align: right; }
+  .popup__contact-us {
+    width: 440px; }
+  .popup__small {
+    width: 440px; }
+  .popup__small__header h2 br {
+    display: none; } }
+
+/*# sourceMappingURL=adaptive.css.map */
