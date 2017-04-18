@@ -238,19 +238,14 @@ select, input, textarea {
     background-size: cover; }
     .social-media li a:hover {
       opacity: 0.7; }
-
 .social-media__facebook {
   background: url(../img/facebook.svg) no-repeat; }
-
 .social-media__vk {
   background: url(../img/vk.png) no-repeat; }
-
 .social-media__ok {
   background: url(../img/ok.png) no-repeat; }
-
 .social-media__linkedin {
   background: url(../img/linkedin.png) no-repeat; }
-
 .social-media__youtube {
   background: url(../img/youtube.png) no-repeat; }
 
@@ -346,14 +341,12 @@ input:focus {
     font-size: 30px;
     text-transform: uppercase;
     font-weight: normal; }
-
 .post__container {
   margin: 0 auto;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center; }
-
 .post__content__text {
   padding-bottom: 30px;
   font-size: 14px; }
@@ -362,7 +355,6 @@ input:focus {
   .post__content__text ul {
     list-style: disc;
     margin-left: 20px; }
-
 .post__bottom {
   border-top: 1px solid #dfe0e3;
   padding-top: 14px;
@@ -483,7 +475,7 @@ input:focus {
     background-color: #fff;
     z-index: 99;
     font-size: 14px;
-    box-shadow: 0px 10px 15px 0px #424242; }
+    box-shadow: 0px 10px 15px 0px #424242; }
     .filters__container:hover {
       display: block; }
     .filters__container__input {
@@ -601,8 +593,6 @@ input:focus {
 
 .feedback {
   min-height: 100px;
-  background: url(../img/feedback.png) no-repeat, linear-gradient(to right, #61a3da, #513473);
-  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -615,7 +605,7 @@ input:focus {
     text-align: center;
     padding: 0 10px; }
   .feedback__button {
-    color: #fff;
+    color: #363636;
     background: transparent;
     margin-left: 90px; }
 
@@ -629,7 +619,7 @@ input:focus {
   .services__block {
     position: relative;
     width: 370px;
-    min-height: 390px;
+    min-height: 455px;
     border: 1px solid #dfe0e3;
     background-color: #fff; }
     .services__block > * {
@@ -663,6 +653,7 @@ input:focus {
       text-align: center; }
 
 .news {
+  margin-top: 40px;
   margin-bottom: 60px; }
   .news__title {
     padding-top: 54px;
@@ -727,7 +718,8 @@ input:focus {
 
 .footer {
   background: #323335;
-  padding-top: 60px; }
+  padding-top: 60px;
+  margin-top: 40px; }
   .footer__container {
     display: flex;
     justify-content: space-between;
@@ -736,7 +728,7 @@ input:focus {
     width: 45%;
     width: calc(50% - 15px); }
   .footer__map {
-    height: 240px; }
+    height: 445px; }
   .footer__contacts {
     margin-top: 25px; }
     .footer__contacts li {
@@ -815,10 +807,8 @@ input:focus {
     color: #989898;
     margin-top: 10px;
     line-height: 1.2em; }
-
 .sell .container {
   margin-bottom: 60px; }
-
 .sell__form {
   display: flex;
   flex-wrap: wrap;
@@ -835,7 +825,6 @@ input:focus {
         border: none; }
   .sell__form__tab-nav {
     display: none; }
-
 .sell__form__col {
   display: flex;
   flex-direction: column;
@@ -846,7 +835,6 @@ input:focus {
     border: 1px solid #dfe0e3; }
   .sell__form__col__no-required input {
     margin-bottom: 30px; }
-
 .sell__feedback {
   margin-bottom: 30px; }
 
@@ -866,7 +854,7 @@ input:focus {
 
 .popup__contact-us {
   width: 530px;
-  box-shadow: 0px 10px 15px 0px #424242;
+  box-shadow: 0px 10px 15px 0px #424242;
   margin-bottom: 60px; }
   .popup__contact-us__form {
     padding: 60px 30px;
@@ -1006,10 +994,8 @@ input:focus {
     .company__content__footer a {
       margin-left: 30px;
       margin-bottom: 40px; }
-
 .company__filters .filters {
   padding-bottom: 0; }
-
 .company__header {
   padding: 0px 30px;
   margin-top: 8px; }
@@ -1026,7 +1012,6 @@ input:focus {
     color: #989898;
     margin-top: 10px;
     line-height: 1.2em; }
-
 .company__table {
   display: flex;
   flex-direction: column;
@@ -1050,6 +1035,7 @@ input:focus {
 @media (max-width: 1230px) {
   .container {
     width: 655px; }
+
   .header {
     height: 160px; }
     .header .container {
@@ -1082,6 +1068,7 @@ input:focus {
         display: block; }
       .header__bottom__button-search {
         display: block; }
+
   .menu {
     margin: 0; }
     .menu .container {
@@ -1098,6 +1085,7 @@ input:focus {
         background: #fff;
         box-shadow: none;
         color: #62a3da; }
+
   .post__container {
     text-align: center; }
   .post__title {
@@ -1113,10 +1101,13 @@ input:focus {
   .post__social li a {
     width: 50px;
     height: 50px; }
+
   .post__container {
     text-align: center; }
+
   .post__title {
     height: 120px; }
+
   .search {
     height: 120px; }
     .search__form {
@@ -1131,6 +1122,7 @@ input:focus {
       right: 16px;
       width: 30px;
       height: 30px; }
+
   .filters {
     padding: 30px 0 60px;
     background: #fff; }
@@ -1163,6 +1155,7 @@ input:focus {
       background-color: #62a3da;
       border-color: #62a3da;
       color: #fff; }
+
   .aboutus {
     background: #fff; }
     .aboutus__title {
@@ -1193,6 +1186,7 @@ input:focus {
       width: 27.6%; }
     .aboutus .aboutus__advantages__block__title {
       margin-top: 27px; }
+
   .feedback {
     height: 230px; }
     .feedback__container {
@@ -1209,6 +1203,7 @@ input:focus {
       padding: 12px 11px;
       border-color: #fff;
       color: #fff; }
+
   .services {
     background: #fff; }
     .services__title {
@@ -1237,6 +1232,7 @@ input:focus {
         background-color: #62a3da;
         border-color: #62a3da;
         color: #fff; }
+
   .news__block {
     width: 100%; }
     .news__block__title {
@@ -1265,6 +1261,7 @@ input:focus {
     background-color: #62a3da;
     border-color: #62a3da;
     color: #fff; }
+
   .page-404 {
     background: none; }
     .page-404__container {
@@ -1285,6 +1282,7 @@ input:focus {
           display: inline-block; }
     .page-404__right {
       margin: 0; }
+
   .footer__container {
     justify-content: center;
     flex-direction: column; }
@@ -1308,6 +1306,7 @@ input:focus {
     width: 100%;
     justify-content: center;
     flex-direction: column; }
+
   .sell .container {
     overflow: auto; }
   .sell__header {
@@ -1337,6 +1336,7 @@ input:focus {
     .sell__form__tab-nav button.no-active {
       background: #eee;
       border: none; }
+
   .company__content__footer {
     display: flex;
     justify-content: space-between; }
@@ -1351,16 +1351,17 @@ input:focus {
       width: 45%; }
     .company__table div p {
       width: 45%; } }
-
 @media (max-width: 769px) {
   .container {
     width: 450px; }
+
   .header {
     height: 154px; }
     .header .container {
       width: 480px; }
     .header .header__top__left__item:not(:first-child) {
       display: none; }
+
   .header__top .container {
     width: 480px; }
   .header__top .container.cols {
@@ -1376,12 +1377,16 @@ input:focus {
   .header__bottom__button-search {
     right: 15px;
     top: 40px; }
+
   .menu {
     display: none; }
+
   .filters__select {
     padding: 15px 9px 16px 19px; }
+
   .filters__container {
     width: 450px; }
+
   .aboutus__content__image {
     height: 200px; }
   .aboutus__advantages {
@@ -1403,18 +1408,22 @@ input:focus {
       .aboutus__advantages__block:nth-child(even) {
         flex-direction: row-reverse;
         text-align: right; }
+
   .feedback {
     height: 220px; }
     .feedback .button {
       min-width: 290px; }
     .feedback__text {
       font-size: 25px; }
+
   .services .button {
     min-width: 290px; }
+
   .news__block__image {
     height: 200px; }
     .news__block__image .button {
       min-width: 290px; }
+
   .page-404__services {
     display: block; }
   .page-404__left h1, .page-404__left h2, .page-404__right h1, .page-404__right h2 {
@@ -1429,6 +1438,7 @@ input:focus {
       display: inline-block; }
   .page-404 .search__404 {
     margin: 60px 0; }
+
   .company__content__footer {
     align-items: center; }
     .company__content__footer a {
@@ -1448,13 +1458,15 @@ input:focus {
     .company__table div p {
       width: 45%;
       text-align: right; }
+
   .popup__contact-us {
     width: 440px; }
+
   .popup__small {
     width: 440px; }
+
   .popup__small__header h2 br {
     display: none; } }
-
 html, body {
   overflow-x: hidden; }
 
@@ -1578,7 +1590,6 @@ html, body {
     width: auto;
     margin: 0 20px;
     overflow-x: scroll; } }
-
 @media (max-width: 1230px) {
   .table__container {
     border: 1px solid #ccc;
@@ -1658,13 +1669,12 @@ html, body {
       background-color: white; }
   .table__pagination {
     display: none; } }
-
 @media (min-width: 1231px) {
   .table__accordion {
     display: flex !important; }
+
   .table__acc-button {
     display: none; } }
-
 @media (max-width: 769px) {
   .table__container {
     width: 450px; }

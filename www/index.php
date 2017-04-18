@@ -25,9 +25,9 @@
 
         <?php include "blocks/aboutus.php"; ?>
 
-        <?php include "blocks/feedback.php"; ?>
-
         <?php include "blocks/services.php"; ?>
+
+        <?php include "blocks/feedback.php"; ?>
 
         <?php include "blocks/news.php"; ?>
 

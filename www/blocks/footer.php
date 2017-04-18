@@ -1,9 +1,10 @@
-<footer class="footer">
+<footer id="footer" class="footer">
  <div class="footer__top">
   <div class="container footer__container">
     <div class="footer__topcol">
       <div class="footer__map" id="footer__map">
-          <img src="img/footer-map.png" alt="@@">
+          <!--<img src="img/footer-map.png" alt="@@">-->
+          <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A347f57029c4fc85d373685e1a9a97f658abf6082d6b2602c624acf6b98cf99ed&amp;width=100%;height=445&amp;lang=ru_RU&amp;scroll=true"></script>
       </div>
       <ul class="footer__contacts">
         <li><p><img src="img/place-footer.png" alt="@@">129110, Москва, ул. Гиляровского, дом 57, стр. 1</p></li>

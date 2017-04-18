@@ -1,12 +1,12 @@
 <!-- Обратная связь -->
 <section class="popup popup__contact-us" id="contact">
     <section class="popup__contact-us__title">
-        <p>ОБРАТНАЯ СВЯЗЬ</p>
+        <p>Мы всегда рады услышать Вас</p>
     </section>
     <form action="send.php" class="popup__contact-us__form">
         <input type="text" name="name" placeholder="Ваше имя или название организации">
         <input type="email" name="email" placeholder="E-mail">
-        <input type="tel" name="tel" placeholder="Контектный телефон">
+        <input type="tel" name="tel" placeholder="Контактный телефон">
         <textarea name="message" cols="30" placeholder="Сообщение" rows="10"></textarea>
         <button type="submit" class="button button-blue">Отправить</button>
     </form>
@@ -17,7 +17,7 @@
     <div class="popup__small__header__gradient">
         <div class="popup__small__header">
             <h2>Спасибо за обращение</h2>
-            <p>Мы ответим на ваше сообщение<br>как можно скорее.</p>
+            <p>Мы ответим на ваше обращение<br>в ближайшее время.</p>
         </div>
     </div>
     <div class="popup__small__footer">

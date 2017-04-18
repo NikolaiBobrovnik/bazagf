@@ -69,7 +69,7 @@
         <p class="table__text" data-colname="ИФНС">5</p>
       </div>
       <div class="table__col">
-        <p class="table__text" data-colname="С/Н">УСН 6%</p>
+        <p class="table__text" data-colname="Система налогообложения">УСН 6%</p>
       </div>
       <div class="table__col">
         <p class="table__text" data-colname="Основной вид деятельности">47.1 Розничная торговля в неспециализированных ...</p>
@@ -112,7 +112,7 @@
         <p class="table__text" data-colname="ИФНС">23</p>
       </div>
       <div class="table__col">
-        <p class="table__text" data-colname="С/Н">ОСНО</p>
+        <p class="table__text" data-colname="Система налогообложения">ОСНО</p>
       </div>
       <div class="table__col">
         <p class="table__text" data-colname="Основной вид деятельности">41.20 Строительство жилых и нежилыж ...</p>
@@ -155,7 +155,7 @@
         <p class="table__text" data-colname="ИФНС">23</p>
       </div>
       <div class="table__col">
-        <p class="table__text" data-colname="С/Н">ОСНО</p>
+        <p class="table__text" data-colname="Система налогообложения">ОСНО</p>
       </div>
       <div class="table__col">
         <p class="table__text" data-colname="Основной вид деятельности">64.91 Деятельность по финансовой аренде ...</p>
@@ -198,7 +198,7 @@
         <p class="table__text" data-colname="ИФНС">23</p>
       </div>
       <div class="table__col">
-        <p class="table__text" data-colname="С/Н">УСН 6%</p>
+        <p class="table__text" data-colname="Система налогообложения">УСН 6%</p>
       </div>
       <div class="table__col">
         <p class="table__text" data-colname="Основной вид деятельности">74.50 Найм рабочей силы и подбор персонала</p>
@@ -243,7 +243,7 @@
         <p class="table__text" data-colname="ИФНС">02</p>
       </div>
       <div class="table__col">
-        <p class="table__text" data-colname="С/Н">УСН 6%</p>
+        <p class="table__text" data-colname="Система налогообложения">УСН 6%</p>
       </div>
       <div class="table__col">
         <p class="table__text" data-colname="Основной вид деятельности">93.04 Физкультурно-оздоровительная деятельность</p>
@@ -287,7 +287,7 @@
         <p class="table__text" data-colname="ИФНС">20</p>
       </div>
       <div class="table__col">
-        <p class="table__text" data-colname="С/Н">УСН 6%</p>
+        <p class="table__text" data-colname="Система налогообложения">УСН 6%</p>
       </div>
       <div class="table__col">
         <p class="table__text" data-colname="Основной вид деятельности">46.71 Торговля оптовая твердым, жидкими ...</p>
@@ -332,7 +332,7 @@
         <p class="table__text" data-colname="ИФНС">23</p>
       </div>
       <div class="table__col">
-        <p class="table__text" data-colname="С/Н">УСН 6%</p>
+        <p class="table__text" data-colname="Система налогообложения">УСН 6%</p>
       </div>
       <div class="table__col">
         <p class="table__text" data-colname="Основной вид деятельности">32.11 Производство электроэнергии</p>
@@ -378,7 +378,7 @@
         <p class="table__text" data-colname="ИФНС">23</p>
       </div>
       <div class="table__col">
-        <p class="table__text" data-colname="С/Н">ОСНО</p>
+        <p class="table__text" data-colname="Система налогообложения">ОСНО</p>
       </div>
       <div class="table__col">
         <p class="table__text" data-colname="Основной вид деятельности">41.20 Строительство жилых и нежилыж ...</p>
@@ -422,7 +422,7 @@
         <p class="table__text" data-colname="ИФНС">23</p>
       </div>
       <div class="table__col">
-        <p class="table__text" data-colname="С/Н">ОСНО</p>
+        <p class="table__text" data-colname="Система налогообложения">ОСНО</p>
       </div>
       <div class="table__col">
         <p class="table__text" data-colname="Основной вид деятельности">64.91 Деятельность по финансовой аренде ...</p>
@@ -467,7 +467,7 @@
         <p class="table__text" data-colname="ИФНС">23</p>
       </div>
       <div class="table__col">
-        <p class="table__text" data-colname="С/Н">УСН 6%</p>
+        <p class="table__text" data-colname="Система налогообложения">УСН 6%</p>
       </div>
       <div class="table__col">
         <p class="table__text" data-colname="Основной вид деятельности">74.50 Найм рабочей силы и подбор персонала</p>
@@ -509,7 +509,7 @@
         <p class="table__text" data-colname="ИФНС">02</p>
       </div>
       <div class="table__col">
-        <p class="table__text" data-colname="С/Н">УСН 6%</p>
+        <p class="table__text" data-colname="Система налогообложения">УСН 6%</p>
       </div>
       <div class="table__col">
         <p class="table__text" data-colname="Основной вид деятельности">93.04 Физкультурно-оздоровительная деятельность</p>
@@ -553,7 +553,7 @@
         <p class="table__text" data-colname="ИФНС">20</p>
       </div>
       <div class="table__col">
-        <p class="table__text" data-colname="С/Н">УСН 6%</p>
+        <p class="table__text" data-colname="Система налогообложения">УСН 6%</p>
       </div>
       <div class="table__col">
         <p class="table__text" data-colname="Основной вид деятельности">46.71 Торговля оптовая твердым, жидкими ...</p>
@@ -598,7 +598,7 @@
         <p class="table__text" data-colname="ИФНС">23</p>
       </div>
       <div class="table__col">
-        <p class="table__text" data-colname="С/Н">УСН 6%</p>
+        <p class="table__text" data-colname="Система налогообложения">УСН 6%</p>
       </div>
       <div class="table__col">
         <p class="table__text" data-colname="Основной вид деятельности">32.11 Производство электроэнергии</p>

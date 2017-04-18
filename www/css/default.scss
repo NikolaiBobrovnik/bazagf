@@ -467,8 +467,8 @@ input:focus{
 // section.feedback //
 .feedback{
     min-height: 100px;
-    background: url(../img/feedback.png) no-repeat, linear-gradient(to right, #61a3da, #513473);
-    background-size: cover;
+    //background: url(../img/feedback.png) no-repeat, linear-gradient(to right, #61a3da, #513473);
+    //background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -477,13 +477,14 @@ input:focus{
     }
     &__text{
         color: #fff;
-        font-size: 30px; 
+        font-size: 30px;
         text-transform: uppercase;
         text-align: center;
         padding: 0 10px;
     }
     &__button{
-        color: #fff;
+        //color: #fff;
+        color: #363636;
         background: transparent;
         margin-left: 90px;
     }
@@ -501,7 +502,7 @@ input:focus{
         &>*{text-align: left} //убрать наследование justify от .cols
         position: relative;
         width: 370px;
-        min-height: 390px;
+        min-height: 455px;
         border: 1px solid #dfe0e3;
         background-color: #fff;
         &:hover &__title{
@@ -542,6 +543,7 @@ input:focus{
 
 // section.news //
 .news{
+    margin-top: 40px;
     margin-bottom: 60px;
     &__title{padding-top: 54px;margin-bottom: 57px;}
     &__blocks{
@@ -618,6 +620,7 @@ input:focus{
 .footer{
 	background: #323335;
     padding-top: 60px;
+    margin-top: 40px;
     &__container{
         display: flex;
         justify-content: space-between;
@@ -630,7 +633,7 @@ input:focus{
     }
 
     &__map{
-        height: 240px;
+        height: 445px;
     }
 
     &__contacts {
